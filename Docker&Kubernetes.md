@@ -55,5 +55,5 @@
 
 
 **원문**
-[http://www.itworld.co.kr/news/135282#csidx0ab8ca86c2f7ff1a0ea4bc45dba34d9 ](http://www.itworld.co.kr/news/135282#csidx0ab8ca86c2f7ff1a0ea4bc45dba34d9)![img](http://linkback.itworld.co.kr/images/onebyone.gif?action_id=0ab8ca86c2f7ff1a0ea4bc45dba34d9)
+[쿠버네티스 vs. 도커 : 컨테이너와 오케스트레이션의 이해](http://www.itworld.co.kr/news/135282#csidx0ab8ca86c2f7ff1a0ea4bc45dba34d9action_id=0ab8ca86c2f7ff1a0ea4bc45dba34d9)
 
