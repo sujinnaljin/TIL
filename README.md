@@ -4,3 +4,4 @@
 - [TLS](https://github.com/sujinnaljin/TIL/blob/master/TLS.md)
 - [DeviceFingerPrint](https://github.com/sujinnaljin/TIL/blob/master/DeviceFingerPrint.md)
 - [Docker & Kubernetes](https://github.com/sujinnaljin/TIL/blob/master/Docker&Kubernetes.md)
+- [delegate](https://github.com/sujinnaljin/TIL/blob/master/delegate.md)
