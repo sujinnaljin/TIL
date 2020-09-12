@@ -6,3 +6,4 @@
 - [Docker & Kubernetes](https://github.com/sujinnaljin/TIL/blob/master/Docker&Kubernetes.md)
 - [delegate](https://github.com/sujinnaljin/TIL/blob/master/Swift/delegate.md)
 - [@discardableResult](https://github.com/sujinnaljin/TIL/blob/master/Swift/%40discardableResult.md)
+- [ThreadSafe_SingleTon](https://github.com/sujinnaljin/TIL/blob/master/Swift/ThreadSafe_SingleTon.md)
