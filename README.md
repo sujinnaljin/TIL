@@ -12,5 +12,6 @@
 - [ThreadSafe_SingleTon](https://github.com/sujinnaljin/TIL/blob/master/Swift/ThreadSafe_SingleTon.md)
 - [Method_Swizzling](https://github.com/sujinnaljin/TIL/blob/master/Swift/Method_Swizzling.md)
 - [AnimationOptions](https://github.com/sujinnaljin/TIL/blob/master/Swift/AnimationOptions.md)
+- [AccessControl](https://github.com/sujinnaljin/TIL/blob/master/Swift/AccessControl.md)
 
 
