@@ -1,3 +1,4 @@
+# Access Control
 - 아래와 같이 getter와 setter의 접근 제어자를 따로 지정할 수 있다
 ```swift
 private(set) var numberOfEdits = 0 // internal getter & private setter
