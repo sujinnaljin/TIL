@@ -40,7 +40,7 @@
 
   1. **APIcast API Gateway**
 
-     3scale은 APIcast라는 NGINX기반의 API Gateway를 사용한다. 이 Gateway는 **API 관리 정책 실행 처리 (트래픽 관리)**를 수행한다.
+     3scale은 APIcast라는 NGINX기반의 API Gateway를 사용한다. 이 Gateway는 **API 관리 정책 실행 처리 (트래픽 관리)** 를 수행한다.
 
      **Docker Image로 제공**되기 때문에 Openshift와 같은 **도커 컨테이너 환경에서 어디든 배포 가능**하다.
 
