@@ -10,6 +10,7 @@
 - [Amazon_API_Gateway](https://github.com/sujinnaljin/TIL/blob/master/Amazon_API_Gateway.md)
 - [Amazon_Elasticache](https://github.com/sujinnaljin/TIL/blob/master/Amazon_Elasticache.md)
 - [STON_Edge_Server](https://github.com/sujinnaljin/TIL/blob/master/STON_Edge_Server.md)
+- [3_Scale](https://github.com/sujinnaljin/TIL/blob/master/3_Scale.md)
 
 
 ## Swift
