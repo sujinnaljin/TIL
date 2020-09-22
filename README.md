@@ -5,11 +5,12 @@
 - [DeviceFingerPrint](https://github.com/sujinnaljin/TIL/blob/master/DeviceFingerPrint.md)
 - [Docker & Kubernetes](https://github.com/sujinnaljin/TIL/blob/master/Docker&Kubernetes.md)
 - [FacadePattern](https://github.com/sujinnaljin/TIL/blob/master/FacadePattern.md)
+- [API_Gateway](https://github.com/sujinnaljin/TIL/blob/master/API_Gateway.md)
+- [Kong_API_Gateway](https://github.com/sujinnaljin/TIL/blob/master/Kong_API_Gateway.md)
 - [Amazon_API_Gateway](https://github.com/sujinnaljin/TIL/blob/master/Amazon_API_Gateway.md)
 - [Amazon_Elasticache](https://github.com/sujinnaljin/TIL/blob/master/Amazon_Elasticache.md)
 - [STON_Edge_Server](https://github.com/sujinnaljin/TIL/blob/master/STON_Edge_Server.md)
-- [Kong_API_Gateway](https://github.com/sujinnaljin/TIL/blob/master/Kong_API_Gateway.md)
-- [API_Gateway](https://github.com/sujinnaljin/TIL/blob/master/API_Gateway.md)
+
 
 ## Swift
 
