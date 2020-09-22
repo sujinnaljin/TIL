@@ -1,7 +1,7 @@
 # Amazon API Gateway
 <img src="https://kagarlickij.com/wp-content/uploads/2019/03/aws-api-gateway-icon.png" width="150">
 
-- Inner Edge Layer
+- **Inner Edge Layer**
 
 <img src="https://image.slidesharecdn.com/winesoftsponsorparkjungsoo-180423065539/95/inner-edge-layer-aws-summit-seoul-2018-12-638.jpg?cb=1525832328" width="33.3%"><img src="https://image.slidesharecdn.com/winesoftsponsorparkjungsoo-180423065539/95/inner-edge-layer-aws-summit-seoul-2018-13-638.jpg?cb=1525832328" width="33.3%"><img src="https://image.slidesharecdn.com/winesoftsponsorparkjungsoo-180423065539/95/inner-edge-layer-aws-summit-seoul-2018-14-638.jpg?cb=1525832328" width="33.3%">
 
