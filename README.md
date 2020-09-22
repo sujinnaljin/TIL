@@ -2,10 +2,10 @@
 - [GraphQL](https://github.com/sujinnaljin/TIL/blob/master/GraphQL.md)
 - [Jira](https://github.com/sujinnaljin/TIL/blob/master/Jira.md)
 - [TLS](https://github.com/sujinnaljin/TIL/blob/master/TLS.md)
-- [Device FingerPrint](https://github.com/sujinnaljin/TIL/blob/master/DeviceFingerPrint.md)
+- [DeviceFingerPrint](https://github.com/sujinnaljin/TIL/blob/master/DeviceFingerPrint.md)
 - [Docker & Kubernetes](https://github.com/sujinnaljin/TIL/blob/master/Docker&Kubernetes.md)
-- [Facade Pattern](https://github.com/sujinnaljin/TIL/blob/master/FacadePattern.md)
-- [Amazon API Gateway](https://github.com/sujinnaljin/TIL/blob/master/Amazon_API_Gateway.md)
+- [FacadePattern](https://github.com/sujinnaljin/TIL/blob/master/FacadePattern.md)
+- [Amazon_API_Gateway](https://github.com/sujinnaljin/TIL/blob/master/Amazon_API_Gateway.md)
 
 ## Swift
 
