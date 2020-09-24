@@ -23,4 +23,4 @@
 - [AccessControl](https://github.com/sujinnaljin/TIL/blob/master/Swift/AccessControl.md)
 - [addSubview(_:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/addSubview(_:).md)
 
-
+- [App_Version&Build_정보.md](https://github.com/sujinnaljin/TIL/blob/master/Swift/App_Version%26Build_%EC%A0%95%EB%B3%B4.md)
