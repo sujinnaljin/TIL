@@ -1,4 +1,5 @@
 # Kafka
+![](https://4.bp.blogspot.com/-TamFawnCFUc/V_2QpdK_DCI/AAAAAAAAAQg/gMloyEf1tqMHQi0DbXmiMwBufRHBwKhygCLcB/s1600/kafka.png)
 
 - **메세지 큐**의 일종
 
