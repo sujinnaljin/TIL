@@ -11,7 +11,7 @@
 - [3_Scale](https://github.com/sujinnaljin/TIL/blob/master/3_Scale.md)
 - [Amazon_Elasticache](https://github.com/sujinnaljin/TIL/blob/master/Amazon_Elasticache.md)
 - [STON_Edge_Server](https://github.com/sujinnaljin/TIL/blob/master/STON_Edge_Server.md)
-- [kafka](https://github.com/sujinnaljin/TIL/blob/master/kafka.md)
+- [Kafka](https://github.com/sujinnaljin/TIL/blob/master/Kafka.md)
 
 
 ## Swift
