@@ -32,7 +32,7 @@
 - **Github**은 우리의 컴퓨터와 연결될 수 있도록 **SSH 기능**을 제공
 - 즉, **github에게 '내 공개키'를 전달**하기만 한다면 github이 나에게 보내는 모든 **메시지**는 **'개인키'를 가지고 있는 나만이 이해**할 수 있는 것
 - 이로써 github에게 내가 프로젝트의 **주인임을 인증** 가능
-- 따라서 이 기능을 이용하면 매번 **비밀번호를 입력하지 않고도 '인증'**이 가능
+- 따라서 이 기능을 이용하면 매번 **비밀번호를 입력하지 않고도 '인증'** 이 가능
 -  SSH는 단순히 '인증'을 위한 수단이 아니고 **데이터를 안전하게 전송하기 위한 프로토콜**임을 꼭 기억하시길 바랍니다..
 
 
@@ -70,7 +70,7 @@
 
 - [SSH Key - 비밀번호 없이 로그인](https://opentutorials.org/module/432/3742)
 
-- [\[Git (7)] Github 비밀번호 입력 없이 pull/push 하기(github ssh key 설정](https://goddaehee.tistory.com/254)
+- [[Git (7)] Github 비밀번호 입력 없이 pull/push 하기(github ssh key 설정](https://goddaehee.tistory.com/254)
 
 - [버전 관리 시스템 / Git \] SSH 이용하기](http://blog.naver.com/pjok1122/221564348763)
 
