@@ -58,8 +58,8 @@
 
 - Setting에서 **SSH 공개키(id_rsa.pub) 등록** 후 **clone with SSH**
 - 공개키 확인 방법
-  - 방법 1. `cat(또는 vi) ~/.ssh/id_rsa.pub`
-  - 방법 2. `bcopy < ~/.ssh/id_rsa.pub`
+  
+  `cat(또는 vi) ~/.ssh/id_rsa.pub`
 
   ![img](https://blog.kakaocdn.net/dn/MtOh1/btqEbQT4L2l/R52xk8mdVyAWcpklkHnEfk/img.png)
 
