@@ -48,7 +48,7 @@
   - t rsa는 rsa라는 암호화 방식으로 키를 생성한다는 의미
   - SSH 키는 키 크기가 2048비트 또는 4096비트인 RSA 키여야 한다. 해당 경우는 4096으로 지정
 
-- 생성 후 아래와 ~/.ssh 에서 아래와 같은 세가지 파일 확인 가능
+- 생성 후 아래와 `~/.ssh` 에서 아래와 같은 세가지 파일 확인 가능
 
   -  authorized_keys -  id_rsa.pub 키의 값을 저장
   -  id_rsa - 개인키, 타인에게 노출되면 안되는 **private key**. 본인의 컴퓨터 내부에 저장하게 되어 있으며, 이 Private Key를 통해 암호화된 메시지를 **복호화** 할 수 있다.
@@ -57,8 +57,11 @@
 ## github 연동
 
 - Setting에서 **SSH 공개키(id_rsa.pub) 등록** 후 **clone with SSH**
+- 공개키 확인 방법
+  - 방법 1. cat(또는 vi) ~/.ssh/id_rsa.pub
+  - 방법 2. bcopy < ~/.ssh/id_rsa.pub
 
-- ![img](https://blog.kakaocdn.net/dn/MtOh1/btqEbQT4L2l/R52xk8mdVyAWcpklkHnEfk/img.png)
+  ![img](https://blog.kakaocdn.net/dn/MtOh1/btqEbQT4L2l/R52xk8mdVyAWcpklkHnEfk/img.png)
 
   
 
