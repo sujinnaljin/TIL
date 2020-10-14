@@ -18,6 +18,7 @@
 - [Kibana](https://github.com/sujinnaljin/TIL/blob/master/Kibana.md)
 - [Logstash](https://github.com/sujinnaljin/TIL/blob/master/Logstash.md)
 - [ASP.NET_Razor](https://github.com/sujinnaljin/TIL/blob/master/ASP.NET_Razor.md)
+- [ssh](https://github.com/sujinnaljin/TIL/blob/master/ssh.md)
 
 
 
