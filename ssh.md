@@ -70,7 +70,7 @@
 
 - [SSH Key - 비밀번호 없이 로그인](https://opentutorials.org/module/432/3742)
 
-- [[Git (7)] Github 비밀번호 입력 없이 pull/push 하기(github ssh key 설정](https://goddaehee.tistory.com/254)
+- [[Git (7)] Github 비밀번호 입력 없이 pull/push 하기(github ssh key 설정)](https://goddaehee.tistory.com/254)
 
 - [버전 관리 시스템 / Git \] SSH 이용하기](http://blog.naver.com/pjok1122/221564348763)
 
