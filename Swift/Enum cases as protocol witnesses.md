@@ -5,5 +5,5 @@
 4. Case로 대체될 수 있는 protocol의 프로퍼티나 메소드의 특성은 "스태틱 & Self나 enum타입 리턴" 이어야한다
 
 # 참고
-[Swift 5.3 released!](https://medium.com/official-podo/swift-5-3-released-83ab5a7c07f6)
-[Enum cases as protocol witnesses](https://github.com/apple/swift-evolution/blob/master/proposals/0280-enum-cases-as-protocol-witnesses.md)
+- [Swift 5.3 released!](https://medium.com/official-podo/swift-5-3-released-83ab5a7c07f6)
+- [Enum cases as protocol witnesses](https://github.com/apple/swift-evolution/blob/master/proposals/0280-enum-cases-as-protocol-witnesses.md)
