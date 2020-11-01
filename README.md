@@ -31,10 +31,10 @@
 - [AnimationOptions](https://github.com/sujinnaljin/TIL/blob/master/Swift/AnimationOptions.md)
 - [AccessControl](https://github.com/sujinnaljin/TIL/blob/master/Swift/AccessControl.md)
 - [addSubview(_:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/addSubview(_:).md)
-
 - [App_Version&Build_정보.md](https://github.com/sujinnaljin/TIL/blob/master/Swift/App_Version%26Build_%EC%A0%95%EB%B3%B4.md)
 - [selectItem(at:animated:scrollPosition:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/selectItem(at:animated:scrollPosition:).md)
 - [label.text=nil](https://github.com/sujinnaljin/TIL/blob/master/Swift/label.text%3Dnil.md)
 - [UICollectionView.reloadData()의 완료 시점](https://github.com/sujinnaljin/TIL/blob/master/Swift/CompletionTimeOfUICollectionView.reloadData().md)
 - [Accessibility](https://github.com/sujinnaljin/TIL/blob/master/Swift/Accessibility.md)
 - [OpaqueType & some](https://github.com/sujinnaljin/TIL/blob/master/Swift/OpaqueType%20%26%20some.md)
+- [Enum cases as protocol witnesses]https://github.com/sujinnaljin/TIL/blob/master/Swift/Enum%20cases%20as%20protocol%20witnesses.md
