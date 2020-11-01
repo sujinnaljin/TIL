@@ -37,4 +37,4 @@
 - [UICollectionView.reloadData()의 완료 시점](https://github.com/sujinnaljin/TIL/blob/master/Swift/CompletionTimeOfUICollectionView.reloadData().md)
 - [Accessibility](https://github.com/sujinnaljin/TIL/blob/master/Swift/Accessibility.md)
 - [OpaqueType & some](https://github.com/sujinnaljin/TIL/blob/master/Swift/OpaqueType%20%26%20some.md)
-- [Enum cases as protocol witnesses]https://github.com/sujinnaljin/TIL/blob/master/Swift/Enum%20cases%20as%20protocol%20witnesses.md
+- [Enum cases as protocol witnesses](https://github.com/sujinnaljin/TIL/blob/master/Swift/Enum%20cases%20as%20protocol%20witnesses.md)
