@@ -1,6 +1,4 @@
-# CDN
-
-- Contents Delivery Network
+# CDN(Contents Delivery Network)
 
 - **지리,물리적**으로 떨어져 있는 사용자에게 **컨텐츠를 더 빠르게** 제공할 수 있는 기술. -> 느린 응답속도 / 다운로딩 타임 극복
 
