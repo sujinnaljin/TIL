@@ -21,6 +21,7 @@
 - [ssh](https://github.com/sujinnaljin/TIL/blob/master/ssh.md)
 - [CDN(Contents Delivery Network)](https://github.com/sujinnaljin/TIL/blob/master/CDN(ContentsDeliveryNetwork).md)
 - [GSLB(Global server Load Balancing)](https://github.com/sujinnaljin/TIL/blob/master/GSLB(GlobalServerLoadBalancing).md)
+- [HAProxy](https://github.com/sujinnaljin/TIL/blob/master/HAProxy.md)
 
 
 ## Swift
