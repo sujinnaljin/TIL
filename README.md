@@ -19,7 +19,8 @@
 - [Logstash](https://github.com/sujinnaljin/TIL/blob/master/Logstash.md)
 - [ASP.NET_Razor](https://github.com/sujinnaljin/TIL/blob/master/ASP.NET_Razor.md)
 - [ssh](https://github.com/sujinnaljin/TIL/blob/master/ssh.md)
-
+- [CDN(Contents Delivery Network)](https://github.com/sujinnaljin/TIL/blob/master/CDN(ContentsDeliveryNetwork).md)
+- [GSLB(Global server Load Balancing)](https://github.com/sujinnaljin/TIL/blob/master/GSLB(GlobalServerLoadBalancing).md)
 
 
 ## Swift
@@ -38,3 +39,4 @@
 - [Accessibility](https://github.com/sujinnaljin/TIL/blob/master/Swift/Accessibility.md)
 - [OpaqueType & some](https://github.com/sujinnaljin/TIL/blob/master/Swift/OpaqueType%20%26%20some.md)
 - [Enum cases as protocol witnesses](https://github.com/sujinnaljin/TIL/blob/master/Swift/Enum%20cases%20as%20protocol%20witnesses.md)
+
