@@ -4,7 +4,7 @@
 -  기존의 하드웨어 스위치를 대체하는 **소프트웨어 로드 밸런서**
 - 네트워크 스위치에서 제공하는 L4, L7 기능 및 로드 밸런서 기능을 제공
 
-### HAProxy 동작 방식
+## HAProxy 동작 방식
 
 - HAProxy는 기본적으로 **reverse proxy** 형태로 동작
 - **reverse proxy**는 실제 서버 요청에 대해서 **서버 앞 단에 존재**하면서, 서버로 들어오는 **요청을 대신 받아**서 서버에 전달하고 요청한 곳에 그 결과를 다시 전달하는 것이다.
@@ -19,7 +19,7 @@ HAProxy의 동작 흐름은 다음과 같다.
 
 ![haproxy1](https://d2.naver.com/content/images/2015/06/helloworld-284659-1.png)
 
-### HAProxy HA(High availability) 구성
+## HAProxy HA(High availability) 구성
 
 - HAProxy는 기본적으로 VRRP(Virtual Router Redundancy Protocol)를 지원
 - 소프트웨어 기반의 솔루션이기 때문에 HAProxy가 설치된 **서버에서 문제가 발생**하면 하드웨어 **L4보다는 불안정**할 수 있다. 
@@ -30,3 +30,6 @@ HAProxy의 동작 흐름은 다음과 같다.
 
 ![haproxy2](https://d2.naver.com/content/images/2015/06/helloworld-284659-2.png)
 
+
+## 출처
+- [L4/L7 스위치의 대안, 오픈 소스 로드 밸런서 HAProxy](https://d2.naver.com/helloworld/284659)
