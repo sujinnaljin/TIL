@@ -24,7 +24,7 @@
 
 **1. Load Balance**
 
-- 사용자에게 콘텐츠 전송 요청(Delivery Request)을 받았을 때, **최적의 네트워크 환경을 찾아 연결**하는 기술, GSLB(Global Server Load Balancing)이라고도 한다. GSLB는 DNS(도메인 이름을 IP주소로 변환하는 서비스) 서비스의 발전된 형태.
+- 사용자에게 콘텐츠 전송 요청(Delivery Request)을 받았을 때, **최적의 네트워크 환경을 찾아 연결**하는 기술, [GSLB(Global Server Load Balancing)](https://github.com/sujinnaljin/TIL/blob/master/GSLB(GlobalServerLoadBalancing).md)이라고도 한다. GSLB는 DNS(도메인 이름을 IP주소로 변환하는 서비스) 서비스의 발전된 형태.
 
 - **물리적**으로 가장 **가깝거나 여유 트래픽**이 남아 있는 곳으로 접속을 유도하는 기술이다. 
 
