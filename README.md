@@ -23,6 +23,7 @@
 - [GSLB(Global server Load Balancing)](https://github.com/sujinnaljin/TIL/blob/master/GSLB(GlobalServerLoadBalancing).md)
 - [HAProxy](https://github.com/sujinnaljin/TIL/blob/master/HAProxy.md)
 - [SSR(Server Side Rendering)](https://github.com/sujinnaljin/TIL/blob/master/SSR(ServerSideRendering).md)
+= [Blue Green 배포](https://github.com/sujinnaljin/TIL/blob/master/BlueGreenDeployment.md)
 
 
 ## Swift
