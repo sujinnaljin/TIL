@@ -27,6 +27,7 @@
 - [Docker Image](https://github.com/sujinnaljin/TIL/blob/master/DockerImage.md)
 - [Webpack과 Gulp](https://github.com/sujinnaljin/TIL/blob/master/Webpack%26Gulp.md)
 - [Eureka(유레카)](https://github.com/sujinnaljin/TIL/blob/master/Eureka.md)
+- [Hystrix](https://github.com/sujinnaljin/TIL/blob/master/Hystrix.md)
 
 
 ## Swift
