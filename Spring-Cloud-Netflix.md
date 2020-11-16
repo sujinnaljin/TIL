@@ -1,7 +1,7 @@
 # Spring Cloud Netflix
 
-- **Spring Boot 어플리케이션을 위한 Netflix OSS(Open Source Software) 통합을 제공**합니다
-- battle-tested를 거친 Netflix component를 통해 **대규모 분산 시스템을 구축**할 수 있습니다.
+- **Spring Boot 어플리케이션을 위한 Netflix OSS(Open Source Software) 통합을 제공**
+- battle-tested를 거친 Netflix component를 통해 **대규모 분산 시스템을 구축**할 수 있다 
 
 ## 제공 패턴
 
