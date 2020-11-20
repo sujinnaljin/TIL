@@ -30,6 +30,7 @@
 - [Hystrix](https://github.com/sujinnaljin/TIL/blob/master/Hystrix.md)
 - [Ribbon](https://github.com/sujinnaljin/TIL/blob/master/Ribbon.md)
 - [Spring Cloud Netflix](https://github.com/sujinnaljin/TIL/blob/master/Spring-Cloud-Netflix.md)
+- [DeepLink와 URI 스킴](https://github.com/sujinnaljin/TIL/blob/master/DeepLink%26URIScheme.md)
 
 
 ## Swift
