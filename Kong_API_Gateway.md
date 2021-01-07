@@ -6,3 +6,11 @@
 
 ![structure](https://miro.medium.com/max/1400/1*Kh9n-NzJf8W_eI_5PPh82Q.jpeg)
 ![architecture](https://miro.medium.com/max/1376/1*YB3rX79jaFxDnaN0hFq17Q.jpeg)
+
+## Konga
+- Kong 관리를 쉽게 도와주는 GUI 툴. 즉 대시보드.
+![konga](https://miro.medium.com/max/1400/1*x23T9S9eDuwY6wrVBkWS3w.png)
+
+## 참고
+- [Konga](https://pantsel.github.io/konga/)
+- [Kong API gateway with Konga dashboard](https://medium.com/@harsh.manvar111/kong-api-gateway-with-konga-dashboard-ae95b6d1fec7)
