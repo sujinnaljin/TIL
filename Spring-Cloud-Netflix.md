@@ -5,17 +5,17 @@
 
 ## 제공 패턴
 
-- **Service Discovery (Eureka)**
+- **Service Discovery ([Eureka](https://github.com/sujinnaljin/TIL/blob/master/Eureka.md))**
   - **서비스 등록 및 탐색**
   - Eureka 인스턴스를 등록할 수 있으며, client는 Spring이 관리하는 빈을 사용하여 탐지할 수 있다.
   - 내장된 Eureka Server는 선언적 java config를 통하여 생성될 수 있다.
-- **Circuit Breaker (Hystrix)**
+- **Circuit Breaker ([Hystrix](https://github.com/sujinnaljin/TIL/blob/master/Hystrix.md))**
   - Hystrix clients는 간단한 어노테이션 기반으로 구축될 수 있다.
   - 선언적 java config로 내장된 Hystrix dashboard
-- **선언적 REST Client (Feign)**
+- **선언적 REST Client ([Feign](https://github.com/sujinnaljin/TIL/blob/master/Feign.md))**
   - **REST API 호출을 용이**하게 해주는 HTTP Client
   - Feign은 JAX-RS 또는 Spring MVC 어노테이션으로(선언적) 인터페이스를 동적으로 구현한다.
-- **Client Side Load Balancer (Ribbon)**
+- **Client Side Load Balancer ([Ribbon](https://github.com/sujinnaljin/TIL/blob/master/Ribbon.md))**
   - zuul에 내장된 **로드 밸런서**
 - **External Configuration**
   - **환경 설정 외부화** 담당
