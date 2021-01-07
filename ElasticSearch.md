@@ -15,7 +15,7 @@
 
 ## 역색인
 
-- Elasticsearch가 **빠른 이유**는 **inverted index( 역색인 )**에 있습니다. 
+- Elasticsearch가 **빠른 이유**는 **inverted index( 역색인 )** 에 있습니다. 
 
   책에서 맨 앞에 볼 수 있는 목차가 index이고, **책 맨 뒤에 키워드**마다 찾아볼 수 있도록 찾아보기가 inverted index입니다.
 
@@ -59,7 +59,7 @@
 
 - Elasticsearch에서 **index**는 RDBMS에서 **database와 대응**하는 개념입니다.
 
-- **샤딩( sharding )**은 **데이터를 분산해서 저장**하는 방법을 의미합니다. RDBMS에서 **Physical partition과 대응**하는 개념입니다.
+- **샤딩( sharding )** 은 **데이터를 분산해서 저장**하는 방법을 의미합니다. RDBMS에서 **Physical partition과 대응**하는 개념입니다.
 
   즉, Elasticsearch에서 스케일 아웃을 위해 index를 여러 shard로 쪼갠 것입니다. 기본적으로 1개가 존재하며, 검색 성능 향상을 위해 클러스터의 샤드 갯수를 조정하는 튜닝을 하기도 합니다.
 
