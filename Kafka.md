@@ -53,11 +53,11 @@
   ![img](https://taetaetae.github.io/2017/11/02/what-is-kafka/kafka3.png)
 
 - 정해진 topic 에 producer 가 메세지를 발행해놓으면 consumer 가 필요할때 해당 메세지를 가져간다. (여기서 카프카로 발행된 메세지들은 consumer가 메세지를 소비한다고 해서 없어지는게 아니라 카프카 설정`log.retention.hours(default : 168[7일])`에 의해 삭제된다.)
-  ![img](https://taetaetae.github.io/2017/11/02/what-is-kafka/kafka4.png)
+  ![img](https://taetaetae.github.io/images/what-is-kafka/kafka4.png)
 
 - partition 개수와 consumer group 개념
 
-  ![img](https://taetaetae.github.io/2017/11/02/what-is-kafka/kafka5.png)
+  ![img](https://taetaetae.github.io/images/what-is-kafka/kafka5.png)
 
   - 하얀색(consumer-01) : 파티션 개수가 4개인데 비해 컨슈머가 3개, 이렇게 되면 어느 컨슈머가 두개의 파티션을 담당해야하는 상황이 생긴다.
   - 주황색(consumer-02) : 파티션 개수가 4개인데 비해 컨슈머가 5개, 이렇게 되면 하나의 노는(?) 컨슈머가 생기는 상황이 생긴다.
