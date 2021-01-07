@@ -98,7 +98,7 @@ Zipkin 클라이언트 SDK에 의해서 전송된 정보는 스토리지에 저�
 
 
 
-# Spring Sleuth
+# [Spring Sleuth](https://github.com/sujinnaljin/TIL/blob/master/Sleuth.md)
 
 **Zipkin 라이브러리** 중에서 주목해서 살펴볼 부분은 **Spring / Java 지원**인데, **Spring에서 Sleuth라는 모듈 이름으로 공식적으로 Zipkin을 지원**하기 때문에, Spring (& Springboot) 연동이 매우 쉽다.
 
