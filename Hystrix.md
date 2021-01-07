@@ -6,10 +6,6 @@
 - Thread Timeout, 장애 대응 등을 설정해 장애시 정해진 루트를 따르도록 할 수 있다
 
 
-
-출처:  [기본기를 쌓는 정아마추어 코딩블로그]
-
-
 ## 참고
 
 - [(Spring Cloud) Hystrix](https://supawer0728.github.io/2018/03/11/Spring-Cloud-Hystrix/)
