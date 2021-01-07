@@ -1,5 +1,6 @@
 # Micrometer
 
+![micrometerLogo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVTqs0OCaGGV2K2xokA6vLnP1LQD971LN7mA&usqp=CAU)
 - **모니터링 시스템**을 위한 측정 클라이언트에 대한 **파사드 제공**
 - 벤더중립(vender neutral) **API를 이용**해서 **내 코드**를 **시간, 카운트, 계측 할 수 있**는 차원 우선 계측 집합의 **facade**. (dimensional-first metrics collection facade)
 - 스프링부트1에 존재했던 카운터, 게이지에 더 풍족한 기본 요소를 추가했는데, 예로 단일 마이크로미터 타이머(Timer)는 **처리량**(throughput), **총 시간**(total time), **샘플의 최대 지연시간**(maximum latency of recent samples), **퍼센테이지**(& 히스토그램)등을 생성 할 수 있다.
