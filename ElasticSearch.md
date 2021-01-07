@@ -4,11 +4,11 @@
 - **방대한 양의 데이터**를 신속하게, 거의 **실시간( NRT, Near Real Time )으로 저장, 검색, 분석**할 수 있습니다.
 - Elasticsearch는 검색을 위해 단독으로 사용되기도 하며, **ELK( Elasticsearch / Logstatsh / Kibana ) 스택**으로 사용되기도 합니다.
 - **ELK 스택이란?**
-  - **Logstash** : 다양한 소스( DB, csv파일 등 )의 로그 또는 트랜잭션 **데이터를 수집, 집계, 파싱**하여 Elasticsearch로 전달
+  - [**Logstash**](https://github.com/sujinnaljin/TIL/blob/master/Logstash.md) : 다양한 소스( DB, csv파일 등 )의 로그 또는 트랜잭션 **데이터를 수집, 집계, 파싱**하여 Elasticsearch로 전달
 
   - **Elasticsearch** : Logstash로부터 받은 **데이터를 검색 및 집계**를 하여 필요한 관심 있는 **정보를 획득**
 
-  - **Kibana** : Elasticsearch의 빠른 검색을 통해 데이터를 **시각화** 및 모니터링
+  - [**Kibana**](https://github.com/sujinnaljin/TIL/blob/master/Kibana.md) : Elasticsearch의 빠른 검색을 통해 데이터를 **시각화** 및 모니터링
 
 
 ![img](https://t1.daumcdn.net/cfile/tistory/993B7E495C98CAA706)
