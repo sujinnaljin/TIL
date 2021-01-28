@@ -63,3 +63,4 @@
 
 ## Linux
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
+- [Linux 파일 접근 권한](https://github.com/sujinnaljin/TIL/blob/master/LinuxFileAccessPermission.md)
