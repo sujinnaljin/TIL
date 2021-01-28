@@ -38,6 +38,7 @@
 - [Prometheus](https://github.com/sujinnaljin/TIL/blob/master/Prometheus.md)
 - [ElasticSearch](https://github.com/sujinnaljin/TIL/blob/master/ElasticSearch.md)
 - [Cassandra](https://github.com/sujinnaljin/TIL/blob/master/Cassandra.md)
+- [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/commit/LinuxDirectory.md)
 
 
 
