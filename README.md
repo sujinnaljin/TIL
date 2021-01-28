@@ -38,8 +38,6 @@
 - [Prometheus](https://github.com/sujinnaljin/TIL/blob/master/Prometheus.md)
 - [ElasticSearch](https://github.com/sujinnaljin/TIL/blob/master/ElasticSearch.md)
 - [Cassandra](https://github.com/sujinnaljin/TIL/blob/master/Cassandra.md)
-- [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/commit/LinuxDirectory.md)
-
 
 
 ## Swift
@@ -62,3 +60,6 @@
 - [observe(_:options:changeHandler)](https://github.com/sujinnaljin/TIL/blob/master/Swift/observe(_:options:changeHandler).md)
 - [NSCopying](https://github.com/sujinnaljin/TIL/blob/master/Swift/NSCopying.md)
 - [LLDB](https://github.com/sujinnaljin/TIL/blob/master/Swift/lldb.md)
+
+## Linux
+- [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
