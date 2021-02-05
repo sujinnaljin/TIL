@@ -1,7 +1,7 @@
 # Kafka
 ![](https://4.bp.blogspot.com/-TamFawnCFUc/V_2QpdK_DCI/AAAAAAAAAQg/gMloyEf1tqMHQi0DbXmiMwBufRHBwKhygCLcB/s1600/kafka.png)
 
-- **메세지 큐**의 일종
+- **메세지 큐** 같은건...데.. 메시지 큐는 아님..  (메시지 큐는 보통 AMPQ라는 표준적인 프로토콜을 사용. ex. RabbitMQ.카프카는 독립적인 TCP 프로토콜을 사용)
 
   메세지 큐 : **메시지 지향 미들웨어**(Message Oriented Middleware: MOM)은 **비동기 메시지를 사용하는 다른 응용프로그램 사이의 데이터 송수신**을 의미하는데 **MOM을 구현한 시스템을 메시지큐**(Message Queue:MQ)라 한다.
 
