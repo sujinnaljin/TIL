@@ -67,9 +67,9 @@ C, C++, Objective-C 용 **컴파일러**. LLVM 프로젝트의 메인 **프론�
 
 - **LLVM IR** (Intermedate Representation)
   - LLVM IR은 아래와 같이 분류 됨
-    1. LLVM 어셈블리 언어(LLVM assembly language) -> ‘.ll’ 확장자인 텍스트 파일로 저장. 사람이 읽을 수 있는 문자열로 표현됨.
-    2. LLVM 비트코드(bitcode) -> ‘.bc’ 확장자인 바이너리 파일로 저장. 바이너리로 표현 됨.
-    3. C++ 목적 코드(C++ Object Code) -> ‘.o’ 확장자
+    1. LLVM 어셈블리 언어(LLVM assembly language) -> `.ll` 확장자인 텍스트 파일로 저장. 사람이 읽을 수 있는 문자열로 표현됨.
+    2. LLVM 비트코드(bitcode) -> `.bc` 확장자인 바이너리 파일로 저장. 바이너리로 표현 됨.
+    3. C++ 목적 코드(C++ Object Code) -> `.o` 확장자
 
 
 
