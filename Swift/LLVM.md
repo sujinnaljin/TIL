@@ -66,8 +66,11 @@ C, C++, Objective-C 용 **컴파일러**. LLVM 프로젝트의 메인 **프론�
   - 여기에서 스위프트, AST에서 나타나는 규칙적인 패턴과 각 문법의 구분이 흐려지고, 함수, 클로져, 변수등은 모두 동등한 구성으로 재배치 됨. 여기까지가 **LLVM**에서의 **Frontend**
 
 - **LLVM IR** (Intermedate Representation)
+  - LLVM IR은 두 가지 형식으로 표현될 수 있음.
+    1. 사람이 읽을 수 있는 문자열로 표현되는 LLVM 어셈블리 언어(LLVM assembly language) 형식 -> ‘.ll’ 확장자인 텍스트 파일로 저장
+    2. 바이너리로 표현되는 LLVM 비트코드(bitcode) 형식. -> ‘.bc’ 확장자인 바이너리 파일로 저장
 
-  - 컴파일러를 위한 언어로 사람이 읽기 힘듦
+
 
 
 
@@ -78,4 +81,5 @@ C, C++, Objective-C 용 **컴파일러**. LLVM 프로젝트의 메인 **프론�
 - [[번역] SIL(Swift Intermediate Language), 일단 시작해보기까지](https://woowabros.github.io/swift/2018/03/18/translation-SIL-for-the-moment-before-entry.html)
 - [LLVM이란](https://zeddios.tistory.com/1175)
 - [Swift Compiler](https://swift.org/swift-compiler/#compiler-architecture)
+- [오크(ORK) – 난독화 컴파일러 도구 1편](https://engineering.linecorp.com/ko/blog/code-obfuscation-compiler-tool-ork-1/)
 
