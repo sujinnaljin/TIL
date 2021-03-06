@@ -62,6 +62,7 @@
 - [LLDB](https://github.com/sujinnaljin/TIL/blob/master/Swift/lldb.md)
 - [viewWillAppear 동작 context](https://github.com/sujinnaljin/TIL/blob/master/Swift/viewWillAppearContext.md)
 - [LLVM (feat. 스위프트의 빌드 단계 / 컴파일러 과정)](https://github.com/sujinnaljin/TIL/blob/master/Swift/LLVM.md)
+- [Uber가 대규모 iOS 앱 크기를 다루는 방법](https://github.com/sujinnaljin/TIL/blob/master/Swift/how-uber-deals-with-large-ios-app-size.md)
 
 ## Linux
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
