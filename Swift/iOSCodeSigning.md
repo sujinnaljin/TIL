@@ -2,7 +2,13 @@
 
 ## 코드 서명
 
-- 코드 서명이란 **파일의 무결성을 검증**하고 **서명자(개발자)를 확인**하는 것 (code signature 구조체 이용)
+- 코드 서명이란 인증서를 이용해서 코드에 서명을 하는 것.
+
+  - 자세히는 Mach-O 파일 안의 code signature > **code directory** 를 **인증서로 서명**하면 **signature data**가 나옴 (CMS 서명). code directory에는 특정 파일과 실행 바이너리 파일 조각들의 **해시값**들이 담겨져 있음.
+
+  ![img](https://engineering.linecorp.com/wp-content/uploads/2019/04/26-1.png)
+
+- 이 과정을 통해 **파일의 무결성을 검증**하고 **서명자(개발자)를 확인** 가능
 
 - Apple의 앱은 **코드 서명**을 해야 iOS 기기에서 **실행 가능**
 
