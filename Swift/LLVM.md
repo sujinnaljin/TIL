@@ -50,7 +50,7 @@ C, C++, Objective-C 용 **컴파일러**. LLVM 프로젝트의 메인 **프론�
 
 따라서 Swift 소스 코드로 바이너리 코드를 생성할 때, 컴파일러는 다음의 과정을 거친다.
 
-`Swift Code`  → `구문분석(AST 생성)` → `의미분석 (타입 정보 포함한 AST 생성)` → `모듈 임포트` → `SIL 생성 (raw SIL)` → `SIL 정규화 (canonical SIL)` → `SIL 최적화` → `LLVM IR 생성` (여기까지 LLVM의 FrontEnd) → LLVM이 이것을 최적화 → `Assembly`  → `Executable`
+`Swift Code`  → `구문분석(AST 생성)` → `의미분석 (타입 정보 포함한 AST 생성)` → `모듈 임포트` → `SIL 생성 (raw SIL)` → `SIL 정규화 (canonical SIL)` → `SIL 최적화` → `LLVM IR 생성` (여기까지 LLVM의 FrontEnd) → `최적화` → `Compiler backend` → `Assembler` → `링커`
 
 - **Swift AST**(Abstract Syntax Tree) 
 
@@ -66,17 +66,37 @@ C, C++, Objective-C 용 **컴파일러**. LLVM 프로젝트의 메인 **프론�
   - 여기에서 스위프트, AST에서 나타나는 규칙적인 패턴과 각 문법의 구분이 흐려지고, 함수, 클로져, 변수등은 모두 동등한 구성으로 재배치 됨. 여기까지가 **LLVM**에서의 **Frontend**
 
 - **LLVM IR** (Intermedate Representation)
+
   - LLVM IR은 아래와 같이 분류 됨
 
     1. LLVM 어셈블리 언어(LLVM assembly language) -> `.ll` 확장자인 텍스트 파일로 저장. 사람이 읽을 수 있는 문자열로 표현됨.
 
     2. LLVM 비트코드(bitcode) -> `.bc` 확장자인 바이너리 파일로 저장. 바이너리로 표현 되는, 아직 기계코드도 아니고 내가 이해 할 수 있는 코드도 아닌 중간단계의 코드. 
 
-       Bitcode를 on하면, LLVM어셈블러인 llvm-as가 LLVM IR을 LLVM bitcode로 바꿔준다. 
+       LLVM 어셈블리 언어와 LLVM 비트코드는 표현 형식만 다르고, 서로 간에 자유롭게 전환할 수 있다. LVM 명령어 도구인 llvm-dis를 사용해 LLVM 비트코드를 LLVM 어셈블리 언어로 전환할 수 있으며, 반대로 llvm-as를 사용해서 LLVM 어셈블리 언어를 LLVM 비트코드로 전환할 수 있다.
 
        `ex. test.ll → llvm-as → test.bc`
 
     3. C++ 목적 코드(C++ Object Code) -> `.o` 확장자
+
+- **최적화(optimizer)**
+
+  - LLVM 패스(pass)라는 단위로 관리
+  - 각각의 최적화 패스는 전달받은 LLVM IR을 최적화한 뒤, 최적화한 LLVM IR을 그다음 패스로 전달
+
+- **Compiler Backend**
+
+  - 최적화된 LLVM IR을 특정 CPU 아키텍처에 의존적인 어셈블리(assembly) 언어로 변환
+
+- **Assembler**
+
+  - 어셈블리 언어를 기계어로 변경해 확장자가 `.o`인 오브젝트(object) 파일로 저장
+
+- **링커**
+
+  - 참조 관계 확인 및 저장된 오브젝트 파일들을 하나로 묶어서 실행(executable) 파일 또는 공유 라이브러리(shared object) 파일을 생성
+  - 이 단계에서 링크 시점 최적화(LTO, Link Time Optimizer)도 수행될 수 있음
+
 
 
 
