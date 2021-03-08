@@ -93,7 +93,7 @@ Inhouse Provisioning Profile (Enterprise로 빼낸거라 기기 제한 없음)
 <true/>
 ```
 
-
+([원출처](https://engineering.linecorp.com/ko/blog/ios-code-signing/#Entitlements)에서는 'Ad Hoc 등 모든 기기에서 실행 가능한 앱의 프로비저닝 프로파일에는 아래와 같이 ProvisionsAllDevices 항목이 true로 설정되어 있습니다' 라고 써있는데, 'Ad Hoc 등 모든 기기에서 실행 가능'이라는 말에 의문이 들었다. 내가 아는 한 AdHoc이 100대 제한이고,  Enterprise (InHouse)가 무제한이기 때문. 그래서 각각의 옵션으로 ipa 파일 빼낸 후 데이터를 확인해 봤는데 InHouse 의 `ProvisionsAllDevices`가 true 로 되어있었고, AdHoc은 등록된 기기의 목록이 있었다.)
 
 ## 바이너리 파일의 무결성 검증
 
