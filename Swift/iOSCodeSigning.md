@@ -161,8 +161,6 @@ Inhouse Provisioning Profile (Enterprise로 빼낸거라 기기 제한 없음)
 2. "**CodeResources**" 란 파일에 기록된 각 파일의 해쉬 정보를 실제의 파일들과 확인하여 **빌드 후 수정이 되지 않았음을 확인**
 3. 디바이스에 .app 에 포함된 **프로비저닝 프로파일이 있는지 확인**
 
-**Enterprise** 나 **App Store** 배포시에는 프로비저닝 프로파일 확인 절차 없음
-
 # 출처
 
 - [iOS 코드 서명에 대해서](https://engineering.linecorp.com/ko/blog/ios-code-signing/#Entitlements)
