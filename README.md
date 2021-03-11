@@ -65,6 +65,7 @@
 - [Uber가 대규모 iOS 앱 크기를 다루는 방법](https://github.com/sujinnaljin/TIL/blob/master/Swift/how-uber-deals-with-large-ios-app-size.md)
 - [ARM64 레지스터](https://github.com/sujinnaljin/TIL/blob/master/Swift/ARM64_Register.md)
 - [iOS 코드 서명 (feat. 프로비저닝 프로파일과 Mach-O 파일)](https://github.com/sujinnaljin/TIL/blob/master/Swift/iOSCodeSigning.md)
+- [canOpenURL(_:)과 open(_:options:completionHandler:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/canOpenURL(_:)%26open(_:options:completionHandler:).md)
 
 ## Linux
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
