@@ -67,6 +67,7 @@
 - [ARM64 레지스터](https://github.com/sujinnaljin/TIL/blob/master/Swift/ARM64_Register.md)
 - [iOS 코드 서명 (feat. 프로비저닝 프로파일과 Mach-O 파일)](https://github.com/sujinnaljin/TIL/blob/master/Swift/iOSCodeSigning.md)
 - [canOpenURL(_:)과 open(_:options:completionHandler:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/canOpenURL(_:)%26open(_:options:completionHandler:).md)
+- [How to prove “copy-on-write” on String type in Swift 번역](https://github.com/sujinnaljin/TIL/blob/master/Swift/How%20to%20prove%20%E2%80%9Ccopy-on-write%E2%80%9D%20on%20String%20type%20in%20Swift%20%EB%B2%88%EC%97%AD.md)
 
 ## Linux
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
