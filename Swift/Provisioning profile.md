@@ -77,3 +77,9 @@
 ## 프로비저닝 프로파일의 한계
 
 - 서명 인증서가 만료되면 프로비저닝 프로파일도 만료
+
+# 출처
+
+- [Making Sense Of iOS Provisioning](https://www.sharpmobilecode.com/making-sense-of-ios-provisioning/)
+
+
