@@ -1,5 +1,6 @@
 # LLDB
-실시간으로 뷰 업데이트 하기
+- LLVM 프론트엔드에 대응하는 디버거
+## 실시간으로 뷰 업데이트 하기
 ```
 (lldb) settings set target.language swift
 (lldb) e import UIKit
