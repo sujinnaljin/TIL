@@ -21,7 +21,7 @@
 
   프로비저닝 프로파일에 명시된 기기에 프로비저닝 프로파일을 설치해야 Apple의 인증서로 코드 서명된 앱이 아니더라도 기기에서 실행 가능.
 
-## 프로비저닝 프로파일
+## [프로비저닝 프로파일](https://github.com/sujinnaljin/TIL/blob/master/Swift/Provisioning%20profile.md)
 
 - 기기에서 **앱을 실행**하고 **특정 서비스를 사용**하고자 할 때 사용되는 **파일**
 
