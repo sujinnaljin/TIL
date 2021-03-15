@@ -42,7 +42,7 @@ print(joined)
 추가로 
 
 ```swift
-static func buildEither(first component: String)
+static func buildEither(first component: String) -> String
 ```
 
 ```swift
