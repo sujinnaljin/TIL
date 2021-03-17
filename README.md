@@ -76,6 +76,6 @@
 - [프로비저닝 프로파일(Provisioning profile)](https://github.com/sujinnaljin/TIL/blob/master/Swift/Provisioning%20profile.md)
 - [Quick & Nimble](https://github.com/sujinnaljin/TIL/blob/master/Swift/Quick%26Nimble.md)
 
-## Linux
+## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
 - [Linux 파일 접근 권한](https://github.com/sujinnaljin/TIL/blob/master/LinuxFileAccessPermission.md)
