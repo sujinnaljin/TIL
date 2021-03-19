@@ -5,5 +5,6 @@
 
 - Property Wrapper를 밖에서 가져다쓰는 방법: 나의 프로퍼티를 정의하고 @프로퍼티래퍼명으로 attribute를 붙인다. 그러면 이 프로퍼티는 get/set동작이 이루어질때마다 알아서 Property wapper의 getter/setter 코드를 통해 실행됨
 
+
 # 출처
 - [Property Wrapper](https://wlaxhrl.tistory.com/90)
