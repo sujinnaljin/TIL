@@ -10,6 +10,75 @@
 ## Property Wrapper를 밖에서 가져다쓰는 방법
 - 나의 프로퍼티를 정의하고 @프로퍼티래퍼명으로 attribute를 붙인다. 그러면 이 프로퍼티는 get/set동작이 이루어질때마다 알아서 Property wapper의 getter/setter 코드를 통해 실행됨
 
+## _ 와 $
+
+property wrapper 안에 `foo()` 같이 추가 기능을 넣는 것은 흔한 일
+
+```
+@propertyWrapper
+struct Wrapper<T> {
+    var wrappedValue: T
+
+    func foo() { print("Foo") }
+}
+```
+
+우리는 variable 이름 앞에 **"_" 를 붙임으로써 wrapper type**에 접근 가능.  `_x`  는  `Wrapper<T>`,의 instance 이기 때문에 `foo()` 호출 가능.
+
+```
+struct HasWrapper {
+    @Wrapper var x = 0
+
+    func foo() { _x.foo() }
+}
+```
+
+하지만 `HasWrapper` 와 같이 바깥에서 부르는건 컴파일 에러남. 왜냐면 syntesized wrapper는  `private` access control level을 갖고 있기 때문. 
+
+```
+let a = HasWrapper()
+a._x.foo() // ❌ '_x' is inaccessible due to 'private' protection level
+```
+
+이러한 문제를 *projection* 을 통해 해결 가능.
+
+```
+@propertyWrapper
+struct Wrapper<T> {
+    var wrappedValue: T
+
+    var projectedValue: Wrapper<T> { return self }
+
+    func foo() { print("Foo") }
+}
+```
+
+**달러 사인은 wrapper의 projection 에 접근**하는 syntactic sugar
+
+```
+let a = HasWrapper()
+a.$x.foo() // Prints 'Foo'
+```
+
+아래와 같이 세가지 방법으로 wrapper에 접근할 수 있음
+
+```
+struct HasWrapper {
+    @Wrapper var x = 0
+    
+    func foo() {
+        print(x) // `wrappedValue`
+        print(_x) // wrapper type itself
+        print($x) // `projectedValue`
+    }
+}
+```
+
+
+
+
+
 
 # 출처
 - [Property Wrapper](https://wlaxhrl.tistory.com/90)
+- [The Complete Guide to Property Wrappers in Swift 5](https://www.vadimbulavin.com/swift-5-property-wrappers/)
