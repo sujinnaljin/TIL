@@ -76,6 +76,7 @@
 - [프로비저닝 프로파일(Provisioning profile)](https://github.com/sujinnaljin/TIL/blob/master/Swift/Provisioning%20profile.md)
 - [Quick & Nimble](https://github.com/sujinnaljin/TIL/blob/master/Swift/Quick%26Nimble.md)
 - [Property Wrapper](https://github.com/sujinnaljin/TIL/blob/master/Swift/PropertyWrapper.md)
+- [UIView의 생성자 (feat. init(frame:) 을 지정할 때 required init?(coder: NSCoder) 도 같이 생성해야하는 이유 )](https://github.com/sujinnaljin/TIL/blob/master/Swift/UIViewInitializer.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
