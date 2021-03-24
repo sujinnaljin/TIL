@@ -27,6 +27,12 @@
              }
          }
 ```
+### Describe 
+- 어떤 component를 test 하는지 설명한다. ex) Vehicle
+### Context
+- test의 목적이나, object의 현재 state를 설명한다. ex) Car 로 초기화 되고 난 후 (You can and definitely should create tests that will test the inappropriate state of an object.)
+### It
+- test에서 기대되는 결과를 설명한다. ex) 몰 수 있어야한다.
 
 ## Nimble
 - 여러가지 종류의 assertion 제공
@@ -38,4 +44,5 @@
 - [[iOS - swift] Nimble, Quick 프레임워크 (Unit test)](https://ios-development.tistory.com/338)
 - [[Test-Concept] 테스트 왜 필요하고 해야하는가?!](https://eunjin3786.tistory.com/87?category=809811)
 - [Quick documentation](https://github.com/Quick/Quick/tree/master/Documentation/ko-kr)
+- [TDD using Quick & Nimble](https://medium.com/inloopx/tdd-using-quick-nimble-244b14b09e3d)
 
