@@ -16,4 +16,4 @@
 
 - [[SwiftUI] GridView 그리기](https://jaesung0o0.medium.com/swiftui-gridview-%EA%B7%B8%EB%A6%AC%EA%B8%B0-2f399c9d754c)
 - [Grids in SwiftUI](https://www.swiftcompiled.com/swiftui-grids/)
-- [GridItem](
+- [GridItem](https://developer.apple.com/documentation/swiftui/griditem)
