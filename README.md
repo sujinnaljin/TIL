@@ -78,6 +78,8 @@
 - [Property Wrapper](https://github.com/sujinnaljin/TIL/blob/master/Swift/PropertyWrapper.md)
 - [UIView의 생성자 (feat. init(frame:) 을 지정할 때 required init?(coder: NSCoder) 도 같이 생성해야하는 이유 )](https://github.com/sujinnaljin/TIL/blob/master/Swift/UIViewInitializer.md)
 - [Size / Alignment / Stride](https://github.com/sujinnaljin/TIL/blob/master/Swift/Size%26Alignment%26Stride.md)
+- [StateObject vs ObservedObject](https://jaesung0o0.medium.com/swiftui-data-flow-stateobject-vs-observedobject-e32a37d80dd2)
+- [GridItem](https://github.com/sujinnaljin/TIL/blob/master/Swift/GridItem.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
