@@ -80,6 +80,9 @@
 - [Size / Alignment / Stride](https://github.com/sujinnaljin/TIL/blob/master/Swift/Size%26Alignment%26Stride.md)
 - [StateObject vs ObservedObject](https://github.com/sujinnaljin/TIL/blob/master/Swift/StateObject%20vs%20ObservedObject.md)
 - [GridItem](https://github.com/sujinnaljin/TIL/blob/master/Swift/GridItem.md)
+- [Sentinel Value (feat. optional)](https://github.com/sujinnaljin/TIL/blob/master/Swift/Sentinel%20Value%20(feat.%20optional).md)
+- [Subscript](https://github.com/sujinnaljin/TIL/blob/master/Swift/Subscript.md)
+- [Inout Parameter](https://github.com/sujinnaljin/TIL/blob/master/Swift/Inout%20Parameter.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
