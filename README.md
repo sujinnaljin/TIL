@@ -83,6 +83,7 @@
 - [Sentinel Value (feat. optional)](https://github.com/sujinnaljin/TIL/blob/master/Swift/Sentinel%20Value%20(feat.%20optional).md)
 - [Subscript](https://github.com/sujinnaljin/TIL/blob/master/Swift/Subscript.md)
 - [Inout Parameter](https://github.com/sujinnaljin/TIL/blob/master/Swift/Inout%20Parameter.md)
+- [UITest](https://github.com/sujinnaljin/TIL/blob/master/Swift/UITest.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
