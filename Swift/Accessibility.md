@@ -14,7 +14,8 @@ itemElement.accessibilityFrameInContainerSpace = self.bounds
 ```swift
 self.accessibilityElements?.append(itemElement)
 ```
-
+- 별점 등 조작 가능한 것에 적합한 trait 는 `.adjustable` 이다. 그리고 accessibilityIncrement()와 accessibilityDecrement()를 추가 구현해주면 된다
 
 ## 참고
-[iOS ) Accessibility(접근성) - Accessibility Programming Guide for iOS (3)](https://zeddios.tistory.com/460)
+- [iOS ) Accessibility(접근성) - Accessibility Programming Guide for iOS (3)](https://zeddios.tistory.com/460)
+- [adjustable](https://developer.apple.com/documentation/uikit/uiaccessibility/uiaccessibilitytraits/1620177-adjustable)
