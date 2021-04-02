@@ -1,6 +1,6 @@
 # Carthage 빌드 in Xcode 12
 - Xcode 12에서 arm64 설정으로 빌드를 하다보니 오류가 생기는 것 -> shell script 를 이용해 강제로 x86_64 로 셋팅해서 빌드 필요
-```
+```sh
 #!/usr/bin/env bash
 
 # carthage-build.sh
