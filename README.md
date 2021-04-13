@@ -43,6 +43,7 @@
 - [Gradle](https://github.com/sujinnaljin/TIL/blob/master/Gradle.md)
 - [SDKMan!](https://github.com/sujinnaljin/TIL/blob/master/SDKMan!.md)
 - [IAM](https://github.com/sujinnaljin/TIL/blob/master/IAM.md)
+- [Github Action과 AWS CodeDeploy를 이용한 배포 자동화](https://github.com/sujinnaljin/TIL/blob/master/github%20action%EA%B3%BC%20aws%20code%20deploy%E1%84%85%E1%85%B3%E1%86%AF%20%E1%84%8B%E1%85%B5%E1%84%8B%E1%85%AD%E1%86%BC%ED%95%9C%20%EB%B0%B0%ED%8F%AC%20%EC%9E%90%EB%8F%99%ED%99%94.md)
 
 
 ## Swift
