@@ -1,4 +1,4 @@
-# github action과 aws code deploy를 이용한 배포 자동화
+# Github Action과 AWS CodeDeploy를 이용한 배포 자동화
 
 ## TL;DR;
 
