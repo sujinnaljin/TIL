@@ -74,6 +74,8 @@ URI 스킴에 있어서 다음 두 가지 상황을 쉽게 처리할 수 없는 
 - 유니버설 링크 혹은 앱 링크가 열리면 장치는 **해당 도메인에 등록된 설치된 장치가 있는지 확인**한다. 만약 있다면 웹 페이지를 구동하지 않고 **해당 앱을 즉시 시작**하고, 앱이 없다면 **기본 웹 브라우저**로 해당 웹 URL을(앱 혹은 플레이 스토어로의 간단한 재설정일 수 있음) 시작한다
 
 - 앱에도 특정 URL일때만 동작하도록 설정해줄 필요가 있는데,  Xcode에서는 ‘Associated Domains’ 항목에 연관 도메인을 입력해주는 설정이 필요하다. 이 외에도 요청이 들어온 링크를 앱이 핸들링하는 설정이 추가 되어야 한다.
+- Xcode 프로젝트 > Target 메뉴의 대상 프로젝트 > Associated Domains 메뉴에서, applinks: 스킴으로 대상 도메인을 추가하면 된다. (사용자가 앱 설치 시, 여기에 등록된 도메인으로 apple-app-site-association 파일에 대한 요청을 보내게 된다.)
+- 유니버셜 링크로 들어오는 요청은, `UIApplicationDelegate 의 application:continueUserActivity:restorationHandler:` 메서드에서, 전달받은 `NSUserActivity` 객체을 사용해 처리할 수 있다.
 
 ![universal link](http://www.wisetracker.co.kr/wp-content/uploads/2018/03/universal-link.png)
 
@@ -88,6 +90,7 @@ URI 스킴에 있어서 다음 두 가지 상황을 쉽게 처리할 수 없는 
 
 - [서비스기획을 위한 IT지식 - 딥링크와 스키마](https://onsoo.github.io/%EC%84%9C%EB%B9%84%EC%8A%A4%EA%B8%B0%ED%9A%8D/2018/10/25/deeplink-schema/)
 - [유니버설 링크, URI 스킴, 앱 링크 및 딥 링크: 무슨 차이가 있을까요?](https://blog.branch.io/ko/유니버설-링크-uri-스킴-앱-링크-및-딥-링크-무슨-차이가/) 
+- [iOS: 유니버셜 링크 적용하기 (앱)](https://ohgyun.com/708)
 
 - [Firebase Dynamic Link를 이용한 Deep Link](https://m.blog.naver.com/PostView.nhn?blogId=greatsk553&logNo=221397462709&proxyReferer=https:%2F%2Fwww.google.com%2F)
 
