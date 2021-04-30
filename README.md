@@ -93,6 +93,7 @@
 - [Carthage 빌드 in Xcode 12](https://github.com/sujinnaljin/TIL/blob/master/Swift/Carthage%20%EB%B9%8C%EB%93%9C%20in%20Xcode%2012.md)
 - [iOS의 애플리케이션 수명주기](https://github.com/sujinnaljin/TIL/blob/master/Swift/ApplicationLifeCycle.md)
 - [~= 연산자](https://github.com/sujinnaljin/TIL/blob/master/Swift/~%3D%20%EC%97%B0%EC%82%B0%EC%9E%90.md)
+- [Firebase Dynamic Link](https://github.com/sujinnaljin/TIL/blob/master/Firebase%20Dynamic%20Link.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
