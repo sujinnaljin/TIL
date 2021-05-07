@@ -1,6 +1,6 @@
-# TableView에서 sticky header 해제하기
+# TableView section에서 sticky header 해제하기
 
-- tableView에 header 설정하면 기본적으로 sticky header
+- tableView에 section header 설정하면 기본적으로 sticky header
 
 - 만약 스크롤 할때 같이 밀리는 즉 sticky header 효과를 풀고싶다면? style을 grouped 로 변경
 
@@ -19,7 +19,7 @@
 - 그런데 section 사이의 space 는 사라졌어도 전체 tableView의 footerView가 남아있는 경우가 있다. 이때는 `tableFooterView` 설정을 높이 최소로해서 따로해야한다 (뷰를 nil 설정해도 해도 안되더라) 
 
   ```swift
-  // Remove space at top of tableView.
+  // Remove space at bottom of tableView.
   self.tableView.tableFooterView = 
   UIView(frame: CGRect(origin: .zero,
                        size: CGSize(width:CGFloat.leastNormalMagnitude,
