@@ -28,7 +28,7 @@
 
 # 참고
 
-https://stackoverflow.com/questions/17699831/how-to-change-height-of-grouped-uitableview-header  
+- [How to change height of grouped UITableView header?](https://stackoverflow.com/questions/17699831/how-to-change-height-of-grouped-uitableview-header)
 
-https://stackoverflow.com/questions/15389190/set-height-to-0-for-header-view-of-uitableview
+- [set height to 0 for header view of UITableView](https://stackoverflow.com/questions/15389190/set-height-to-0-for-header-view-of-uitableview)
 
