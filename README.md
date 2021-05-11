@@ -98,6 +98,7 @@
 - [@frozen](https://github.com/sujinnaljin/TIL/blob/master/Swift/%40frozen.md)
 - [TableView section에서 sticky header 해제하기](https://github.com/sujinnaljin/TIL/blob/master/Swift/TableView%20section%EC%97%90%EC%84%9C%20sticky%20header%20%ED%95%B4%EC%A0%9C%ED%95%98%EA%B8%B0.md)
 - [Decimal](https://github.com/sujinnaljin/TIL/blob/master/Swift/Decimal.md)
+- [Variadic Parameters](https://github.com/sujinnaljin/TIL/blob/master/Swift/Variadic%20Parameters.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
