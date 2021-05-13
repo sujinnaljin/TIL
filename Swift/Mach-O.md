@@ -14,15 +14,20 @@
 
 - 바이너리의 타입을 지정하는 identifier
 
-- Single View App이나 command line tool은 기본적으로 **Executable**
+- Single View App이나 command line tool은 기본적으로 **Executable** (Build Setting > Linking > Mach-O Type에서 확인 가능)
 
 - 내가 만들고 싶은 응용프로그램에 맞게 이 Mach-O Type을 지정해야 함
 
   Ex. 
 
   - Framework -> Dynamic Library
+  
+    ![image](https://user-images.githubusercontent.com/20410193/118081939-48867f00-b3f7-11eb-9091-afeb58b92397.png)
+
 
   - Static Library -> Static Library
+  
+    ![image](https://user-images.githubusercontent.com/20410193/118081956-4e7c6000-b3f7-11eb-8938-561f7366d226.png)
 
   
 
