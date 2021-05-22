@@ -48,6 +48,8 @@
 - [Dependency Injection (feat. Dependency Inversion)](https://github.com/sujinnaljin/TIL/blob/master/Dependency%20Injection%20(feat.%20Dependency%20Inversion).md)
 - [reducer](https://github.com/sujinnaljin/TIL/blob/master/reducer.md)
 - [하이퍼스레딩 (feat. 물리적 스레드)](https://github.com/sujinnaljin/TIL/blob/master/%ED%95%98%EC%9D%B4%ED%8D%BC%EC%8A%A4%EB%A0%88%EB%94%A9%20(feat.%20%EB%AC%BC%EB%A6%AC%EC%A0%81%20%EC%8A%A4%EB%A0%88%EB%93%9C).md)
+- [커링(Currying)](https://github.com/sujinnaljin/TIL/blob/master/%EC%BB%A4%EB%A7%81(Currying).md)
+- [pointfree style](https://github.com/sujinnaljin/TIL/blob/master/pointfree%20style.md)
 
 
 ## Swift
