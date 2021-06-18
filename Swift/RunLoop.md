@@ -1,4 +1,5 @@
 # RunLoop
+![image](https://user-images.githubusercontent.com/20410193/122534575-a3963c00-d05d-11eb-90d9-d72ab089b427.png)
 
 ## **1. RunLoop 란**
 
@@ -21,6 +22,7 @@
   ```
 
 - RunLoop를 **얻는 것만으로는, 입력 소스 및 타이머를 처리해주진 않기** 때문에 **run**이라는 것을 통해 **RunLoop를 직접 실행** 시켜주어야 함
+- 즉, 앱 구동간에 생성되는 **Thread와 함께 생성**되어 해당 Thread가 수행해야 할 **이벤트들을 핸들링하여 적절한 수행을 요청**하고, 이벤트 처리가 **종료되면 대기 상태**로 접어들어 **다음 이벤트에 대한 모니터링**을 해주는 추상화
 
 ## **2. RunLoop의 작동 원리**
 
@@ -152,4 +154,5 @@ while isRunning {  runLoop.run(until: Date().addingTimeInterval(0.1))}
 - [iOS) 런 루프(RunLoop) 이해하기](https://babbab2.tistory.com/68)
 
 - [스레드 프로그래밍(2) - RunLoop](https://jcsoohwancho.github.io/2019-09-01-%EC%8A%A4%EB%A0%88%EB%93%9C-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D(2)-RunLoop/)
+- [NSRunLoop??](https://medium.com/@lghaske/nsrunloop-8962a67eebe2)
 
