@@ -35,7 +35,7 @@
 - [Core Data](https://developer.apple.com/documentation/coredata) 는 iOS가 제공하는 [ORM (Object-Relational Mapping)](https://en.wikipedia.org/wiki/Object–relational_mapping) 프레임 워크
 - SQLite와 마찬가지로 데이터를 저장하는 위치가 아니라 이를 조작하는 방법. 즉, 데이터를 저장하고 관리하기 위한 프레임워크
 - Core Data의 경우 해당 기기에 데이터를 저장하므로 오프라인에서도 동작 가능하며, 클라우드를 제외하고는 데이터를 공유할 수 없음
-- SQL을 쓸 일 없이 오롯이 Object-Oriented 방식으로만 데이터를 다룰 수 있음. 데이터는 Object로 표현되며, 이러한https://velog.io/@rnfxl92/UserDefaults-FileManger-CoreData%EC%97%90%EB%8C%80%ED%95%9C-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%84%A4%EB%AA%85 Object가 관계를 형성하여 Object Graphs를 이루고 이를 관리하는 프레임워크가 바로 Core Data
+- SQL을 쓸 일 없이 오롯이 Object-Oriented 방식으로만 데이터를 다룰 수 있음. 데이터는 Object로 표현되며, 이러한 Object가 관계를 형성하여 Object Graphs를 이루고 이를 관리하는 프레임워크가 바로 Core Data
 - 코어 데이터도 내부적으로는 SQL을 이용하여 데이터를 저장하지만, 개발자는 Xcode에 내장된 데이터 모델 에디터를 통해 데이터의 타입, 관계(Graphical Relationship)를 지정하고 코드로 관련 클래스를 수정할 수 있음
 - 우리는 `Context`에 의해 관리되는  `DataModel` 을 만듦. 그리고 `Context`는 데이터 저장 및 검색을 담당하는 `StorePersistor` 와 상호 작용 함
 - 여러 entity 및 relationship 이 있는 복잡한 object 모델을 추적해야 할 때 좋음
