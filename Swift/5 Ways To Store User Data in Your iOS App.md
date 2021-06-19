@@ -1,5 +1,8 @@
 # iOS 앱에 사용자 데이터를 저장하는 5가지 방법
 
+![image](https://user-images.githubusercontent.com/20410193/122649738-49cf6800-d16a-11eb-8826-2c6f18579c8f.png)
+
+
 ## 1. UserDefaults
 
 - 정보를 저장하고 검색하는 가장 일반적이고 가장 편리한 방법
@@ -23,6 +26,7 @@
 - 웹에서 다운로드 한 이미지를 저장해서, 로딩 시간을 단축할 때는  `Library/Caches` 폴더 사용
 - 사용자의 진행 상황을 저장하기 위한 파일을 `Library` 폴더에 만들 수 있음
 - 앱에서 사용자가 콘텐츠를 만들 수 있도록 허용하는 경우 `Documents` 폴더 사용 (ex. 사용자가 내보낼 수있는 CSV 파일의 위치). 다만 동영상과 사진을 편집하는 경우에는 `CameraRoll` 이 더 나은 선택.
+- cf) data container houses three default directories: Documents, Library, tmp
 
 ## 4. Sqlite
 
@@ -64,3 +68,5 @@
 
 - [5 Ways To Store User Data in Your iOS App](https://betterprogramming.pub/5-ways-to-store-user-data-in-your-ios-app-595d61c89667)
 - [UserDefaults, FileManger, CoreData에대한 간단한 설명](https://velog.io/@rnfxl92/UserDefaults-FileManger-CoreData%EC%97%90%EB%8C%80%ED%95%9C-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%84%A4%EB%AA%85)
+- [[iOS] 파일시스템(File System)](https://jinshine.github.io/2019/01/19/iOS/UserDefaults.1/)
+- [Where to Store a Core Data Persistent Store](https://cocoacasts.com/where-to-store-a-core-data-persistent-store)
