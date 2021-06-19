@@ -5,6 +5,8 @@
 - 정보를 저장하고 검색하는 가장 일반적이고 가장 편리한 방법
 - 사용자의 기본 설정(예 : 사용자가 선호하는 모드 (dark or light), 알림 수신 여부 등)을 저장하는 데 사용.
 - 일반적으로 앱에 설정 화면이있는 경우 `UserDefaults ` 가 적합
+- 유저 디폴트는 property list 혹은 plist 로서 disk 에 저장된다. (plist는 XML 파일)
+- AppData > Library > Preferences 안에 plist 파일이 있는데 이게 표준 UserDefault의 database 파일
 
 ## 2. Keychain
 
