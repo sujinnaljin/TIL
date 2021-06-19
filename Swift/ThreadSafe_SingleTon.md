@@ -12,3 +12,5 @@ class Singleton {
 }
 ```
 
+# 출처
+- [Files and Initialization](https://developer.apple.com/swift/blog/?id=7)
