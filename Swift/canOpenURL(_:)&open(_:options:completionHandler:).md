@@ -8,7 +8,7 @@
 - 스키마에는 `http`, `https`, `tel`, `facetime`과 같은 공통 스키마 존재
 - 참고로 custom URL scheme 대신 universal link를 사용하면, target link 에 대한 유효성을 확인할 필요가 없음. universal link를 처리할 수 있는 앱이 없으면 iOS가 이를 Safari로 라우팅하여 관련 웹 사이트가 응답. 
 
-## open(_:options:completionHandler:)
+## open(_:options:completionHandler:) (Deprecated)
 
 - URL에 대해 open 시도
 - `LSApplicationQueriesSchemes` 정의된 것에 제약 받지 않음. 스키마가 정의됨 여부와 상관없이 app이 url을 handle 할 수 있으면 실행
