@@ -28,5 +28,5 @@
 
 # 출처
 
-- [https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
+- [Enumerations](https://docs.swift.org/swift-book/LanguageGuide/Enumerations.html)
 
