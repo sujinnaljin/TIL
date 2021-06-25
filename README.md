@@ -120,6 +120,7 @@
 - [애플 M1 맥이 그렇게 빠른 이유 (feat. CISC vs RISC)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%EC%95%A0%ED%94%8C%20M1%20%EB%A7%A5%EC%9D%B4%20%EA%B7%B8%EB%A0%87%EA%B2%8C%20%EB%B9%A0%EB%A5%B8%20%EC%9D%B4%EC%9C%A0%20(feat.%20CISC%20vs%20RISC).md)
 - [Cookie (feat. HTTPCookieStorage, WKHTTPCookieStore)](https://github.com/sujinnaljin/TIL/blob/master/Swift/Cookie%20(feat.%20HTTPCookieStorage%2C%20WKHTTPCookieStore).md)
 - [Enum의 AssociatedValue](https://github.com/sujinnaljin/TIL/blob/master/Swift/Enum%EC%9D%98%20AssociatedValue.md)
+- [URLSessionConfiguration (feat. timeout 설정하기)](https://github.com/sujinnaljin/TIL/blob/master/Swift/URLSessionConfiguration%20(feat.%20timeout%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0).md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
