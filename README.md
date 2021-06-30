@@ -121,6 +121,7 @@
 - [Cookie (feat. HTTPCookieStorage, WKHTTPCookieStore)](https://github.com/sujinnaljin/TIL/blob/master/Swift/Cookie%20(feat.%20HTTPCookieStorage%2C%20WKHTTPCookieStore).md)
 - [Enum의 AssociatedValue](https://github.com/sujinnaljin/TIL/blob/master/Swift/Enum%EC%9D%98%20AssociatedValue.md)
 - [URLSessionConfiguration (feat. timeout 설정하기)](https://github.com/sujinnaljin/TIL/blob/master/Swift/URLSessionConfiguration%20(feat.%20timeout%20%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0).md)
+- [Actor](https://github.com/sujinnaljin/TIL/blob/master/Swift/Actor.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
