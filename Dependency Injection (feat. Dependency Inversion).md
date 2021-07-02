@@ -1,6 +1,9 @@
 # Dependency Injection (feat. Dependency Inversion)
 
 - 아래와 같이 객체가 의존성을 스스로 생성하고 관리하지 않고, 우리가 객체에 의존성을 주입시켜주는 것
+> 종속성 주입은 개체에 인스턴스 변수를 제공하는 것을 의미합니다. 정말. 그게 다야. 
+> 
+> (Dependency injection means giving an object its instance variables. Really. That’s it)
 
 ```swift
 //스스로 객체를 생성해서 사용 -> DI (X)
@@ -127,6 +130,7 @@ class B: DependencyIndependentInterface { }
 - [의존관계 역전 원칙](https://ko.wikipedia.org/wiki/%EC%9D%98%EC%A1%B4%EA%B4%80%EA%B3%84_%EC%97%AD%EC%A0%84_%EC%9B%90%EC%B9%99)
 
 - [의존성 역전과 의존성 주입은 별 상관이 없지 않나요? 답글](https://medium.com/@jang.wangsu/%EA%B0%9C%EC%9D%B8%EC%A0%81%EC%9C%BC%EB%A1%9C%EB%8A%94-161a895f14d3)
+- [10 Tricks To Avoid Spaghetti Code in iOS Development](https://betterprogramming.pub/10-tricks-to-avoid-spaghetti-code-in-ios-development-3f5a0ab2f46f)
 
   
 
