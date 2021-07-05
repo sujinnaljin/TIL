@@ -51,6 +51,7 @@
 - [커링(Currying)](https://github.com/sujinnaljin/TIL/blob/master/%EC%BB%A4%EB%A7%81(Currying).md)
 - [pointfree style](https://github.com/sujinnaljin/TIL/blob/master/pointfree%20style.md)
 - [Test Double](https://github.com/sujinnaljin/TIL/blob/master/Test%20Double.md)
+- [\<a\> 태그의 target 속성](https://github.com/sujinnaljin/TIL/blob/master/%3Ca%3E%20%ED%83%9C%EA%B7%B8%EC%9D%98%20target%20%EC%86%8D%EC%84%B1.md)
 
 
 ## Swift
