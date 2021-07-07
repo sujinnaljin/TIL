@@ -126,6 +126,8 @@
 - [SwiftUI에서 List 바인딩하기](https://github.com/sujinnaljin/TIL/blob/master/Swift/SwiftUI%EC%97%90%EC%84%9C%20List%20%EB%B0%94%EC%9D%B8%EB%94%A9%ED%95%98%EA%B8%B0.md)
 - [시뮬레이터에서 Remote Push 테스트하기](https://github.com/sujinnaljin/TIL/blob/master/Swift/%EC%8B%9C%EB%AE%AC%EB%A0%88%EC%9D%B4%ED%84%B0%EC%97%90%EC%84%9C%20Remote%20Push%20%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EA%B8%B0.md)
 - [class에서 Subclass vs Extend 사용하기](https://github.com/sujinnaljin/TIL/blob/master/Swift/class%EC%97%90%EC%84%9C%20Subclass%20vs%20Extend%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)
+- [intrinsicContentSize 와 invalidateIntrinsicContentSize()](https://github.com/sujinnaljin/TIL/blob/master/Swift/intrinsicContentSize%20%EC%99%80%20invalidateIntrinsicContentSize().md)
+- [[SwiftUI] task(_:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20task(_:).md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
