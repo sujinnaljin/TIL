@@ -9,15 +9,23 @@
 
 ## Actor란
 
-- **concurrency**의 가장 큰 문제 중 하나는 **race condition**에 의한 **공유 상태**의 문제. 
+- **concurrency**의 가장 큰 문제 중 하나는 **race condition**에 의한 **공유 상태**의 문제.
 
 - 이를 해결하기 위해 **Lock, 뮤텍스, 공유 데이터에 대한 직렬화된 액세스** 등 다양한 **동시성 모델**이 존재함
 
-- **Actor model**도 이러한 **concurrency model** 중 하나 
+- **Actor model**도 이러한 **concurrency model** 중 하나
 
-- **actor**은 **변경(change/mutation)을 수행할 수 있는 유일한 모델**로서, local **state를 유지, 보호**하는 역할을 함
+- **actor**은 **변경(change/mutation)을 수행할 수 있는 유일한 모델**로서, local **state를 유지, 보호**하는 역할을 함.
 
-- 외부 구성원(outside memeber)은 actor에게 자신의 상태에 따라 행동하도록 요청할 수 있으며, **actor은 자신의 상태에 대한 모든 접근/변경 요청을 동기화**하도록 보장
+- **race condition의 방지**를 도와주는데 목적이 있지만, **여전히 race condition이 발생할 가능성**이 있음
+
+- 외부 구성원(outside memeber)은 actor에게 자신의 상태에 따라 행동하도록 요청할 수 있으며, **actor은 자신의 상태에 대한 모든 접근/변경 요청을 동기화**하도록 보장. **격리된 데이터에 대한 동기화된 액세스**를 생성하여 **데이터 경합을 방지**하는 것 
+
+- 이론적으로 actor에서 제공하는 기능들은 class의 property/method에 **`NSLocks` 을 추가함으로써 구현**할 수 있지만, 사실 actor를 사용함으로써 얻을 수 있는 몇가지의 이점이  존재
+
+  -  actor가 사용하는 동기화 메커니즘은 우리가 알고 있는 lock이 아니라 async/await 의 협력 스레딩 모델. 이 모델에서는 스레드가 **다른 코드 조각을 실행**하도록 **컨텍스트를 변경**하여 **idle 스레드가 발생하지 않**음
+  -  **컴파일 타임**에 **concurrency issue를 확인**할 수 있으며, 잠재적인 위험 요소가 있는지 즉시 알 수 있음
+  -  추가로 코드가 훨씬 간단해짐
 
 - Actor 모델의 통신에 대한 가장 좋은 설명 중 하나는 다음과 같음.
 
@@ -56,6 +64,46 @@
     }
   }
   ```
+
+- 모든 actor method는 다르게 명시되지 않는한 **암시적으로  `async` .** 왜냐하면 **언제 액세스가 허용되는지 확실하지 않기 때문**에 Actor의 변경 가능한 데이터에 대한 **비동기 액세스를 생성**
+
+- actor은 reference type. 하지만 class 와 달리상속을 지원하지 않음.
+
+- 사실 actor는  `Actor` protocol 를 implement 한 class 를 위한 syntax sugar
+
+  ```swift
+  public protocol Actor: AnyObject, Sendable {
+    nonisolated var unownedExecutor: UnownedSerialExecutor { get }
+  }
+  ```
+
+  - The `Executor` protocol 은 **"job"을 수행할 수 있는 object**를 정의하기 위해 Swift 5.5에 추가. **actor**의 경우에는 method **자체가** 해당.
+  - `SerialExecutor` 은 **job들을 serially 하게 수행**할 수 있는 object를 정의
+  - `Actor` protocol이 실제로 요구하는 `UnownedSerialExecutor` 는  `SerialExecutor` 에 대한 unowned reference. **최적화** 관련한 이유로 존재함. 
+  - Swift는 자동으로 actor 의 executor를 생성해줌
+  - **actor method를 호출**하면 내부적으로 Swift는 actor의 **executor의 `enqueue(_:)` method를 호출** (데이터 경합을 방지하기 위해 **순차적으로 접근할 수 있도록 동기화 접근**이 필요하기 때문에 **serial executor**를 사용하는 듯)
+
+- empty actor을 정의하면 다음과 같이 코드가 컴파일 되는데, 여기서 **executor 의 구현은 actor 자체에 대한 reference**. 이것이 바로 과거와 다른 점인데, **액터의 실제 기능**은 Swift 코드가 아니라 **C++ 클래스**로 되어있음.
+
+  (참고로 **MainActor**의 executor은 `asUnownedSerialExecutor()` 와 같이 **seperate object**로 구현되어 있음)
+
+  ```swift
+  actor MyActor {}
+  // Compiled:
+  final class MyActor: Actor {
+      var unownedExecutor: UnownedSerialExecutor {
+          return Builtin.buildDefaultActorExecutorRef(self)
+      }
+      init() {
+          _defaultActorInitialize(self)
+      }
+      deinit {
+          _defaultActorDestroy(self)
+      }
+  }
+  ```
+
+- actor은 **스레드를 소유하거나 생성**할 수 있음
 
 ## Actor isolation
 
@@ -137,18 +185,23 @@
   여기서 **은행 서버와의 통신**을 위해 잠시 **일시 중단(suspended)** 됨. 그리고 **동일한 스레드**에서 **다른 작업을 수행**한 다음, 은행 서버로부터 **응답을 받으면 이전 작업을 재개**함
 
 - 따라서 모든 **await** 호출은 잠재적인 **일시 중단 지점**
-- 은행 서버로부터의 응답을 기다리는 동안 해당 스레드는 `withdraw` , `deposit` , 다른  `cancellation` 요청 등을 처리할 수 있음 
+
+- 은행 서버로부터의 응답을 기다리는 동안 해당 스레드는 `withdraw` , `deposit` , 다른 `cancellation` 요청 등을 처리할 수 있음
+
 - 따라서 은행 서버가 **응답을 완료**하면 **actor의 상태**가 **정지 지점(suspension point)와 같지 않을 수** 있음. 이는 즉, **await 호출 전후에 액터의 상태에 대해 가정할 수 없다**는 걸 의미 -> 따라서 await 호출 이후에 isOpen 한번 더 체크함
 
 - 그러므로 actor re-entrancy 에 대해 두가지를 기억해야함
+
   - 항상 sync 코드에서 state 변경하기 (내부 상태를 변경하는 function 에서는 aysnc 함수 호출 피하기)
-  - state를 변경하는 함수 내에서 aysnc function 을 호출해야하는 경우에는, await가 완료된 후 해당 state에 대해 어떠한 가정도 하지 않기 
+  - state를 변경하는 함수 내에서 aysnc function 을 호출해야하는 경우에는, await가 완료된 후 해당 state에 대해 어떠한 가정도 하지 않기
 
 ## @MainActor
 
+- **main thread 에서 task를 시행**하는 **globally unique actor**
+
 - `@MainActor` 을 사용 하면 해당 속성에 대한 모든 read/write가 **main thread에서 발생**
 
-- properties, functions,  class/struct 정의부에 해당 property wrapper 사용 가능
+- properties, functions, class/struct 정의부에 해당 property wrapper 사용 가능
 
 - `UILabel`, `UIView` 같은 UIKit class들은 이미 해당 property wrapper 가 적용 됨
 
@@ -182,9 +235,15 @@
   }
   ```
 
-  
-
 # 출처
 
 - [A Deep Dive Into Actors in Swift 5.5](https://betterprogramming.pub/a-deep-dive-into-actors-in-swift-5-5-8cc2fa004ded)
+
+- [How Actors Work Internally in Swift](https://betterprogramming.pub/how-actors-work-internally-in-swift-fa931dd6cfc7)
+
+- [Actors in Swift: how to use and prevent data races](https://www.avanderlee.com/swift/actors/)
+
+- [MainActor usage in Swift explained to dispatch to the main thread](https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/)
+
+
 
