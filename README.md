@@ -92,7 +92,7 @@
 - [UIView의 생성자 (feat. init(frame:) 을 지정할 때 required init?(coder: NSCoder) 도 같이 생성해야하는 이유 )](https://github.com/sujinnaljin/TIL/blob/master/Swift/UIViewInitializer.md)
 - [Size / Alignment / Stride](https://github.com/sujinnaljin/TIL/blob/master/Swift/Size%26Alignment%26Stride.md)
 - [StateObject vs ObservedObject](https://github.com/sujinnaljin/TIL/blob/master/Swift/StateObject%20vs%20ObservedObject.md)
-- [GridItem](https://github.com/sujinnaljin/TIL/blob/master/Swift/GridItem.md)
+- [[SwiftUI] GridLayout (feat. GridItem)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20GridLayout%20(feat.%20GridItem).md)
 - [Sentinel Value (feat. optional)](https://github.com/sujinnaljin/TIL/blob/master/Swift/Sentinel%20Value%20(feat.%20optional).md)
 - [Subscript](https://github.com/sujinnaljin/TIL/blob/master/Swift/Subscript.md)
 - [Inout Parameter](https://github.com/sujinnaljin/TIL/blob/master/Swift/Inout%20Parameter.md)
