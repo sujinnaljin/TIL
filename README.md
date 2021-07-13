@@ -129,6 +129,7 @@
 - [class에서 Subclass vs Extend 사용하기](https://github.com/sujinnaljin/TIL/blob/master/Swift/class%EC%97%90%EC%84%9C%20Subclass%20vs%20Extend%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0.md)
 - [intrinsicContentSize 와 invalidateIntrinsicContentSize()](https://github.com/sujinnaljin/TIL/blob/master/Swift/intrinsicContentSize%20%EC%99%80%20invalidateIntrinsicContentSize().md)
 - [[SwiftUI] task(_:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20task(_:).md)
+- [setNeedsLayout vs layoutIfNeeded](https://github.com/sujinnaljin/TIL/blob/master/Swift/setNeedsLayout%20vs%20layoutIfNeeded.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
