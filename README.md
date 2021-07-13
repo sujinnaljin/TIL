@@ -130,6 +130,7 @@
 - [intrinsicContentSize 와 invalidateIntrinsicContentSize()](https://github.com/sujinnaljin/TIL/blob/master/Swift/intrinsicContentSize%20%EC%99%80%20invalidateIntrinsicContentSize().md)
 - [[SwiftUI] task(_:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20task(_:).md)
 - [setNeedsLayout vs layoutIfNeeded](https://github.com/sujinnaljin/TIL/blob/master/Swift/setNeedsLayout%20vs%20layoutIfNeeded.md)
+- [[SwiftUI] SwiftUI 에서 비동기 코드 호출하기](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20SwiftUI%20%EC%97%90%EC%84%9C%20%EB%B9%84%EB%8F%99%EA%B8%B0%20%EC%BD%94%EB%93%9C%20%ED%98%B8%EC%B6%9C%ED%95%98%EA%B8%B0.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
