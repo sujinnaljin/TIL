@@ -1,4 +1,4 @@
-# SwiftUI에서 List 바인딩하기
+# [SwiftUI] SwiftUI에서 List 바인딩하기
 
 - 아래 코드는 하나의 요소만 변경하더라도 전체 list 를 다시 렌더링하게 함. 따라서 UI 업데이트가 느려지고 깜빡일 수 있음
 
