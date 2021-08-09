@@ -1,4 +1,4 @@
-# Swift에서 @Available로 API 제약을 수행하는 방법
+# Swift에서 @available로 API 제약을 수행하는 방법
 
 - 더 이상 사용되지 않는 속성
 
