@@ -134,6 +134,7 @@
 - [AnyObject vs Any](https://github.com/sujinnaljin/TIL/blob/master/Swift/AnyObject%20vs%20Any.md)
 - [[SwiftUI] accessibility](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20accessibility.md)
 - [guard let self = self vs Optional Chaining](https://github.com/sujinnaljin/TIL/blob/master/Swift/guard%20let%20self%20=%20self%20vs%20Optional%20Chaining.md)
+- [Swift에서 @available로 API 제약을 수행하는 방법](https://github.com/sujinnaljin/TIL/blob/master/Swift/Swift%EC%97%90%EC%84%9C%20@available%EB%A1%9C%20API%20%EC%A0%9C%EC%95%BD%EC%9D%84%20%EC%88%98%ED%96%89%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
