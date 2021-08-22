@@ -60,7 +60,7 @@ func getURL() -> URL
   - **String Literals**
     - `ExpressibleByStringLiteral`:  `"Hello world"` 와 같은 문자열으로 표현 가능
     -  `ExpressibleByUnicodeScalarLiteral`: 단일 유니코드 스칼라 값으로 표현 가능. 이것의 사용 예는 `Character`및 `String`
-    -  `ExpressibleByExtendedGraphemeClusterLiteral`: UnicodeScalar와 유사하지만 단일 스칼라 대신 스칼라 체인 (a grapheme cluster)으로 구성. 즉, 사용자에게는  단일 문자로 인식되는  하나 이상의 Unicode scalar 값의 그룹. "é", "김"  "🇮🇳" 와 같은 많은 개별 문자는 여러 유니코드 스칼라 값으로 구성될 수 있음. 습니다. 이러한 코드 포인트는 유니코드의  boundary algorithms 에 의해 ExtendedGraphemeCluster로 결합됨
+    -  `ExpressibleByExtendedGraphemeClusterLiteral`: UnicodeScalar와 유사하지만 단일 스칼라 대신 스칼라 체인 (a grapheme cluster)으로 구성. 즉, 사용자에게는  단일 문자로 인식되는  하나 이상의 Unicode scalar 값의 그룹. "é", "김"  "🇮🇳" 와 같은 많은 개별 문자는 여러 유니코드 스칼라 값으로 구성될 수 있음. 이러한 코드 포인트는 유니코드의  boundary algorithms 에 의해 ExtendedGraphemeCluster로 결합됨
     - `ExpressibleByStringInterpolation` : `"One cookie: $\(price), \(number) cookies: $\(price * number)."` 와 같이 string interpolation 으로 표현 가능
       
       
