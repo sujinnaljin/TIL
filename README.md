@@ -141,6 +141,7 @@
 - [FileManager를 이용해 파일 및 디렉토리 만드는 법](https://github.com/sujinnaljin/TIL/blob/master/Swift/FileManager%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%B4%20%ED%8C%8C%EC%9D%BC%20%EB%B0%8F%20%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC%20%EB%A7%8C%EB%93%9C%EB%8A%94%20%EB%B2%95.md)
 - [ScenePhase](https://github.com/sujinnaljin/TIL/blob/master/Swift/ScenePhase.md)
 - [iOS 15의 새로운 Formatters (feat. `formatted`)](https://github.com/sujinnaljin/TIL/blob/master/Swift/iOS%2015%EC%9D%98%20%EC%83%88%EB%A1%9C%EC%9A%B4%20Formatters%20(feat.%20%60formatted%60).md)
+- [Throwing properties](https://github.com/sujinnaljin/TIL/blob/master/Swift/Throwing%20properties.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
