@@ -145,6 +145,7 @@
 - [Throwing properties](https://github.com/sujinnaljin/TIL/blob/master/Swift/Throwing%20properties.md)
 - [custom operator (feat. infix)](https://github.com/sujinnaljin/TIL/blob/master/Swift/custom%20operator%20(feat.%20infix).md)
 - [SourceKit](https://github.com/sujinnaljin/TIL/blob/master/Swift/SourceKit.md)
+- [수출 규정](https://github.com/sujinnaljin/TIL/blob/master/Swift/%EC%88%98%EC%B6%9C%20%EA%B7%9C%EC%A0%95.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
