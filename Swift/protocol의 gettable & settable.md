@@ -1,4 +1,4 @@
-# protocol의 getteable & settable
+# protocol의 gettable & settable
 
 - 프로퍼티 요구사항은 항상 var로 선언
 
