@@ -111,4 +111,5 @@ C, C++, Objective-C 용 **컴파일러**. LLVM 프로젝트의 메인 **프론�
 - [LLVM이란](https://zeddios.tistory.com/1175)
 - [Swift Compiler](https://swift.org/swift-compiler/#compiler-architecture)
 - [오크(ORK) – 난독화 컴파일러 도구 1편](https://engineering.linecorp.com/ko/blog/code-obfuscation-compiler-tool-ork-1/)
+- [#1-1. LLVM은 무엇이며 스위프트 코드는 어떻게 실행하는 것인가 [Swift]](https://velog.io/@msi753/LLVM-%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%EC%BB%B4%ED%8C%8C%EC%9D%BC)
 
