@@ -14,7 +14,7 @@ struct TodoList: View {
 }
 ```
 
-- WWDC 2021에서 언급되었듯, 이제 SwiftUI는 list 요소에 대한 바인딩을 지원함
+- WWDC 2021에서 언급되었듯, iOS 15 부터 SwiftUI는 list 요소에 대한 바인딩을 지원함
 -  collection에 대한 바인딩을 list로 전달하면, SwiftUI는 현재 요소에 대한 바인딩을 클로저에 전달
 
 ```swift
