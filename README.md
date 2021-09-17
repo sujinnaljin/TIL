@@ -149,6 +149,7 @@
 - [수출 규정](https://github.com/sujinnaljin/TIL/blob/master/Swift/%EC%88%98%EC%B6%9C%20%EA%B7%9C%EC%A0%95.md)
 - [protocol의 gettable & settable](https://github.com/sujinnaljin/TIL/blob/master/Swift/protocol%EC%9D%98%20gettable%20&%20settable.md)
 - [App Thinning (feat. App Slicing, On Demand Resource, Bitcode)](https://github.com/sujinnaljin/TIL/blob/master/Swift/App%20Thinning%20(feat.%20App%20Slicing%2C%20On%20Demand%20Resource%2C%20Bitcode).md)
+- [ViewController의 View 생성 과정과 loadView](https://github.com/sujinnaljin/TIL/blob/master/Swift/ViewController%EC%9D%98%20View%20%EC%83%9D%EC%84%B1%20%EA%B3%BC%EC%A0%95%EA%B3%BC%20loadView.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
