@@ -55,6 +55,7 @@
 - [NanoID](https://github.com/sujinnaljin/TIL/blob/master/NanoID.md)
 - [LSP (Language Server Protocol)](https://github.com/sujinnaljin/TIL/blob/master/LSP%20(Language%20Server%20Protocol).md)
 - [User-Agent](https://github.com/sujinnaljin/TIL/blob/master/User-Agent.md)
+- [git의 저장방식 (feat. snapshot & delta)](https://github.com/sujinnaljin/TIL/blob/master/git%EC%9D%98%20%EC%A0%80%EC%9E%A5%EB%B0%A9%EC%8B%9D%20(feat.%20snapshot%20%26%20delta).md)
 
 
 ## Swift
