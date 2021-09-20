@@ -1,7 +1,9 @@
 # UICollectionViewFlowLayout 과 UICollectionViewDelegateFlowLayout
 
 ## UICollectionViewFlowLayout
-- `UICollectionViewFlowLayout` 는 **collection view layout의 한 종류**
+- `UICollectionViewFlowLayout` 는 **collection view layout의 한 종류** 
+
+  > `UICollectionViewLayout` 의 서브클래스를 layout 객체라고 하며 셀의 위치, 크기 및 시각적 속성 및 컬렉션 뷰 내에서 재사용 가능한 뷰를 정의)
 - 각 섹션에 대한 header 및 footer view (옵션)를 사용하여 **item을 그리드로 구성**하는 레이아웃 object
 - 일종의 **default flow layout** 으로, 대부분의 경우에 적용 됨
 - 만약 `UICollectionViewFlowLayout` 에서 처리할 수 없는 것이 필요한 경우 `UICollectionViewLayout` 을 subclass하여 추가 기능 제공 가능
@@ -19,4 +21,5 @@
 
 - [[iOS\] UICollectionView 톺아보기 - 3](https://k-elon.tistory.com/26)
 - [UICollectionViewFlowLayout](https://developer.apple.com/documentation/uikit/uicollectionviewflowlayout)
+- [UICollectionView에 대해 알아보자(1)](https://miiiiiin-devlog.tistory.com/2)
 
