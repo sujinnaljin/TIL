@@ -1,7 +1,5 @@
 # NSCache vs URLCache
 
-- NSCache의 대안인 URLCache를 사용하여 이미지 및 기타 미디어 파일을 메모리 또는 스토리지에 저장합니다.
-
 ## NSCache
 
 - **키-값 쌍을 임시로 저장**하는 데 사용하는 mutable collection 컬렉션
