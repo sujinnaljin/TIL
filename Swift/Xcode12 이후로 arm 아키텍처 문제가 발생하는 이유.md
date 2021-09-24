@@ -44,7 +44,8 @@
    2. Valid Architectures 설정 대신 **`EXCLUDED_ARCHS` 설정**이 생김
    3. 기존 Valid Architectures 내용은 사용자 정의 섹션(User-Defined)에 노출됨
 
-![img](https://jusung.github.io/images/2020/Xcode%20Build%20Error7.png)*`Valid Architectures(VALID_ARCHS)` 설정이 더 이상 `Architectures`섹션에 있지않고 `User-Defined`섹션에 노출된 것을 확인하실 수 있습니다*
+
+![img](https://jusung.github.io/images/2020/Xcode%20Build%20Error7.png)*`Valid Architectures(VALID_ARCHS)` 설정이 더 이상 `Architectures`섹션에 있지않고 `User-Defined`섹션에 노출된 것을 확인 가능*
 
 - 기존에는 빌드시 **원하는 아키텍쳐를 지정**하는 방식을 사용했는데, Xcode12에서는 반대로 빌드시 **제외시킬 아키텍쳐를 지정**하는 방식을 사용(필수x, 권장하는 부분)
 - 그 이유는 `arm64`구조를 사용하는 **ARM 기반 맥북** 때문.
