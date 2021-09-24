@@ -41,3 +41,4 @@ carthage build "$@"
 - [[iOS] Carthage 로 RIBs 프로젝트 셋팅하기 #2](https://maart.tistory.com/82)
 - [[iOS] Carthage 가 Xcode 12에서 빌드오류가 난다고!](https://maart.tistory.com/81)
 - [Xcode 12 업데이트 후 Carthage 빌드가 되지 않는 현상](https://medium.com/@jhseo.dev/xcode-12-%EC%97%85%EB%8D%B0%EC%9D%B4%ED%8A%B8-%ED%9B%84-carthage-%EB%B9%8C%EB%93%9C%EA%B0%80-%EB%90%98%EC%A7%80-%EC%95%8A%EB%8A%94-%ED%98%84%EC%83%81-e74ea8d4bcf2)
+- [[Xcode] Xcode12에서 시뮬레이터 빌드 오류 원인 및 해결방법](https://jusung.github.io/Xcode12-Build-Error/)
