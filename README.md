@@ -155,6 +155,7 @@
 - [collectionView 호출 순서 (feat. DataSource & DelegateFlowLayout)](https://github.com/sujinnaljin/TIL/blob/master/Swift/collectionView%20%ED%98%B8%EC%B6%9C%20%EC%88%9C%EC%84%9C%20(feat.%20DataSource%20%26%20DelegateFlowLayout).md)
 - [UICollectionViewFlowLayout 과 UICollectionViewDelegateFlowLayout](https://github.com/sujinnaljin/TIL/blob/master/Swift/UICollectionViewFlowLayout%20%EA%B3%BC%20UICollectionViewDelegateFlowLayout.md)
 - [NSCache vs URLCache](https://github.com/sujinnaljin/TIL/blob/master/Swift/NSCache%20vs%20URLCache.md)
+- [이미지 렌더링 파이프라인](https://github.com/sujinnaljin/TIL/blob/master/Swift/%EC%9D%B4%EB%AF%B8%EC%A7%80%20%EB%A0%8C%EB%8D%94%EB%A7%81%20%ED%8C%8C%EC%9D%B4%ED%94%84%EB%9D%BC%EC%9D%B8.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
