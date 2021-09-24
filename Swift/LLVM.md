@@ -99,7 +99,6 @@ C, C++, Objective-C 용 **컴파일러**. LLVM 프로젝트의 메인 **프론�
   - 얘도 Mach-O 파일을 출력으로 생성 
   - Build Settings > Linking > Mach-O Type 에서 링커 단계의 아웃풋을 무슨 타입으로 할 건지 설정 가능 (참고 - [Mach-O](https://github.com/sujinnaljin/TIL/blob/master/Swift/Mach-O.md))
   - 이 단계에서 링크 시점 최적화(LTO, Link Time Optimizer)도 수행될 수 있음
-  - 
 
 - **로더**
   - 운영체제의 일부로서 로그램을 메모리로 가져 와서 실행
