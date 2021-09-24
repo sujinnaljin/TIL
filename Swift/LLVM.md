@@ -90,15 +90,22 @@ C, C++, Objective-C 용 **컴파일러**. LLVM 프로젝트의 메인 **프론�
 
 - **Assembler**
 
-  - 어셈블리 언어를 기계어로 변경해 확장자가 `.o`인 오브젝트(object) 파일로 저장
+  - 어셈블리 언어(human-readable)를 기계어(machine code)로 변경해 확장자가 `.o`인 오브젝트(object) 파일 (Mach-O파일) 로 저장
+  - Mach-O 파일은 iOS와 MacOS에서 쓰이는 특정한 파일 포맷
 
 - **링커**
 
   - 참조 관계 확인 및 저장된 오브젝트 파일들을 하나로 묶어서 실행(executable) 파일 또는 공유 라이브러리(shared object) 파일을 생성
+  - 얘도 Mach-O 파일을 출력으로 생성 
+  - Build Settings > Linking > Mach-O Type 에서 링커 단계의 아웃풋을 무슨 타입으로 할 건지 설정 가능 (참고 - [Mach-O](https://github.com/sujinnaljin/TIL/blob/master/Swift/Mach-O.md))
   - 이 단계에서 링크 시점 최적화(LTO, Link Time Optimizer)도 수행될 수 있음
+  - 
 
+- **로더**
+  - 운영체제의 일부로서 로그램을 메모리로 가져 와서 실행
+  - 프로그램을 실행하는 데 필요한 메모리 공간을 할당하고 레지스터를 초기 상태로 초기화
 
-
+ 
 
 
 
@@ -112,4 +119,5 @@ C, C++, Objective-C 용 **컴파일러**. LLVM 프로젝트의 메인 **프론�
 - [Swift Compiler](https://swift.org/swift-compiler/#compiler-architecture)
 - [오크(ORK) – 난독화 컴파일러 도구 1편](https://engineering.linecorp.com/ko/blog/code-obfuscation-compiler-tool-ork-1/)
 - [#1-1. LLVM은 무엇이며 스위프트 코드는 어떻게 실행하는 것인가 [Swift]](https://velog.io/@msi753/LLVM-%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%EC%BB%B4%ED%8C%8C%EC%9D%BC)
+- [[iOS] XCode Build System 이해하기](https://eunjin3786.tistory.com/323)
 
