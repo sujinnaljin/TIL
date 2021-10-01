@@ -70,4 +70,5 @@ struct CountView: View {
 # 출처
 
 - [[SwiftUI] Data Flow — StateObject vs ObservedObject](https://jaesung0o0.medium.com/swiftui-data-flow-stateobject-vs-observedobject-e32a37d80dd2)
+- [SwiftUI: StateObject and ObservedObject](https://medium.com/geekculture/swiftui-stateobject-and-observedobject-c6640c1bd2fd)
 
