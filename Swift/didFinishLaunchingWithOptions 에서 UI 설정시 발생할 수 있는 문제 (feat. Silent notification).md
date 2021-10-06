@@ -45,5 +45,9 @@
       }
   }
   ```
+# 출처
+
+- [iOS Silent Notification Problem — How they mess up your app's lifecycle and Amplitude session events](https://medium.com/@cam.ilker/ios-appdelegate-lifecycle-done-right-fb5f50acf350)
+
 
   
