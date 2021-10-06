@@ -159,6 +159,7 @@
 - [Xcode12 이후로 arm 아키텍처 문제가 발생하는 이유](https://github.com/sujinnaljin/TIL/blob/master/Swift/Xcode12%20%EC%9D%B4%ED%9B%84%EB%A1%9C%20arm%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%EB%AC%B8%EC%A0%9C%EA%B0%80%20%EB%B0%9C%EC%83%9D%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%9C%A0.md)
 - [iOS15의 Notifications interruption level (feat. Notification Summary & Focus Modes)](https://github.com/sujinnaljin/TIL/blob/master/Swift/iOS15%EC%9D%98%20Notifications%20interruption%20level%20(feat.%20Notification%20Summary%20%26%20Focus%20Modes).md)
 - [NSString 과 NSMutableString 의 메모리 할당 방식 차이](https://github.com/sujinnaljin/TIL/blob/master/Swift/NSString%20%EA%B3%BC%20NSMutableString%20%EC%9D%98%20%EB%A9%94%EB%AA%A8%EB%A6%AC%20%ED%95%A0%EB%8B%B9%20%EB%B0%A9%EC%8B%9D%20%EC%B0%A8%EC%9D%B4.md)
+- [didFinishLaunchingWithOptions 에서 UI 설정시 발생할 수 있는 문제 (feat. Silent notification)](https://github.com/sujinnaljin/TIL/blob/master/Swift/didFinishLaunchingWithOptions%20%EC%97%90%EC%84%9C%20UI%20%EC%84%A4%EC%A0%95%EC%8B%9C%20%EB%B0%9C%EC%83%9D%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EB%AC%B8%EC%A0%9C%20(feat.%20Silent%20notification).md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
