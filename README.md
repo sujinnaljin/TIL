@@ -162,6 +162,7 @@
 - [didFinishLaunchingWithOptions 에서 UI 설정시 발생할 수 있는 문제 (feat. Silent notification)](https://github.com/sujinnaljin/TIL/blob/master/Swift/didFinishLaunchingWithOptions%20%EC%97%90%EC%84%9C%20UI%20%EC%84%A4%EC%A0%95%EC%8B%9C%20%EB%B0%9C%EC%83%9D%ED%95%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%EB%AC%B8%EC%A0%9C%20(feat.%20Silent%20notification).md)
 - [Thread.sleep()과 Task.sleep()의 차이](https://github.com/sujinnaljin/TIL/blob/master/Swift/Thread.sleep()%EA%B3%BC%20Task.sleep()%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 - [iOS 12 이전의 App-Based Life Cycle과 UIApplicationDelegate](https://github.com/sujinnaljin/TIL/blob/master/Swift/iOS%2012%20%EC%9D%B4%EC%A0%84%EC%9D%98%20App-Based%20Life%20Cycle%EA%B3%BC%20UIApplicationDelegate.md)
+- [Lazy Stored Property](https://github.com/sujinnaljin/TIL/blob/master/Swift/Lazy%20Stored%20Property.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
