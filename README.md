@@ -164,6 +164,7 @@
 - [iOS 12 이전의 App-Based Life Cycle과 UIApplicationDelegate](https://github.com/sujinnaljin/TIL/blob/master/Swift/iOS%2012%20%EC%9D%B4%EC%A0%84%EC%9D%98%20App-Based%20Life%20Cycle%EA%B3%BC%20UIApplicationDelegate.md)
 - [Lazy Stored Property](https://github.com/sujinnaljin/TIL/blob/master/Swift/Lazy%20Stored%20Property.md)
 - [lazy 하게 연산되는 프로퍼티들](https://github.com/sujinnaljin/TIL/blob/master/Swift/lazy%20%ED%95%98%EA%B2%8C%20%EC%97%B0%EC%82%B0%EB%90%98%EB%8A%94%20%ED%94%84%EB%A1%9C%ED%8D%BC%ED%8B%B0%EB%93%A4.md)
+- [Property Observer](https://github.com/sujinnaljin/TIL/blob/master/Swift/Property%20Observer.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
