@@ -74,7 +74,8 @@
 
   ```swift
   public protocol Actor: AnyObject, Sendable {
-    nonisolated var unownedExecutor: UnownedSerialExecutor { get }
+    // 참고로 actor의 method 또는 computed property에 동기식 액세스를 제공하려는 경우 nonisolated 키워드 선언
+    nonisolated var unownedExecutor: UnownedSerialExecutor { get } 
   }
   ```
 
@@ -269,7 +270,7 @@ struct Owner: Sendable { var name: String} ✅
 - [Actors in Swift: how to use and prevent data races](https://www.avanderlee.com/swift/actors/)
 
 - [MainActor usage in Swift explained to dispatch to the main thread](https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/)
-- [Understanding actors in Swift](https://betterprogramming.pub/how-sendable-can-help-prevent-data-races-in-ios-85887497c3b4)
+- [Understanding actors in Swift](https://tanaschita.medium.com/understanding-actors-in-swift-f3cda216775e)
 
 
 
