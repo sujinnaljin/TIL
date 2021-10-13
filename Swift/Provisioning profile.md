@@ -19,6 +19,7 @@
 
 - **탈옥하지 않는 한**  App Store 외부에서 애플리케이션을 다운 받는 것은 불가. **오직 Apple만이 iOS 기기에서 애플리케이션 실행을 허용** 할 수 있음.
 - 그렇다면 **개발자와 테스터는** 실제 장치에서 애플리케이션을 어떻게 설치, 실행 및 디버깅 함? -> **프로비저닝 프로파일**을 사용하여 Apple은 개발자가 **Apple을 대신하여 iOS 장치에서 앱을 실행할 수 있도록 허용** 
+- iOS 기기는 설치된 Provisiong Profile 이 **앱의 서명에 사용**된 **Certificate를 포함**하는 지 확인하고, 기기의 **UDID**와 **App ID**도 맞는 지 확인한 후에 **설치를 허용**
 
 ## 프로비저닝 프로파일 구성 목록
 
@@ -84,5 +85,7 @@
 - [Making Sense Of iOS Provisioning](https://www.sharpmobilecode.com/making-sense-of-ios-provisioning/)
 - [인증서와 코드 사이닝(signing:서명)과 배포](https://doorganizedcoding.tistory.com/4)
 - [[iOS] 인증서와 코드 사이닝 이해하기](http://la-stranger.blogspot.com/2014/04/ios.html)
+- [[iOS] Code Signing & Provisioning Profile 이해하기](https://m.blog.naver.com/mym0404/221611576550)
+- [iOS Code Signing & Provisioning in a Nutshell](https://medium.com/ios-os-x-development/ios-code-signing-provisioning-in-a-nutshell-d5b247760bef)
 
 
