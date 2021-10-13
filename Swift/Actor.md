@@ -31,7 +31,8 @@
 
   > 각 액터가 섬과 같고 우리의 코드 베이스가 섬이 있는 세계라고 상상해 보세요. 이제 각 섬은 병에 담긴 메시지를 보내 다른 섬과 대화할 수 있습니다. 각 섬은 메시지를 보낼 위치(즉, 다른 섬의 주소)를 알고 있으며 이것이 각 섬 간의 통신이 작동하는 방식입니다.
 
-- actor은 **primitive structure**로, class나 struct를 정의하는 것과 동일하게 정의 가능
+- actor은 **primitive structure**로, class나 struct를 정의하는 것과 동일하게 정의 가능. 
+- class/struct 와 actor 의 주된 차이점은 외부 사용법에 있는데, 외부에서 actor의 다른 특성이나 방법에 접근하려면 **await** 를 통해 잠재적 suspension을 표시해야 함.
 
   - 아래 BankAccount가 class로 정의되었다면 balance 변수는 동시성 환경에서 race condition이 발생할 수 있는 mutable state 겠지만, actor로 선언되었기 때문에 data race로 부터 안전
 
@@ -111,7 +112,7 @@
 
   - 액터는 **자신의 properties를 읽거나**(read) **동기적**으로 **자신의 fuction을 호출** 가능
   - 액터는 오직 **자신의 properties 만 업데이트** 가능 (아마 synchronously 하게 할거임). 이는 **`self`** 키워드를 사용해서만 **속성 업데이트를 수행**할 수 있음을 의미. 다른 액터의 속성을 업데이트하려고 하면 컴파일러 오류 발생
-  - **Cross-actor** property 읽기 또는 함수 호출은 **`await` 키워드를 사용하여 비동기적**으로 발생해야 함. 그러나 immutable properties(`let` 으로 선언된 것) 에 대한 cross-actor 읽기는 동기식(synchronously)으로 발생할 수 있음
+  - **Cross-actor** property 읽기 또는 함수 호출 (Actor 외부에서 actor 에 접근하는 것) 은 **`await` 키워드를 사용하여 비동기적**으로 발생해야 함. 그러나 immutable properties(`let` 으로 선언된 것) 에 대한 cross-actor 읽기는 동기식(synchronously)으로 발생할 수 있음
 
   ```swift
   // 1. 자신의 property에 대한 read/write 작업은 동기, 비동기로 할 수 있음
