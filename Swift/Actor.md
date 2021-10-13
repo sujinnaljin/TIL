@@ -196,6 +196,30 @@
   - 항상 sync 코드에서 state 변경하기 (내부 상태를 변경하는 function 에서는 aysnc 함수 호출 피하기)
   - state를 변경하는 함수 내에서 aysnc function 을 호출해야하는 경우에는, await가 완료된 후 해당 state에 대해 어떠한 가정도 하지 않기
 
+## Sendable types
+
+- 아래와 같이 **custom한 structure 를 actor 안에 넣을때 주의**해야함
+- 만약 해당 type 이 **class** 라면, **actor의 mutable 상태에 대한 참조**를 얻을 수 있으며, 결국 **데이터 레이스**가 발생할 수 있기 때문.
+
+```swift
+actor Shop { var owner: Owner}
+
+var owner = await shop.owner
+owner.name = "abc"
+```
+
+- 특정 **type의 thread safety를 확인**하기 위해 지정된 type을 **concurrent code에서 안전하게 사용**할 수 있음을 나타내는 **`Sendable` 프로토콜**을 사용할 수 있음
+
+  이때 mutable한 **class**는 thread safe하지 않기 때문에 **컴파일러 오류**가 발생하고, **struct** 또는 **actor** 로 변경하면 **오류가 해결** 됨
+
+```
+class Owner: Sendable { var name: String} ❌ compiler error: Non-final class 'Owner' cannot conform to Sendable 
+
+struct Owner: Sendable { var name: String} ✅
+```
+
+
+
 ## @MainActor
 
 - **main thread 에서 task를 시행**하는 **globally unique actor**
@@ -245,6 +269,7 @@
 - [Actors in Swift: how to use and prevent data races](https://www.avanderlee.com/swift/actors/)
 
 - [MainActor usage in Swift explained to dispatch to the main thread](https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/)
+- [Understanding actors in Swift](https://betterprogramming.pub/how-sendable-can-help-prevent-data-races-in-ios-85887497c3b4)
 
 
 
