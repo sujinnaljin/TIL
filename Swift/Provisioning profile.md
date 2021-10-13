@@ -71,8 +71,9 @@
 
 - Apple App Store에 애플리케이션을 제출할 때 사용하려는 프로파일
 - 앱이 QA를 통과하고 완전히 테스트 된 후에 사용
+- 빌드된 앱이 어떤 디바이스에서도 실행이 되지 않도록 함. 즉, 앱스토어 제출 용도 말고는 어디에서도 쓸 수가 없음
 - Apple은 앱이 App Store 프로비저닝 프로파일로 빌드되지 않은 경우 앱 제출을 허용하지 않음
-- Apple이 앱을 App Store에 배포하도록 승인하면 자체 서명 인증서 및 프로필을 사용하여 애플리케이션에 다시 서명 함
+- Apple이 앱을 App Store에 배포하도록 승인하면 자체 서명 인증서 및 프로필을 사용하여 애플리케이션에 다시 서명 함. 따라서 모든 iOS 디바이스에서 실행될 수 있도록 해줌
 
 ## 프로비저닝 프로파일의 한계
 
@@ -81,5 +82,7 @@
 # 출처
 
 - [Making Sense Of iOS Provisioning](https://www.sharpmobilecode.com/making-sense-of-ios-provisioning/)
+- [인증서와 코드 사이닝(signing:서명)과 배포](https://doorganizedcoding.tistory.com/4)
+- [[iOS] 인증서와 코드 사이닝 이해하기](http://la-stranger.blogspot.com/2014/04/ios.html)
 
 
