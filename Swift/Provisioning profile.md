@@ -48,8 +48,10 @@
 ## 프로비저닝 프로파일 유형
 
 - 목적에 따라 다른 유형의 프로비저닝 프로파일을 사용 (Development, Ad-Hoc, App Store, Enterprise)
-- Development provisioning profiles - used to install development apps on test devices.
-- Distribution provisioning profiles - used when uploading the app to the App Store or for Ad Hoc and in house distribution.
+- Development provisioning profiles - 단일 기기에서 앱을 테스트하기 위한 것.
+- Distribution provisioning profiles - 베타 테스터나 앱 스토어에 앱을 제출하려는 경우에 사용. (ex. App Store / Ad Hoc / Enterprise (in house) 배포)
+  ![image](https://user-images.githubusercontent.com/20410193/137158488-6e26fc8e-9ff6-46af-8bed-572e2ccb73bc.png)
+
 
 ### 1. Development
 
@@ -60,6 +62,7 @@
 ### 2. Ad-Hoc
 
 - Development provisioning profile과 유사하지만 QA 테스터에게 배포하는 데 사용
+- 특정 iOS 테스트 장치의 소규모 그룹에서 응용 프로그램을 테스트하는 실용적인 방법
 - 푸시 알림과 같은 다양한 권한 부여 서비스를 테스트하려는 경우에는 개발 프로파일로는 테스트 불가
 - Ad-Hoc provisioning profile은 Production (Ad-Hoc) Certificates로만 생성 가능
 
@@ -67,7 +70,7 @@
 
 - Ad-Hoc provisioning profile과 유사하지만 몇 가지 중요한 차이점 존재
 - 회사가 [Apple iOS 개발자 엔터프라이즈 프로그램](https://developer.apple.com/programs/ios/enterprise/) ($ 299 USD / 년)에 가입해야 얻을 수 있음
-- UDID 목록이 필요하지 않음. 따라서 기업은 장치 수에 제한없이 사내 앱을 유연하게 설치할 수 있음.
+- UDID 목록이 필요하지 않음.  모든 장치에서 앱을 실행 가능. 따라서 기업은 장치 수에 제한없이 사내 앱을 유연하게 설치할 수 있음.
 - 이때 개발자에게 개발자가 정말로 애플인것처럼 개발한 앱들을 서명할 수 있는 인증서를 발급해주기 때문에 이 인증서로 서명된 앱들은 따로 확인을 거치지 않고, 모든 디바이스를 애플에 등록하지 않고도 개발된 앱을 디바이스에서 바로 실행할 수 있도록 해줌
 
 ### 4. App Store
@@ -93,5 +96,6 @@
 - [What is a provisioning profile & code signing in iOS?](https://abhimuralidharan.medium.com/what-is-a-provisioning-profile-in-ios-77987a7c54c2)
 - [iOS code signing](https://docs.codemagic.io/flutter-code-signing/ios-code-signing/)
 - [ProvisioningProfileType](https://docs.unity3d.com/ScriptReference/ProvisioningProfileType.html)
+- [iOS Code Signing, Development and Distribution Provisioning Profiles explained](https://getupdraft.com/blog/ios-code-signing-development-and-distribution-prov)
 
 
