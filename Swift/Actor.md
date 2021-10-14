@@ -211,15 +211,22 @@ owner.name = "abc"
 
 - 특정 **type의 thread safety를 확인**하기 위해 지정된 type을 **concurrent code에서 안전하게 사용**할 수 있음을 나타내는 **`Sendable` 프로토콜**을 사용할 수 있음
 
-  이때 mutable한 **class**는 thread safe하지 않기 때문에 **컴파일러 오류**가 발생하고, **struct** 또는 **actor** 로 변경하면 **오류가 해결** 됨
+  이때 mutable한 **class**는 thread safe하지 않기 때문에 **컴파일러 오류**가 발생하고, **struct** 또는 **actor** 등 아래와 같은 Sendable type 으로 변경하면 **오류가 해결** 됨
+  - value types
+  - actor types
+  - immutable classes
+  - internally-synchronized class
+  - @Sendable funciton types
 
 ```
 class Owner: Sendable { var name: String} ❌ compiler error: Non-final class 'Owner' cannot conform to Sendable 
 
 struct Owner: Sendable { var name: String} ✅
+
 ```
 
 
+![image](https://user-images.githubusercontent.com/20410193/137258679-fc265baa-6f64-4b25-a417-9dcda83bf7db.png)
 
 ## @MainActor
 
@@ -271,6 +278,7 @@ struct Owner: Sendable { var name: String} ✅
 
 - [MainActor usage in Swift explained to dispatch to the main thread](https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/)
 - [Understanding actors in Swift](https://tanaschita.medium.com/understanding-actors-in-swift-f3cda216775e)
+- [How Sendable Can Help Prevent Data Races in iOS](https://betterprogramming.pub/how-sendable-can-help-prevent-data-races-in-ios-85887497c3b4)
 
 
 
