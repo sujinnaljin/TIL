@@ -196,6 +196,8 @@
 
   - 항상 sync 코드에서 state 변경하기 (내부 상태를 변경하는 function 에서는 aysnc 함수 호출 피하기)
   - state를 변경하는 함수 내에서 aysnc function 을 호출해야하는 경우에는, await가 완료된 후 해당 state에 대해 어떠한 가정도 하지 않기
+- 액터는 **mutable 상태에 대한 상호 배타적 액세스를 보장**함. 즉, 데이터 경합을 방지하기 위해 순차적으로 접근할 수 있도록 **동기화 접근**을 제공하여 **스레드 안전성**을 보장. 하지만 **재진입 문제를 방지하지는 못함**. 따라서 우리는 액터 상태가 **일시 중단 지점에서 변경될 수 있다는 점을 항상 염두**에 두어야 함.
+
 
 ## Sendable types
 
@@ -224,9 +226,6 @@ class Owner: Sendable { var name: String} ❌ compiler error: Non-final class 'O
 struct Owner: Sendable { var name: String} ✅
 
 ```
-
-
-![image](https://user-images.githubusercontent.com/20410193/137258679-fc265baa-6f64-4b25-a417-9dcda83bf7db.png)
 
 ## @MainActor
 
@@ -279,6 +278,7 @@ struct Owner: Sendable { var name: String} ✅
 - [MainActor usage in Swift explained to dispatch to the main thread](https://www.avanderlee.com/swift/mainactor-dispatch-main-thread/)
 - [Understanding actors in Swift](https://tanaschita.medium.com/understanding-actors-in-swift-f3cda216775e)
 - [How Sendable Can Help Prevent Data Races in iOS](https://betterprogramming.pub/how-sendable-can-help-prevent-data-races-in-ios-85887497c3b4)
+- [The Actor Reentrancy Problem in Swift](https://swiftsenpai.com/swift/actor-reentrancy-problem/)
 
 
 
