@@ -5,6 +5,18 @@
 - **본질적인 컨텐츠 크기**
 - 대부분의 view들은 기본적으로 컨텐츠 크기만큼의 size를 가지고 있음
 - UILabel이나 UIButton을 auto layout으로 구현할때 제약사항으로 width와 height를 추가하지 않아도 오류가 나지 않는 이유는 intrinsicContentSize를 가지고 있기 때문
+- 이렇게 Intrinsic Content Size를 가지는 대표적인 것들은 다음과 같음
+
+
+|                                          | Intrinsic Contet Size Width | Intrinsic Contet Size Height |
+| ---------------------------------------- | --------------------------- | ---------------------------- |
+| UIView                                   | X                           | X                            |
+| UISlider                                 | O                           | X                            |
+| UILabel, UIButton, UISwitch, UITextField | O                           | O                            |
+| TextView, ImageView                      | Content에 따라 변화함       |                              |
+ 
+
+ 
 
 ## invalidateIntrinsicContentSize()
 
@@ -35,4 +47,5 @@ public override var intrinsicContentSize: CGSize {
 # 출처
 
 - [ios intrinsicContentSize에 대해서 알아보기](https://magi82.github.io/ios-intrinsicContentSize/)
+- [iOS) Auto Layout 정복하기 (3/5) - IntrinsicContentSize, Hugging Priority/ Compression Resistance Priority](https://babbab2.tistory.com/135)
 
