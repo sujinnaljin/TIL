@@ -38,7 +38,7 @@
 
 - 이 동적 디스패치 기법은 **가장 동적**임. 사실 이 기법은 매우 좋아서 (최적화 측면을 제외하면) Cocoa 프레임워크에서도 KVO, 코어데이터와 같은 곳에서 자주 사용 됨
 
-- 이러한 방식은 굉장히 **유연**해서, 런타임에 메소드의 기능(functionality)를 바꾸는 **`method swizzling`**을 가능하게 한다. (원래의 메소드를 runtime 때 원하는 메소드로 바꾸어 사용할 수 있도록 하는 기법)
+- 이러한 방식은 굉장히 **유연**해서, 런타임에 메소드의 기능(functionality)를 바꾸는 [**`method swizzling`**](https://github.com/sujinnaljin/TIL/blob/master/Swift/Method_Swizzling.md) 을 가능하게 한다. (원래의 메소드를 runtime 때 원하는 메소드로 바꾸어 사용할 수 있도록 하는 기법)
 
 - 이러한 기능을 제공하는 런타임 라이브러리로 Swift는 Objective-C 런타임을 이용. 즉, Message Dispatch를 이용하기 위해서는 **Objective-C 런타임에 의존**
 
