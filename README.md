@@ -168,6 +168,7 @@
 - [웹뷰와 자바스크립트 연동 (Native <-> JavaScript 통신 방법)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%EC%9B%B9%EB%B7%B0%EC%99%80%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%EC%97%B0%EB%8F%99%20(Native%20%3C-%3E%20JavaScript%20%ED%86%B5%EC%8B%A0%20%EB%B0%A9%EB%B2%95).md)
 - [modalTransitionStyle](https://github.com/sujinnaljin/TIL/blob/master/Swift/modalTransitionStyle.md)
 - [KVC (Key Value Coding)](https://github.com/sujinnaljin/TIL/blob/master/Swift/KVC%20(Key%20Value%20Coding).md)
+- [KVO (Key Value Observing)](https://github.com/sujinnaljin/TIL/blob/master/Swift/KVO%20(Key%20Value%20Observing).md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
