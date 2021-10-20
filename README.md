@@ -169,6 +169,7 @@
 - [modalTransitionStyle](https://github.com/sujinnaljin/TIL/blob/master/Swift/modalTransitionStyle.md)
 - [KVC (Key Value Coding)](https://github.com/sujinnaljin/TIL/blob/master/Swift/KVC%20(Key%20Value%20Coding).md)
 - [KVO (Key Value Observing)](https://github.com/sujinnaljin/TIL/blob/master/Swift/KVO%20(Key%20Value%20Observing).md)
+- [[SwiftUI] _printChanges()](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20_printChanges().md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
