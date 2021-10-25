@@ -220,12 +220,29 @@ owner.name = "abc"
   - internally-synchronized class
   - @Sendable funciton types
 
-```
+```swift
 class Owner: Sendable { var name: String} ❌ compiler error: Non-final class 'Owner' cannot conform to Sendable 
 
 struct Owner: Sendable { var name: String} ✅
 
 ```
+  - 하지만 제네릭 유형이 Sendable을 준수하지 않는 경우 컴파일러는 제네릭 유형에 대한 암시적 준수를 추가하지 않음
+
+```swift
+struct Container<Value> { var child: Value } ❌ No implicit conformance to Sendable because Value does not conform to Sendable
+
+struct Container<Value: Sendable> { var child: Value }  ✅
+
+```
+  - enum의 associated value 도 Sendable 을 준수해야함
+```swift
+enum State: Sendable {
+    case loggedOut(name: NSAttributedString) ❌
+    case loggedIn(name: String) ✅
+}
+```
+
+
 
 ## @MainActor
 
@@ -279,6 +296,7 @@ struct Owner: Sendable { var name: String} ✅
 - [Understanding actors in Swift](https://tanaschita.medium.com/understanding-actors-in-swift-f3cda216775e)
 - [How Sendable Can Help Prevent Data Races in iOS](https://betterprogramming.pub/how-sendable-can-help-prevent-data-races-in-ios-85887497c3b4)
 - [The Actor Reentrancy Problem in Swift](https://swiftsenpai.com/swift/actor-reentrancy-problem/)
+- [Sendable and @Sendable closures explained with code examples](https://www.avanderlee.com/swift/sendable-protocol-closures/)
 
 
 
