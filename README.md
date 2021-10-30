@@ -174,6 +174,7 @@
 - [[SwiftUI] TimelineView](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20TimelineView.md)
 - [iOS 에서 Race Condition 을 방지하기 위한 방법 (feat. Thread Safe)](https://github.com/sujinnaljin/TIL/blob/master/Swift/iOS%20%EC%97%90%EC%84%9C%20Race%20Condition%20%EC%9D%84%20%EB%B0%A9%EC%A7%80%ED%95%98%EA%B8%B0%20%EC%9C%84%ED%95%9C%20%EB%B0%A9%EB%B2%95%20(feat.%20Thread%20Safe).md)
 - [Metal](https://github.com/sujinnaljin/TIL/blob/master/Swift/Metal.md)
+- [dynamic 키워드](https://github.com/sujinnaljin/TIL/blob/master/Swift/dynamic%20%ED%82%A4%EC%9B%8C%EB%93%9C.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
