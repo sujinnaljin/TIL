@@ -35,7 +35,7 @@
   // num check #3 = 20
   ```
 
-- Value 타입의 값을 복사해서 캡쳐하기 위해선 **Closure List** 이용. 즉 Copy해서 캡쳐할 변수를 명시
+- **Value 타입의 값을 복사해서 캡쳐**(Value Copy Capture)하기 위해선 **Closure List** 이용. 즉 Copy해서 캡쳐할 변수를 명시
 
   ```swift
   let closure = { [num1, num2] in
@@ -47,7 +47,7 @@
 
 - **Value Type**일 경우 **값을 복사하여 Capture**하고, **Reference Type**일 경우 **Reference Captrue**
 
-- block을 **선언할 당시의 value Type 값**을 Const Value Type으로 캡쳐.
+- block을 **선언할 당시의 Value Type 값**을 Const Value Type으로 캡쳐.
 
   ```objc
   - (void)doSomething {
@@ -68,7 +68,7 @@
   // num check #3 = 0
   ```
 
-- **value type을 Reference Capture** 하고 싶다면 변수 선언부에 **__block** 를 접두사로 사용
+- **Value type을 Reference Capture** 하고 싶다면 변수 선언부에 **__block** 를 접두사로 사용
 
   ```objc
   __block int num = 0;
