@@ -72,18 +72,12 @@
 - 주로 앱이 quiescent(조용한) 상태로 변환될 때의 작업을 진행
 - App State : Active -> In-Active -> Background
 
-### applicationWillEnterBackground(_:)
-
-- 앱이 Foreground 상태에서 **Background로 들어가기 직전**에 호출
-- App State : Active -> In-Active -> Background
-
 ### applicationDidEnterBackground(_:)
-
 - 앱이 **background 상태에 진입 직후** 호출
 - 앱이 Suspended 상태로 진입하기 전에 중요한 데이터를 저장하거나 점유하고 있는 공유 자원을 해제하는 등 **종료되기 전에 필요한 준비 작업**을 진행
 - 앱이 종료된 이후 **다시 실행될 때 직전 상태를 복구할 수 있는 정보를 저장**
 - 특별한 처리가 없으면 background 상태에서 곧바로 suspended 상태로 전환
-- App State : Background
+- App State : Active -> In-Active -> Background
 
 ### applicationWillTerminate(_:)
 
