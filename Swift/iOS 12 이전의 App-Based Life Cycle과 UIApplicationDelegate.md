@@ -58,7 +58,7 @@
 
 ### applicationWillEnterForeground(_:)
 
-- 앱이 Background 또는 Not-Running 상태에서 **Foreground로 들어가기 직전**에 호출
+- 앱이 Background 상태에서 **Foreground로 들어가기 직전**에 호출
 - App State : Background or Not Running -> In-Active -> Active
 
 ### applicationDidBecomeActive(_:)
