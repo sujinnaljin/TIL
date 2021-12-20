@@ -56,6 +56,7 @@
 - [LSP (Language Server Protocol)](https://github.com/sujinnaljin/TIL/blob/master/LSP%20(Language%20Server%20Protocol).md)
 - [User-Agent](https://github.com/sujinnaljin/TIL/blob/master/User-Agent.md)
 - [git의 저장방식 (feat. snapshot & delta)](https://github.com/sujinnaljin/TIL/blob/master/git%EC%9D%98%20%EC%A0%80%EC%9E%A5%EB%B0%A9%EC%8B%9D%20(feat.%20snapshot%20%26%20delta).md)
+- [토큰 기반 인증 타입 (feat. Bearer)](https://github.com/sujinnaljin/TIL/blob/master/%ED%86%A0%ED%81%B0%20%EA%B8%B0%EB%B0%98%20%EC%9D%B8%EC%A6%9D%20%ED%83%80%EC%9E%85%20(feat.%20Bearer).md)
 
 
 ## Swift
