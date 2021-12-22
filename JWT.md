@@ -78,5 +78,5 @@
 - [JWT 토큰 인증](https://velog.io/@haebin/JWT-%ED%86%A0%ED%81%B0-%EC%9D%B8%EC%A6%9D)
 - [JWT(JSON Web Token)에 대한 이해, 로그인의 활용](https://velog.io/@jguuun/JWTBasic)
 - [JWT](https://jwt.io/)
-- - [JWT(JSON Web Token)에 대해서...](https://blog.outsider.ne.kr/1160)
+- [JWT(JSON Web Token)에 대해서...](https://blog.outsider.ne.kr/1160)
 
