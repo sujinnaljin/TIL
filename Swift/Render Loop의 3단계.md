@@ -91,7 +91,14 @@
 
 - CoreGraphics나 UIKit같은 기술을 사용해서 뷰를 그리는 서브 클래스에서 drawing code를 구현하기 위해 override
 
+## 상황 별 업데이트 함수
+- view의 **크기나 위치** 변경시 (ex. scroll, addSubView, frame이나 bound 에 value assign, 화면 로테이션 등)
 
+  `willlayoutSubview` -> `didLayoutSubview` 
+
+- view의 **constraint** 변경시 (ex. 버튼눌러서 constraint가 10에서 12로 변경 등)
+
+  `updateConstraint` -> `willlayoutSubview` -> `didLayoutSubview` 
 
 
 # 출처
