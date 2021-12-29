@@ -58,6 +58,12 @@
 - [git의 저장방식 (feat. snapshot & delta)](https://github.com/sujinnaljin/TIL/blob/master/git%EC%9D%98%20%EC%A0%80%EC%9E%A5%EB%B0%A9%EC%8B%9D%20(feat.%20snapshot%20%26%20delta).md)
 - [토큰 기반 인증 타입 (feat. Bearer)](https://github.com/sujinnaljin/TIL/blob/master/%ED%86%A0%ED%81%B0%20%EA%B8%B0%EB%B0%98%20%EC%9D%B8%EC%A6%9D%20%ED%83%80%EC%9E%85%20(feat.%20Bearer).md)
 - [JWT](https://github.com/sujinnaljin/TIL/blob/master/JWT.md)
+- [Oracle vs. MySQL](https://github.com/sujinnaljin/TIL/blob/master/Oracle%20vs.%20MySQL.md)
+- [파티셔닝(Partitioning) vs. 샤딩(Sharding)](https://github.com/sujinnaljin/TIL/blob/master/%ED%8C%8C%ED%8B%B0%EC%85%94%EB%8B%9D(Partitioning)%20vs.%20%EC%83%A4%EB%94%A9(Sharding).md)
+- [OLTP(Online Transaction Processing)](https://github.com/sujinnaljin/TIL/blob/master/OLTP(Online%20Transaction%20Processing).md)
+- [Scale out vs. Scale up](https://github.com/sujinnaljin/TIL/blob/master/Scale%20out%20vs.%20Scale%20up.md)
+- [DAS (Direct-attached Storage) vs. SAN (Storage Area Network) vs. NAS (Network Attached Storage)](https://github.com/sujinnaljin/TIL/blob/master/DAS%20(Direct-attached%20Storage)%20vs.%20SAN%20(Storage%20Area%20Network)%20vs.%20NAS%20(Network%20Attached%20Storage).md)
+- [RDBMS vs. Hadoop](https://github.com/sujinnaljin/TIL/blob/master/RDBMS%20vs.%20Hadoop.md)
 
 
 ## Swift
