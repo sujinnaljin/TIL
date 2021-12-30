@@ -70,7 +70,7 @@ URI 스킴에 있어서 다음 두 가지 상황을 쉽게 처리할 수 없는 
 ## 유니버설 링크와 앱 링크
 
 - **앱 고유 콘텐츠 유형의 URI 스킴**과 달리 유니버설 앱과 앱 링크는 웹 페이지와 앱 내부의 특정 콘텐츠를 가리키는 단순한 **표준 웹 링크**이다. 즉, 일반적으로 **웹사이트 URL과 동일한 문자열**을 사용한다.
-- Xcode 의 target -> Capabilities -> associated domains 메뉴에서, **applinks: 스킴으로 대상 도메인을 추가** (ex. `applinks:m.naver.com`) 하면 동적 링크의 특정 도메인 활성화할 수 있는데, 그러면 사용자가 **앱 설치 시**, 여기에 **등록된 도메인으로 apple-app-site-association 파일에 대한 요청**을 보낸다 (이런 식으로 https://mydomain.com/.well-known/apple-app-site-association)
+- Xcode 의 target -> Capabilities -> associated domains 메뉴에서, **applinks: 스킴으로 대상 도메인을 추가** (ex. `applinks:mydomain.com`) 하면 동적 링크의 특정 도메인 활성화할 수 있는데, 그러면 사용자가 **앱 설치 시**, 여기에 **등록된 도메인으로 apple-app-site-association 파일에 대한 요청**을 보낸다 (이런 식으로 https://mydomain.com/.well-known/apple-app-site-association)
 
 - apple-app-site-association **JSON 파일을 파싱해서 기억**해 두었다가, **해당 웹사이트 링크**를 클릭 한 경우 **웹페이지 대신 앱을 실행**한다.
 
