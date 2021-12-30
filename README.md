@@ -64,6 +64,8 @@
 - [Scale out vs. Scale up](https://github.com/sujinnaljin/TIL/blob/master/Scale%20out%20vs.%20Scale%20up.md)
 - [DAS (Direct-attached Storage) vs. SAN (Storage Area Network) vs. NAS (Network Attached Storage)](https://github.com/sujinnaljin/TIL/blob/master/DAS%20(Direct-attached%20Storage)%20vs.%20SAN%20(Storage%20Area%20Network)%20vs.%20NAS%20(Network%20Attached%20Storage).md)
 - [RDBMS vs. Hadoop](https://github.com/sujinnaljin/TIL/blob/master/RDBMS%20vs.%20Hadoop.md)
+- [SMP(Symetric Multiprocessing) vs. MPP(Massively Parallel Processing)](https://github.com/sujinnaljin/TIL/blob/master/SMP(Symetric%20Multiprocessing)%20vs.%20MPP(Massively%20Parallel%20Processing).md)
+- [Isolation level](https://github.com/sujinnaljin/TIL/blob/master/Isolation%20level.md)
 
 
 ## Swift
