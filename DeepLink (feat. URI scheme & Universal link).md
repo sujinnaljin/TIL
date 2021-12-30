@@ -1,4 +1,4 @@
-# DeepLink (feat. URI 스킴 & Universal link)
+# DeepLink (feat. URI scheme & Universal link)
 
 - `딥 링크` 는 사용자가 앱 내부 콘텐츠에 직접 도달하도록 해주는 모든 링크
 - `딥 링크` 중 하나의 기술이 `URI 스킴` 으로, 앱 스키마 커스텀 설정 후 사용할 수 있다
