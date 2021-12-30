@@ -1,8 +1,11 @@
 # Firebase Dynamic Link
 
 - 앱 설치 여부에 관계없이 여러 플랫폼에서 원하는 대로 작동하는 링크
-
 - 단일 링크를 통해 앱이 설치된 경우 앱으로 바로 이동할 수 있고, 그렇지 않은 경우 해당 앱 스토어로 이동 가능
+
+  ```
+  https://your_subdomain.page.link/?link=your_deep_link&apn=package_name[&amv=minimum_version][&afl=fallback_link]
+  ```
 
   ![동적 링크와 iOS 간의 통합을 자세히 설명하는 플로 차트](https://firebase.google.com/docs/dynamic-links/images/fdl-ios-integration.png?hl=ko)
 
