@@ -89,13 +89,13 @@ URI 스킴에 있어서 다음 두 가지 상황을 쉽게 처리할 수 없는 
   }
 }
 ```
-
+- 다만 사용자가 Safari에서 웹 사이트를 탐색할 때 현재 웹 페이지와 동일한 도메인의 URL에 대한 유니버셜 링크를를 누르면 iOS는 사용자의 의도를 존중하여 Safari에서 링크를 연다. 만약 사용자가 다른 도메인에 있는 URL에 대한 유니버셜 링크를 탭하면 iOS가 해당 링크를 앱으로 연다.
 - 유니버셜 링크로 들어오는 요청은, `UIApplicationDelegate 의 application:continueUserActivity:restorationHandler:` 메서드에서, 전달받은 `NSUserActivity` 객체을 사용해 처리할 수 있다.
 
 ![universal link](http://www.wisetracker.co.kr/wp-content/uploads/2018/03/universal-link.png)
 
 
-- universal link의 장점은 아래와 같음
+- universal link의 장점은 아래와 같다.
   - Unique: custom URL scheme과 다르게  웹 사이트에 대한 표준 HTTP 또는 HTTPS 링크를 사용하기 때문에 다른 앱에서 요청할 수 없음
   - Secure: 사용자가 앱을 설치하면 iOS는 웹 서버에 업로드한 파일을 확인하여 웹 사이트에서 앱이 대신 URL을 열 수 있는지 확인. 개발자만 이 파일을 만들고 업로드할 수 있으므로 웹 사이트와 앱의 연결이 안전함.
   - Flexible: 앱이 설치되지 않은 경우에도 작동. 앱이 설치되어 있지 않은 경우 웹 사이트 링크를 누르면 사용자의 예상대로 Safari에서 콘텐츠가 열림.
