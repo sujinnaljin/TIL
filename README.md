@@ -30,7 +30,7 @@
 - [Hystrix](https://github.com/sujinnaljin/TIL/blob/master/Hystrix.md)
 - [Ribbon](https://github.com/sujinnaljin/TIL/blob/master/Ribbon.md)
 - [Spring Cloud Netflix](https://github.com/sujinnaljin/TIL/blob/master/Spring-Cloud-Netflix.md)
-- [DeepLink와 URI 스킴](https://github.com/sujinnaljin/TIL/blob/master/DeepLink%26URIScheme.md)
+- [DeepLink (feat. URI scheme & Universal link)](https://github.com/sujinnaljin/TIL/blob/master/DeepLink%20(feat.%20URI%20scheme%20&%20Universal%20link).md)
 - [Canonical Tag](https://github.com/sujinnaljin/TIL/blob/master/CanonicalTag.md)
 - [Micrometer](https://github.com/sujinnaljin/TIL/blob/master/Micrometer.md)
 - [Feign](https://github.com/sujinnaljin/TIL/blob/master/Feign.md)
