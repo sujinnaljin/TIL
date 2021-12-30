@@ -1,4 +1,4 @@
-# DeepLink와 URI 스킴
+# DeepLink (feat. URI 스킴 & Universal link)
 
 - `딥 링크` 는 사용자가 앱 내부 콘텐츠에 직접 도달하도록 해주는 모든 링크
 - `딥 링크` 중 하나의 기술이 `URI 스킴` 으로, 앱 스키마 커스텀 설정 후 사용할 수 있다
@@ -94,6 +94,14 @@ URI 스킴에 있어서 다음 두 가지 상황을 쉽게 처리할 수 없는 
 
 ![universal link](http://www.wisetracker.co.kr/wp-content/uploads/2018/03/universal-link.png)
 
+
+- universal link의 장점은 아래와 같음
+  - Unique: custom URL scheme과 다르게  웹 사이트에 대한 표준 HTTP 또는 HTTPS 링크를 사용하기 때문에 다른 앱에서 요청할 수 없음
+  - Secure: 사용자가 앱을 설치하면 iOS는 웹 서버에 업로드한 파일을 확인하여 웹 사이트에서 앱이 대신 URL을 열 수 있는지 확인. 개발자만 이 파일을 만들고 업로드할 수 있으므로 웹 사이트와 앱의 연결이 안전함.
+  - Flexible: 앱이 설치되지 않은 경우에도 작동. 앱이 설치되어 있지 않은 경우 웹 사이트 링크를 누르면 사용자의 예상대로 Safari에서 콘텐츠가 열림.
+  - Simple: 하나의 URL이 웹사이트와 앱 모두에서 작동
+  - Private: 다른 앱은 앱 설치 여부를 알 필요 없이 앱과 통신 가능
+
 ### 유니버설 링크의 단점
 
 - 애플은 공식적으로 iOS 9.2 버전부터 딥 링크를 위한 URI 링크(URL/URI 스킴)를 더는 지원하지 않으며 개발자는 iOS에서 같은 기능을 위해 유니버설 링크를 구현하도록 강요받았다.
@@ -111,4 +119,5 @@ URI 스킴에 있어서 다음 두 가지 상황을 쉽게 처리할 수 없는 
 
 - [비개발자를 위한 유니버셜 링크(Universal Link) 핵심 개념](http://www.wisetracker.co.kr/blog/%EB%B9%84%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%9C%A0%EB%8B%88%EB%B2%84%EC%85%9C-%EB%A7%81%ED%81%AC-%ED%95%B5%EC%8B%AC-%EA%B0%9C%EB%85%90/)
 - [[iOS/Swift] Universal link 적용하기](https://jooeungen.tistory.com/entry/iOSSwift-Universal-link-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)
+- [Support Universal Links](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
 
