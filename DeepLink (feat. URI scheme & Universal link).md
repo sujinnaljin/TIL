@@ -120,4 +120,5 @@ URI 스킴에 있어서 다음 두 가지 상황을 쉽게 처리할 수 없는 
 - [비개발자를 위한 유니버셜 링크(Universal Link) 핵심 개념](http://www.wisetracker.co.kr/blog/%EB%B9%84%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%9C%A0%EB%8B%88%EB%B2%84%EC%85%9C-%EB%A7%81%ED%81%AC-%ED%95%B5%EC%8B%AC-%EA%B0%9C%EB%85%90/)
 - [[iOS/Swift] Universal link 적용하기](https://jooeungen.tistory.com/entry/iOSSwift-Universal-link-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0)
 - [Support Universal Links](https://developer.apple.com/library/archive/documentation/General/Conceptual/AppSearch/UniversalLinks.html)
+- [Supporting Associated Domains](https://developer.apple.com/documentation/xcode/supporting-associated-domains)
 
