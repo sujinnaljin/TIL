@@ -80,7 +80,7 @@ URI 스킴에 있어서 다음 두 가지 상황을 쉽게 처리할 수 없는 
     "apps": [],
     "details": [
       {
-        "appID": "teamId.kr.co.sujinnaljin",
+        "appID": "teamId.kr.co.sujinnaljin", //developer team id + app bundle id
         "paths": [
           "/*"
         ]
