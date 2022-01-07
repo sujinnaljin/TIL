@@ -189,7 +189,8 @@
 - [iOS 앱에서 사용할 언어를 결정하는 방법](https://github.com/sujinnaljin/TIL/blob/master/Swift/iOS%20%EC%95%B1%EC%97%90%EC%84%9C%20%EC%82%AC%EC%9A%A9%ED%95%A0%20%EC%96%B8%EC%96%B4%EB%A5%BC%20%EA%B2%B0%EC%A0%95%ED%95%98%EB%8A%94%20%EB%B0%A9%EB%B2%95.md)
 - [Static Library와 Dynamic Library](https://github.com/sujinnaljin/TIL/blob/master/Swift/Static%20Library%EC%99%80%20Dynamic%20Library.md)
 - [dSYM (Debug SYMbol)](https://github.com/sujinnaljin/TIL/blob/master/Swift/dSYM%20(Debug%20SYMbol).md)
-- [Hashable](https://github.com/sujinnaljin/TIL/blob/ba0cf7ab83273b71d7547c65596a568df0378672/Swift/Hashable.md)
+- [Hashable](https://github.com/sujinnaljin/TIL/blob/master/Swift/Hashable.md)
+- [modalPresentationStyle](https://github.com/sujinnaljin/TIL/blob/master/Swift/modalPresentationStyle.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
