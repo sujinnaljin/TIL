@@ -1,4 +1,4 @@
-# iOS15의 canOpenURL(:_) 과 URL schemes 등록 개수 제한 
+# iOS15의 canOpenURL(_:) 과 URL schemes 등록 개수 제한 
 
 -  `canOpenURL(_:)` 로 전달하는 URL scheme 에 대해서는 Info.plist 의 `LSApplicationQueriesSchemes` 에 등록을 해야함. 
 
