@@ -193,6 +193,7 @@
 - [modalPresentationStyle](https://github.com/sujinnaljin/TIL/blob/master/Swift/modalPresentationStyle.md)
 - [WKWebViewConfiguration](https://github.com/sujinnaljin/TIL/blob/master/Swift/WKWebViewConfiguration.md)
 - [recursive enumeration (feat. indirect)](https://github.com/sujinnaljin/TIL/blob/master/Swift/recursive%20enumeration%20(feat.%20indirect).md)
+- [OS15의 canOpenURL(:_) 과 URL schemes 등록 개수 제한](https://github.com/sujinnaljin/TIL/blob/master/Swift/iOS15%EC%9D%98%20canOpenURL(:_)%20%EA%B3%BC%20URL%20schemes%20%EB%93%B1%EB%A1%9D%20%EA%B0%9C%EC%88%98%20%EC%A0%9C%ED%95%9C.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
