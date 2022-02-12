@@ -13,4 +13,4 @@
 # 출처
 
 - [Language Server Protocol](https://microsoft.github.io/language-server-protocol/)
-
+- 마틴 파울러, 리팩터링 2판 (리팩토링 개정판) - 코드 구조를 체계적으로 개선하여 효율적인 리팩터링 구현하기, 한빛미디어, 2020, p110.
