@@ -47,7 +47,49 @@ func getURL() -> URL
     return "https://swiftrocks.com"
 }
 ```
+- 다른 예시로는 아래와 같이 `ExpressibleByStringLiteral` 을 conform 한 후 `String` 할당을 통해 Person 을 초기화 할 수 있음 
 
+  ```swift
+  //전
+  struct Person {
+      let name: String
+  }
+  
+  let ana = Person(name: "Ana")
+  
+  //후
+  struct Person: ExpressibleByStringLiteral {
+      init(stringLiteral value: String) {
+          name = value
+      }
+      let name: String
+  }
+  
+  let ana: Person = "Ana"
+  ```
+
+  `ExpressibleByArrayLiteral` 을 이용한 예시는 아래와 같음
+
+  ```swift
+  // 전
+  extension Stack {
+      init(from array: [T]) {
+          array.forEach {
+              push($0)
+          }
+      }
+  }
+  var stack = Stack(from: [1, 2, 3, 4])
+  
+  // 후
+  extension Stack: ExpressibleByArrayLiteral {
+      init(arrayLiteral elements: T...) {
+          self.init(from: elements)
+      }
+  }
+  
+  var stack: Stack = [1, 2, 3, 4]
+  ```
 - 표준 라이브러리에는 아래와 같은 `ExpressibleBy` 프로토콜이 포함되어 있음
   - **Collection Literals**
     -  `ExpressibleByArrayLiteral`: `[1,2,3]`  같은 배열으로 표현 가능
@@ -71,4 +113,5 @@ func getURL() -> URL
 - [Swift ExpressibleBy protocols: What they are and how they work internally in the compiler](https://swiftrocks.com/swift-expressibleby-protocols-how-they-work-internally-in-the-compiler)
 - [Initialization with Literals](https://developer.apple.com/documentation/swift/swift_standard_library/initialization_with_literals)
 - [ExpressibleByExtendedGraphemeClusterLiteral](https://developer.apple.com/documentation/swift/expressiblebyextendedgraphemeclusterliteral)
+- [Cleaner inits - ExpressibleBy... protocols](https://arturgruchala.com/cleaner-inits-expressibleby-protocols/)
 
