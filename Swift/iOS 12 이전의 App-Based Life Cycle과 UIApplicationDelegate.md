@@ -100,4 +100,5 @@
 - [iOS Application Life Cycle](https://velog.io/@minni/iOS-Application-Life-Cycle)
 - [UIApplicationDelegate](https://developer.apple.com/documentation/uikit/uiapplicationdelegate)
 - [Managing Your App's Life Cycle](https://developer.apple.com/documentation/uikit/app_and_environment/managing_your_app_s_life_cycle)
+- [AppDelegate Lifecycle 🥚🐣🐥🐓](https://medium.com/geekculture/appdelegate-lifecycle-9bc3c9104e55) -> delegate 별 app state 를 조금 다르게 설명
 
