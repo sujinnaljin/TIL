@@ -195,6 +195,7 @@
 - [recursive enumeration (feat. indirect)](https://github.com/sujinnaljin/TIL/blob/master/Swift/recursive%20enumeration%20(feat.%20indirect).md)
 - [iOS15의 canOpenURL(_:) 과 URL schemes 등록 개수 제한](https://github.com/sujinnaljin/TIL/blob/master/Swift/iOS15%EC%9D%98%20canOpenURL(_:)%20%EA%B3%BC%20URL%20schemes%20%EB%93%B1%EB%A1%9D%20%EA%B0%9C%EC%88%98%20%EC%A0%9C%ED%95%9C.md)
 - [cellForItem(at:) 의 반환값](https://github.com/sujinnaljin/TIL/blob/master/Swift/cellForItem(at:)%20%EC%9D%98%20%EB%B0%98%ED%99%98%EA%B0%92.md)
+- [Button 의 title 이 simulator 에서 사라지지 않을 때 & selected 에서 background 가 파란색으로 설정될 때](https://github.com/sujinnaljin/TIL/blob/master/Swift/Button%20%EC%9D%98%20title%20%EC%9D%B4%20simulator%20%EC%97%90%EC%84%9C%20%EC%82%AC%EB%9D%BC%EC%A7%80%EC%A7%80%20%EC%95%8A%EC%9D%84%20%EB%95%8C%20&%20selected%20%EC%97%90%EC%84%9C%20background%20%EA%B0%80%20%ED%8C%8C%EB%9E%80%EC%83%89%EC%9C%BC%EB%A1%9C%20%EC%84%A4%EC%A0%95%EB%90%A0%20%EB%95%8C.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
