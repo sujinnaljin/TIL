@@ -40,6 +40,11 @@
 
   ![image](https://user-images.githubusercontent.com/20410193/154632131-860101e4-b628-475f-8c95-c3603d7f7885.png)
 
+- 크롬 확장 프로그램인 [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg/related?hl=ko) 를 다운받으면 개발자 도구의 EditThisCookie 탭에서 좀 더 간편하게 확인 가능
+
+  ![image](https://user-images.githubusercontent.com/20410193/154633054-20d37199-8b64-4ab5-80c1-a78139e025ab.png)
+
+
   
 
 - 쿠키의 **한계**
