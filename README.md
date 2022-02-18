@@ -66,6 +66,7 @@
 - [RDBMS vs. Hadoop](https://github.com/sujinnaljin/TIL/blob/master/RDBMS%20vs.%20Hadoop.md)
 - [SMP(Symetric Multiprocessing) vs. MPP(Massively Parallel Processing)](https://github.com/sujinnaljin/TIL/blob/master/SMP(Symetric%20Multiprocessing)%20vs.%20MPP(Massively%20Parallel%20Processing).md)
 - [Isolation level](https://github.com/sujinnaljin/TIL/blob/master/Isolation%20level.md)
+- [쿠키 (feat. Set-Cookie 와 Cookie 헤더)](https://github.com/sujinnaljin/TIL/blob/master/%EC%BF%A0%ED%82%A4%20(feat.%20Set-Cookie%20%EC%99%80%20Cookie%20%ED%97%A4%EB%8D%94).md)
 
 
 ## Swift
