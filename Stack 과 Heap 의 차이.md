@@ -2,7 +2,12 @@
 
 - **Stack** 은 **static memory allocation**에 사용 됨
 
-  **Heap** 은 **dynamic memory allocation** 에 사용 됨. 힙을 통해 **다른 개체에서 참조하는 데이터를 저장**. 일반적으로 시스템이 **메모리 블록을 요청**하고 **동적으로 할당**할 수 있는 **큰 메모리 풀**
+  **Heap** 은 **dynamic memory allocation** 에 사용 됨. 
+  
+  힙에 **다른 개체에서 참조하는 데이터를 저장** 하고, 해당 **object에 대한 포인터**가 **stack**에 함께 저장됨. (포인터는 가리키는 타입에 관계없이 동일한 양의 메모리를 사용)
+  
+  힙은 일반적으로 시스템이 **메모리 블록을 요청**하고 **동적으로 할당**할 수 있는 **큰 메모리 풀**
+
 
   <img width="642" alt="image" src="https://user-images.githubusercontent.com/20410193/156297066-8d4fd0de-4b63-421b-a0d9-d52b512a617e.png">
 
