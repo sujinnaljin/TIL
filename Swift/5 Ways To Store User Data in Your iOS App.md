@@ -8,15 +8,16 @@
 - 정보를 저장하고 검색하는 가장 일반적이고 가장 편리한 방법
 - 사용자의 기본 설정(예 : 사용자가 선호하는 모드 (dark or light), 알림 수신 여부 등)을 저장하는 데 사용.
 - 일반적으로 앱에 설정 화면이있는 경우 `UserDefaults ` 가 적합
-- 유저 디폴트는 property list 혹은 plist 로서 disk 에 저장된다. (plist는 XML 파일)
-- AppData > Library > Preferences 안에 plist 파일이 있는데 이게 표준 UserDefault의 database 파일
+- 유저 디폴트는 key-value 페어로 property list 혹은 plist 로서 disk 에 저장된다. (plist는 XML 파일)
+- AppData > Library > Preferences 안에 plist 파일이 있는데 이게 표준 UserDefault의 database 파일 (ex. `./Library/Preferences/com.mycompany.MyAppName.plist`)
 
 ## 2. Keychain
 
 - Keychain은 disk에 있는 특수한 파일
 - hardware-encrypted 되어 있으며 접근하기 위한 low-level API 들이 많음
 - 암호화하고 보안을 유지해야하는 작은 정보 (예 : 암호, 자격 증명, 토큰 등)를 저장할 때 사용
-- 모든 것이 `Data`로 저장되어야 함. 따라서 해당 유형으로 직렬화 할 수 있는 object와 value만 전달해야 함.
+- 모든 것이 `Data`로 저장되어야 함. 따라서 해당 유형으로 직렬화 할 수 있는 object와 value만 전달해야 함
+- 참고로 Keychain Sharing 을 활성화하면 keychain에 저장한 값을 같은 팀에서 개발한 다른 앱과 공유 가능
 
 ## 3. File System
 
@@ -63,6 +64,9 @@
 #### User Default vs Core Data
 - User Default는 모든 데이터가 키/밸류 형태로 짝을 이루기 때문에 코어데이터보다 빠르지만, 말 그대로 유저 정보와 같이 작은 데이터를 저장하는데 사용된다.
 
+#### Keychain vs User Default
+- **앱 삭제**시 **keychain** 은 해당 정보가 여전히 **남아있고**, **NSUserDefaults** 는 정보가 **지워짐**.
+
 
 # 출처
 
@@ -70,3 +74,4 @@
 - [UserDefaults, FileManger, CoreData에대한 간단한 설명](https://velog.io/@rnfxl92/UserDefaults-FileManger-CoreData%EC%97%90%EB%8C%80%ED%95%9C-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%84%A4%EB%AA%85)
 - [[iOS] 파일시스템(File System)](https://jinshine.github.io/2019/01/19/iOS/UserDefaults.1/)
 - [Where to Store a Core Data Persistent Store](https://cocoacasts.com/where-to-store-a-core-data-persistent-store)
+- [Difference between Keychain and NSUserDefault?](https://stackoverflow.com/questions/12090136/difference-between-keychain-and-nsuserdefault)
