@@ -70,7 +70,6 @@
 - [git submodule 주소가 중간에 변경되었을때](https://github.com/sujinnaljin/TIL/blob/master/git%20submodule%20%EC%A3%BC%EC%86%8C%EA%B0%80%20%EC%A4%91%EA%B0%84%EC%97%90%20%EB%B3%80%EA%B2%BD%EB%90%98%EC%97%88%EC%9D%84%EB%95%8C.md)
 - [Stack 과 Heap 의 차이](https://github.com/sujinnaljin/TIL/blob/master/Stack%20%EA%B3%BC%20Heap%20%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 
-
 ## Swift
 
 - [delegate](https://github.com/sujinnaljin/TIL/blob/master/Swift/delegate.md)
@@ -200,6 +199,7 @@
 - [cellForItem(at:) 의 반환값](https://github.com/sujinnaljin/TIL/blob/master/Swift/cellForItem(at:)%20%EC%9D%98%20%EB%B0%98%ED%99%98%EA%B0%92.md)
 - [Button 의 title 이 simulator 에서 사라지지 않을 때 & selected 에서 background 가 파란색으로 설정될 때](https://github.com/sujinnaljin/TIL/blob/master/Swift/Button%20%EC%9D%98%20title%20%EC%9D%B4%20simulator%20%EC%97%90%EC%84%9C%20%EC%82%AC%EB%9D%BC%EC%A7%80%EC%A7%80%20%EC%95%8A%EC%9D%84%20%EB%95%8C%20&%20selected%20%EC%97%90%EC%84%9C%20background%20%EA%B0%80%20%ED%8C%8C%EB%9E%80%EC%83%89%EC%9C%BC%EB%A1%9C%20%EC%84%A4%EC%A0%95%EB%90%A0%20%EB%95%8C.md)
 - [Certificate와 .p12](https://github.com/sujinnaljin/TIL/blob/master/Swift/Certificate%EC%99%80%20.p12.md)
+- - [struct 는 왜 상속이 불가능할까?](https://github.com/sujinnaljin/TIL/blob/master/Swift/struct%20%EB%8A%94%20%EC%99%9C%20%EC%83%81%EC%86%8D%EC%9D%B4%20%EB%B6%88%EA%B0%80%EB%8A%A5%ED%95%A0%EA%B9%8C%3F.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
