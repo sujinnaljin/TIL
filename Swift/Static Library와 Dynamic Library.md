@@ -166,4 +166,5 @@
 
 - [Static Library in iOS](https://medium.com/swift-india/static-library-in-ios-d133123678d1)
 - [How Jesse Pinkman Cracked Dynamic Library in iOS (Part 1)](https://medium.com/swift2go/how-jesse-pinkman-cracked-dynamic-library-in-ios-part-1-c6be383796b1)
+- [Static Libraries vs. Dynamic Libraries](https://medium.com/@StueyGK/static-libraries-vs-dynamic-libraries-af78f0b5f1e4)
 
