@@ -42,8 +42,6 @@
 
 - DV 인증서는 고객의 **신뢰도가 높지 않**기 때문에, 민감한 정보를 다루는 사이트에는 적합하지 않음
 
-- D(Domain)의 도메인, V(Validation)의 검증의 방법으로 도메인의 소유정보만으로 인증하는 방법입니다.
-
 - Certificate Policy: Policy Identifier=2.23.140.1.2.1
 
   
