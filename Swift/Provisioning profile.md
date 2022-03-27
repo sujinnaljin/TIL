@@ -48,8 +48,13 @@
 ## 프로비저닝 프로파일 유형
 
 - 목적에 따라 다른 유형의 프로비저닝 프로파일을 사용 (Development, Ad-Hoc, App Store, Enterprise)
-- Development provisioning profiles - 단일 기기에서 앱을 테스트하기 위한 것.
-- Distribution provisioning profiles - 베타 테스터나 앱 스토어에 앱을 제출하려는 경우에 사용. (ex. App Store / Ad Hoc / Enterprise (in house) 배포)
+- **Development** provisioning profiles
+  - 단일 기기에서 앱을 테스트하기 위한 것. 즉, **실제 디바이스**를 연결 후 **Xcode 돌려서** 테스트하고 싶을 때 사용
+  - **Development** Signing **Certificates** 사용
+- **Distribution** provisioning profiles
+  - 베타 테스터나 앱 스토어에 앱을 제출하려는 경우에 사용. 즉, **Xcode 외의 장소**에서 애플리케이션을 배포하는 경우
+  - **App Store / Ad Hoc / Enterprise (in house)** 배포가 포함됨 
+  - **Distribution Certificates** 사용
   ![image](https://user-images.githubusercontent.com/20410193/137158488-6e26fc8e-9ff6-46af-8bed-572e2ccb73bc.png)
 
 
@@ -97,5 +102,6 @@
 - [iOS code signing](https://docs.codemagic.io/flutter-code-signing/ios-code-signing/)
 - [ProvisioningProfileType](https://docs.unity3d.com/ScriptReference/ProvisioningProfileType.html)
 - [iOS Code Signing, Development and Distribution Provisioning Profiles explained](https://getupdraft.com/blog/ios-code-signing-development-and-distribution-prov)
+- [iOS Code Signing breakdown](https://bruno-lorenzop.medium.com/ios-code-signing-breakdown-766d95c89f20)
 
 
