@@ -7,6 +7,11 @@
 - 인증서에는 **공개 / 개인 키 쌍**이 포함 됨
 - 배포 인증서의(distribution certificate) **개인 키는 애플리케이션에 서명** (signing) 하는 데 사용
 
+## certification 유형
+
+- **Development** - **실제 디바이스**를 연결 후 **Xcode 돌려서** 테스트하고 싶을 때 사용
+- **Distribution** - Test Flight 또는 App Store 등 **Xcode 외의 장소**에서 애플리케이션을 배포할 때 사용.
+
 ## certificate 생성 방법
 
 ### 1. Mac에서 CSR(`.certSigningRequest`)  파일 생성
@@ -64,5 +69,6 @@
 - [여러대 맥에서 iOS개발시 인증서 복사](https://smilejsu.tistory.com/336)
 - [iOS) APNs :: 인증서 발급받는 방법 (p.12, pem)](https://babbab2.tistory.com/57)
 - [[ iOS \] APNS 인증서 생성 및 발급 PEM, P12 파일 만들기 1](https://tttap.tistory.com/212)
+- [iOS Code Signing breakdown](https://bruno-lorenzop.medium.com/ios-code-signing-breakdown-766d95c89f20)
 
 
