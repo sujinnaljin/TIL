@@ -202,6 +202,7 @@
 - [Certificate와 .p12](https://github.com/sujinnaljin/TIL/blob/master/Swift/Certificate%EC%99%80%20.p12.md)
 - [struct 는 왜 상속이 불가능할까?](https://github.com/sujinnaljin/TIL/blob/master/Swift/struct%20%EB%8A%94%20%EC%99%9C%20%EC%83%81%EC%86%8D%EC%9D%B4%20%EB%B6%88%EA%B0%80%EB%8A%A5%ED%95%A0%EA%B9%8C%3F.md)
 - [`.xcworkspace` 패키지에 들어있는 것들 (feat. `contents.xcworkspacedata` & `xcuserdata` & `xcshareddata`)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%60.xcworkspace%60%20%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90%20%EB%93%A4%EC%96%B4%EC%9E%88%EB%8A%94%20%EA%B2%83%EB%93%A4%20(feat.%20%60contents.xcworkspacedata%60%20%26%20%60xcuserdata%60%20%26%20%60xcshareddata%60).md)
+- [class 가 struct 보다 느린 이유](https://github.com/sujinnaljin/TIL/blob/master/Swift/class%20%EA%B0%80%20struct%20%EB%B3%B4%EB%8B%A4%20%EB%8A%90%EB%A6%B0%20%EC%9D%B4%EC%9C%A0.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
