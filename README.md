@@ -204,6 +204,8 @@
 - [`.xcworkspace` 패키지에 들어있는 것들 (feat. `contents.xcworkspacedata` & `xcuserdata` & `xcshareddata`)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%60.xcworkspace%60%20%ED%8C%A8%ED%82%A4%EC%A7%80%EC%97%90%20%EB%93%A4%EC%96%B4%EC%9E%88%EB%8A%94%20%EA%B2%83%EB%93%A4%20(feat.%20%60contents.xcworkspacedata%60%20%26%20%60xcuserdata%60%20%26%20%60xcshareddata%60).md)
 - [class 가 struct 보다 느린 이유](https://github.com/sujinnaljin/TIL/blob/master/Swift/class%20%EA%B0%80%20struct%20%EB%B3%B4%EB%8B%A4%20%EB%8A%90%EB%A6%B0%20%EC%9D%B4%EC%9C%A0.md)
 - [Compile vs Build vs Run](https://github.com/sujinnaljin/TIL/blob/master/Swift/Compile%20vs%20Build%20vs%20Run.md)
+- [StackView 의 backgroundColor 적용](https://github.com/sujinnaljin/TIL/blob/master/Swift/StackView%20%EC%9D%98%20backgroundColor%20%EC%A0%81%EC%9A%A9.md)
+- [selectItem 은 didSelectItemAt 을 호출하지 않음](https://github.com/sujinnaljin/TIL/blob/master/Swift/selectItem%20%EC%9D%80%20didSelectItemAt%20%EC%9D%84%20%ED%98%B8%EC%B6%9C%ED%95%98%EC%A7%80%20%EC%95%8A%EC%9D%8C.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
