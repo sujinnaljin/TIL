@@ -7,7 +7,7 @@
 - "사용자가 어떤 workflow로 앱을 사용할 것 같은데.." -> 직접 사람이 할 수도 있지만 Xcode 에서 제공하는 UI 테스트 타겟을 사용하면 UI Test 자동화를 쉽게 구현할 수 있게 해줌
 - Xcode 에서 제공하는 UI 테스트 툴은 실제 앱 타겟 내부의 코드에는 접근할 수 없지만, UI를 코드로 조작할 수 있음 (원래 Unit Test 에서는 @testable import MyProject 를 통해 프로젝트 내의 코드에 접근했음. UI Test 도 쓸 수야 있지만, 하면 안됨)
 - 앱의 코드를 직접 실행하는 대신 앱의 사용자 인터페이스 컨트롤을 실제 사용자처럼 사용하여 특정 작업을 완료할 수 있는지 여부를 결정
-- 핸들링이 끝나고 결과를 확인할 때는 목표로 하는 UI 요소가 존재하는지를 검색하여 `XCTAssertNotNil` 로 판별 처리를 할 수 있음
+- 핸들링이 끝나고 결과를 확인할 때는 목표로 하는 UI 요소가 존재하는지를 검색하여 `XCTAssert`, `XCTAssertTrue`, `XCTAssertEqual`, `XCTAssertNotNil` 등 다양한 assertion 구문으로  판별 처리를 할 수 있음
 
 ex) textField 에서 입력 후 버튼 누르면 해당 내용으로 alert 뜸 -> 코드로 textField 에 입력 시킨 후 버튼 누르게 하고 alert 있나 확인
 
