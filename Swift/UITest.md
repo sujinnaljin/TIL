@@ -99,10 +99,11 @@ ex) textField 에서 입력 후 버튼 누르면 해당 내용으로 alert 뜸 -
   <img width="915" alt="image" src="https://user-images.githubusercontent.com/20410193/165499652-974397e3-267b-49a2-9fd1-cd6418d6c326.png">
 
 - XCUIElement 는 XCUIElementAttributes 를 conform 하고 있는데 여기에는 value, title, label, placeholderValue, isEnabled, isSelected, frame 등이 있음.
+- 사실 XCUIApplication 도 XCUIElement 를 상속
 
 ### 3. XCUIElementQuery
 
-- 화면에 그려진 XCUIElement를 찾기 위해서는 **[XCUIElementQuery](https://developer.apple.com/documentation/xctest/xcuielementquery)**를 사용할 수 있음.
+- 화면에 그려진 XCUIElement를 찾기 위해서는 **[XCUIElementQuery](https://developer.apple.com/documentation/xctest/xcuielementquery)** 를 사용할 수 있음.
 
 - 즉 UI element를 찾기 위한 쿼리
 
