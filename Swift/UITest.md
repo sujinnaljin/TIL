@@ -333,14 +333,23 @@ XCTAssertTrue(myButton.isHittable)
 
 <img width="938" alt="image" src="https://user-images.githubusercontent.com/20410193/165500443-613708ff-f3af-4c92-b2cc-c62a87f3bc9e.png">
 
-그럼 뭐.. 이런식으로 가능할 듯
+그럼 뭐.. 이런식으로 가능!
 
 ```swift
 XCTAssert(myButton.staticTexts["Alert 띄우기!"].exists)
 XCTAssertEqual(myButton.staticTexts.element.label, "Alert 띄우기")
 ```
+사실 이 화면에서는 해당 element 만 "Alert 띄우기" 값을 표현하고 있기 때문에 그냥  `app.staticTexts["Alert 띄우기!"]` 처럼 바로 찾아도 됨.
 
-하지만 많은 사람들이, “주어진 조건에서 원하는 정보가 원하는대로 출력되는지”를 테스트하기 위해 “ViewModel”을 테스트하라고 조언. ViewModel에서 출력이 기대한대로 나오면, ViewModel과 View가 제대로 연결되어있다는 가정 하에, View에는 기대한 출력이 그대로 반영될 것이기 때문. 따라서 이런 값 할당 등의 확인은 Unit Test 가 난듯.
+하지만 똑같은 값을 가진 label 을 하나 더 올린다?
+
+<img width="395" alt="image" src="https://user-images.githubusercontent.com/20410193/165672266-9878786b-01eb-4de4-806b-d280540fd487.png">
+
+그러면 Multiple matching elements 라고 중복된 element 있다고 바로 에러나버림
+
+<img width="513" alt="image" src="https://user-images.githubusercontent.com/20410193/165672591-03faa3c8-233f-4d75-bfb5-ac3cda3f2871.png">
+
+많은 사람들이, “주어진 조건에서 원하는 정보가 원하는대로 출력되는지”를 테스트하기 위해 “ViewModel”을 테스트하라고 조언. ViewModel에서 출력이 기대한대로 나오면, ViewModel과 View가 제대로 연결되어있다는 가정 하에, View에는 기대한 출력이 그대로 반영될 것이기 때문. 따라서 이런 값 할당 등의 확인은 Unit Test 가 난듯.
 
 #### 2. 그럼 background 색상 테스트도 할 수 있나?
 
