@@ -136,7 +136,7 @@ ex) textField 에서 입력 후 버튼 누르면 해당 내용으로 alert 뜸 -
 
 - UI Test에서의 코어 기술은 XCTest 프레임워크와 Accessibility의 조합
 
-- Qurie 는 Accessibility 의 관점에서 visible 한 element 만 찾을 수 있음 (WWDC 2015 - UI Testing in Xcode)
+- Query 는 Accessibility 의 관점에서 visible 한 element 만 찾을 수 있음 (WWDC 2015 - UI Testing in Xcode)
 
   <img width="895" alt="image" src="https://user-images.githubusercontent.com/20410193/165499963-cd5d5eb1-068c-4b14-aedf-ca00f04cd054.png">
 
