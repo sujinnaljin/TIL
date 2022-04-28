@@ -116,16 +116,17 @@ ex) textField 에서 입력 후 버튼 누르면 해당 내용으로 alert 뜸 -
   <img width="907" alt="image" src="https://user-images.githubusercontent.com/20410193/165499711-62ec028e-be28-42d5-914b-25979d307b0a.png">
 
 - 쿼리만 쓴다고 무조건 XCUIElement 가 나오는게 아님. 아래 코드에서 **table과 cell은 여전히 XCUIElementQuery타입**
+- 아래 코드는 현재 View안의 table과 cell을 전부 가져오는 코드  
 
   <img width="511" alt="image" src="https://user-images.githubusercontent.com/20410193/165499738-27b75222-882e-440b-8154-d9b4bb7462f1.png">
-
-- 위 코드는 현재 View안의 table과 cell을 전부 가져오는 코드인데,  UITest 를 위해서는 유니크한 하나의 View를 찾고 상호작용 해야하기 때문에 identifier 등을 통해 더 명확하게 쿼리를 줘야함 
-
-  <img width="912" alt="image" src="https://user-images.githubusercontent.com/20410193/165499914-bf195679-ed8e-4eda-9f13-44c8e07abe64.png">
+  
+  UITest 를 위해서는 유니크한 하나의 View를 찾고 상호작용 해야하기 때문에 identifier 등을 통해 더 명확하게 쿼리를 줘야함
+  
+  <img width="936" alt="image" src="https://user-images.githubusercontent.com/20410193/165499931-c7834705-6f55-4090-85bd-d35e4feec8a9.png">
 
 - query 로 element 를 찾으려면 identifier 를 이용하는 것 외에도, index 로 찾을수도 있고, element 가 unique 하다는걸 알 경우에는 그냥 element 로 찾을 수도 있음
-
-  <img width="936" alt="image" src="https://user-images.githubusercontent.com/20410193/165499931-c7834705-6f55-4090-85bd-d35e4feec8a9.png">
+  
+  <img width="912" alt="image" src="https://user-images.githubusercontent.com/20410193/165499914-bf195679-ed8e-4eda-9f13-44c8e07abe64.png">
 
 - query 는 실제 사용할 때, 즉 XCUIElement 에 tap 등의 이벤트가 발생한다든가, property value 를 읽는다던가 하는 상황에서 on demand 하게 평가 (evaluated) 됨 (생성만으로 fetch 안하는 URL 과 비슷).
 
