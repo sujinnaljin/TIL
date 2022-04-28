@@ -408,7 +408,7 @@ UI 테스트는 접근성이 지원하는 볼 (see) 수 있는 범위에서만 �
   <img width="955" alt="image" src="https://user-images.githubusercontent.com/20410193/165500602-f724debd-df29-4b88-9a68-b840806cf6b1.png">
 
 
-- 동일한 UI 테스트에서 실패를 유발할 수 있는 다양한 앱 변수가 있음 (아니.. 버튼 위치 가린다고 안됐다니까?)
+- 동일한 UI 테스트에서 실패를 유발할 수 있는 다양한 앱 변수가 있음 
 
   예를 들어 아래처럼 레이아웃을 맞춰놨는데, se 같은 작은 기기에서는 키보드가 "alert 띄우기!" 버튼을 가릴 수 있음. 
 
@@ -420,7 +420,7 @@ UI 테스트는 접근성이 지원하는 볼 (see) 수 있는 범위에서만 �
 
   그 상태에서 해당 버튼을 .tap() 하려고 한다면, 탭할 수 없다고 에러남;;
 
-  ![image](https://user-images.githubusercontent.com/20410193/165500829-b0275745-76d4-4ed4-9927-adbd912863c7.png)
+  <img width="519" alt="image" src="https://user-images.githubusercontent.com/20410193/165677492-3e448aaf-70b4-43ff-980b-d104c89b4241.png">
 
   UI Test 실패하면 실패 상태를 Report Navigator 에서 screen shot 으로 볼수 있음
 
