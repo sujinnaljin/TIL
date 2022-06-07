@@ -18,4 +18,6 @@ func background<S, T>(_ style: S, in shape: T, fillStyle: FillStyle = FillStyle(
 
 `ShapeStyle` 을 배경으로 추가하려면,  [background(_:safeAreaEdges:)](https://developer.apple.com/documentation/swiftui/view/background(_:ignoressafeareaedges:)) 을 사용
 
-출처 - https://developer.apple.com/documentation/swiftui/view/background(_:in:fillstyle:)-89n7j
+# 출처
+
+- https://developer.apple.com/documentation/swiftui/view/background(_:in:fillstyle:)-89n7j
