@@ -216,6 +216,16 @@
 - [BezierPath 의 init(roundedRect:byRoundingCorners:cornerRadii:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/BezierPath%20%EC%9D%98%20init(roundedRect:byRoundingCorners:cornerRadii:).md)
 - [[SwiftUI] ViewBuilder](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20ViewBuilder.md)
 - [[SwiftUI] zIndex(_:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20zIndex(_:).md)
+- [[SwiftUI] 중첩 offset](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20%EC%A4%91%EC%B2%A9%20offset.md)
+- [[SwiftUI] clipped(antialiased:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20clipped(antialiased:).md)
+- [[SwiftUI] ViewModifier](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20ViewModifier.md)
+- [[SwiftUI] font(_:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20font(_:).md)
+- [[SwiftUI] Label vs Text](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20Label%20vs%20Text.md)
+- [[SwiftUI] LinearGradient](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20LinearGradient.md)
+- [[SwiftUI] Divider](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20Divider.md)
+- [[SwiftUI] .fill(HierarchicalShapeStyle)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20.fill(HierarchicalShapeStyle).md)
+- [[SwiftUI] Capsule vs Ellipse vs Circle](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20Capsule%20vs%20Ellipse%20vs%20Circle.md)
+
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
