@@ -206,6 +206,11 @@
 - [Compile vs Build vs Run](https://github.com/sujinnaljin/TIL/blob/master/Swift/Compile%20vs%20Build%20vs%20Run.md)
 - [StackView 의 backgroundColor 적용](https://github.com/sujinnaljin/TIL/blob/master/Swift/StackView%20%EC%9D%98%20backgroundColor%20%EC%A0%81%EC%9A%A9.md)
 - [selectItem 은 didSelectItemAt 을 호출하지 않음](https://github.com/sujinnaljin/TIL/blob/master/Swift/selectItem%20%EC%9D%80%20didSelectItemAt%20%EC%9D%84%20%ED%98%B8%EC%B6%9C%ED%95%98%EC%A7%80%20%EC%95%8A%EC%9D%8C.md)
+- [[SwiftUI] ShapeStyle](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20ShapeStyle.md)
+- [[SwiftUI] foregroundStyle(_:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20foregroundStyle(_:).md)
+- [[SwiftUI] HierarchicalShapeStyle](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20HierarchicalShapeStyle.md)
+- [[SwiftUI] background(_:in:fillStyle:)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20background(_:in:fillStyle:).md)
+- [[SwiftUI] Shape](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20Shape.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
