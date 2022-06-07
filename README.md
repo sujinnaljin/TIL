@@ -225,7 +225,9 @@
 - [[SwiftUI] Divider](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20Divider.md)
 - [[SwiftUI] .fill(HierarchicalShapeStyle)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20.fill(HierarchicalShapeStyle).md)
 - [[SwiftUI] Capsule vs Ellipse vs Circle](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20Capsule%20vs%20Ellipse%20vs%20Circle.md)
-
+- [[SwiftUI] SafeAreaRegions](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20SafeAreaRegions.md)
+- [[SwiftUI] CoordinateSpace](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20CoordinateSpace.md)
+- [[SwiftUI] Modifying state during view update, this will cause undefined behavior](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20Modifying%20state%20during%20view%20update,%20this%20will%20cause%20undefined%20behavior.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
