@@ -1,4 +1,4 @@
-# [SwiftUI] Path.
+# [SwiftUI] Path
 
 Path 는 2D shape의 outline (위치 값을 가진 선, 곡선)
 
