@@ -1,7 +1,7 @@
 # [SwiftUI] foregroundStyle(_:)
 지정된 스타일을 사용하도록 뷰의 foreground element를 설정
 
-인자로는 ShapeStyle 을 준수하는 아무 style 이나 넣으면 됨. 
+인자로는 [ShapeStyle](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20ShapeStyle.md) 을 준수하는 아무 style 이나 넣으면 됨. 
 ```swift
 HStack {
     Image(systemName: "triangle.fill")
