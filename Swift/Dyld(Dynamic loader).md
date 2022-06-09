@@ -1,4 +1,4 @@
-# Dyld
+# Dyld (Dynamic loader)
 
 - Dyld는 **앱 사용 준비를 담당**하는 Apple의 프로그램
 
