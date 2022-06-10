@@ -66,8 +66,6 @@ feedbackGenerator.impactOccurred()
 
 ## UINotificationFeedbackGenerator
 
-세 번째이자 마지막 `UIFeedbackGenerator`하위 클래스는 `UINotificationFeedbackGenerator`입니다. 이름에서 알 수 있듯이 피드백 생성기는 사용자에게 이벤트를 알리는 데 사용할 수 있습니다. 클
-
 ```swift
 // Initialize Notification Feedback Generator
 let feedbackGenerator = UINotificationFeedbackGenerator()
