@@ -229,6 +229,7 @@
 - [[SwiftUI] CoordinateSpace](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20CoordinateSpace.md)
 - [[SwiftUI] Modifying state during view update, this will cause undefined behavior](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20Modifying%20state%20during%20view%20update,%20this%20will%20cause%20undefined%20behavior.md)
 - [UIFeedbackGenerator](https://github.com/sujinnaljin/TIL/blob/master/Swift/UIFeedbackGenerator.md)
+- [iOS 인증서(certificates) 만료시 일어나는 일](https://github.com/sujinnaljin/TIL/blob/master/Swift/iOS%20%EC%9D%B8%EC%A6%9D%EC%84%9C(certificates)%20%EB%A7%8C%EB%A3%8C%EC%8B%9C%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EC%9D%BC.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
