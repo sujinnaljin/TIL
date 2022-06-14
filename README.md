@@ -231,6 +231,9 @@
 - [UIFeedbackGenerator](https://github.com/sujinnaljin/TIL/blob/master/Swift/UIFeedbackGenerator.md)
 - [iOS 인증서(certificates) 만료시 일어나는 일](https://github.com/sujinnaljin/TIL/blob/master/Swift/iOS%20%EC%9D%B8%EC%A6%9D%EC%84%9C(certificates)%20%EB%A7%8C%EB%A3%8C%EC%8B%9C%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EC%9D%BC.md)
 - [CABasicAnimation](https://github.com/sujinnaljin/TIL/blob/master/Swift/CABasicAnimation.md)
+- [SpriteView](https://github.com/sujinnaljin/TIL/blob/master/Swift/SpriteView.md)
+- [SKScene](https://github.com/sujinnaljin/TIL/blob/master/Swift/SKScene.md)
+- [SKEmitterNode](https://github.com/sujinnaljin/TIL/blob/master/Swift/SKEmitterNode.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
