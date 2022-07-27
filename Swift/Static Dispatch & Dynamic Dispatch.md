@@ -53,4 +53,5 @@
 - [A Deep Dive Into Method Dispatches in Swift](https://betterprogramming.pub/a-deep-dive-into-method-dispatches-in-swift-65a8e408a7d0)
 - [Dynamic Dispatch와 성능 최적화](https://jcsoohwancho.github.io/2019-10-11-Dynamic-Dispatch%EC%99%80-%EC%84%B1%EB%8A%A5-%EC%B5%9C%EC%A0%81%ED%99%94/)
 - [Swift의 Dispatch 규칙](https://jcsoohwancho.github.io/2019-11-01-Swift%EC%9D%98-Dispatch-%EA%B7%9C%EC%B9%99/)
+- [Method Dispatch in Swift](https://medium.com/@ilichev/method-dispatch-in-swift-da0d3993fc76)
 
