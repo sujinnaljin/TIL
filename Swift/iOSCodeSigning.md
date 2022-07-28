@@ -1,4 +1,4 @@
-# iOS 코드 서명 (feat. 프로비저닝 프로파일과 Mach-O 파일)
+# iOS 코드 서명 (code signing) (feat. 프로비저닝 프로파일과 Mach-O 파일)
 
 ## 코드 서명
 
