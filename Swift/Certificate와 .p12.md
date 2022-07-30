@@ -9,8 +9,17 @@
 
 ## certification 유형
 
-- **Development** - **실제 디바이스**를 연결 후 **Xcode 돌려서** 테스트하고 싶을 때 사용
-- **Distribution** - Test Flight 또는 App Store 등 **Xcode 외의 장소**에서 애플리케이션을 배포할 때 사용.
+- 앱을 개발하는 동안 다양한 컨텍스트에서 사용할 수 있는 다른 [인증서 유형](https://help.apple.com/xcode/mac/current/#/dev80c4ec)을 만듦.
+
+  그 중 대표적으로 Apple Development 인증서를 사용하여 디바이스에서 앱을 실행하고 앱 서비스를 사용할 수 있으며 Apple Distribution 인증서를 사용하여 앱을 배포하고 테스트 및 [App Store Connect](https://help.apple.com/xcode/mac/current/#/devec4355ec5)에 업로드할 수 있음
+
+  - **Development** - **실제 디바이스**를 연결 후 **Xcode 돌려서** 테스트하고 싶을 때 사용. simulator 에서 앱을 돌릴때는 해당 안됨 (즉 시뮬레이터 상에서는 아무것도 신경 안써도 됨).
+
+  - **Distribution** - Test Flight 또는 App Store 등 **Xcode 외의 장소**에서 애플리케이션을 배포할 때 사용.
+
+    앱 Distribution 에는 **Ad-hoc** , **Enterprise** 및 **App Store** 의 세 가지 배포 유형을 구분할 수 있음. 이때 **세 가지 모두에 대해 배포 인증서를 사용**해야 함. 하지만 각각의 프로비저닝 프로필 유형이 다름. (Ad-hoc, Enterprise, App Store)
+
+   
 
 ## certificate 생성 방법
 
@@ -70,5 +79,6 @@
 - [iOS) APNs :: 인증서 발급받는 방법 (p.12, pem)](https://babbab2.tistory.com/57)
 - [[ iOS \] APNS 인증서 생성 및 발급 PEM, P12 파일 만들기 1](https://tttap.tistory.com/212)
 - [iOS Code Signing breakdown](https://bruno-lorenzop.medium.com/ios-code-signing-breakdown-766d95c89f20)
+- [What is app signing?](https://help.apple.com/xcode/mac/current/#/dev3a05256b8)
 
 
