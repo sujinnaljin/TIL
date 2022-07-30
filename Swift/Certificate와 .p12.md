@@ -17,7 +17,7 @@
 
   - **Distribution** - Test Flight 또는 App Store 등 **Xcode 외의 장소**에서 애플리케이션을 배포할 때 사용.
 
-    앱 Distribution 에는 **Ad-hoc** , **Enterprise** 및 **App Store** 의 세 가지 배포 유형을 구분할 수 있음. 이때 **세 가지 모두에 대해 배포 인증서를 사용**해야 함. 하지만 각각의 프로비저닝 프로필 유형이 다름. (Ad-hoc, Enterprise, App Store)
+    앱 Distribution 에는 **Ad-hoc** , **Enterprise** 및 **App Store** 의 세 가지 배포 유형을 구분할 수 있음. 이때 **세 가지 모두에 대해 배포 인증서를 사용**해야 함. 하지만 각각의 [프로비저닝 프로파일](https://github.com/sujinnaljin/TIL/blob/master/Swift/Provisioning%20profile.md) 유형이 다름. (Ad-hoc, Enterprise, App Store)
 
    
 
