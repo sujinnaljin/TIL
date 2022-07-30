@@ -17,29 +17,9 @@
   - **앱스토어**에서 설치한 앱은 **Apple의 인증서**로 코드 서명
   - **개발자**가 테스트하거나 배포하는 앱은 Apple이 발급한 **개발자 인증서**로 코드 서명
 
-- 이때 **개발자 인증서**로 코드 서명한 앱을 기기에 설치할 때는 **프로비저닝 프로파일**(provisioning profile) 필요.
+- 이때 **개발자 인증서**로 코드 서명한 앱을 기기에 설치할 때는 [**프로비저닝 프로파일**(provisioning profile)](https://github.com/sujinnaljin/TIL/blob/master/Swift/Provisioning%20profile.md) 필요.
 
   프로비저닝 프로파일에 명시된 기기에 프로비저닝 프로파일을 설치해야 Apple의 인증서로 코드 서명된 앱이 아니더라도 기기에서 실행 가능.
-
-## [프로비저닝 프로파일](https://github.com/sujinnaljin/TIL/blob/master/Swift/Provisioning%20profile.md)
-
-- 기기에서 **앱을 실행**하고 **특정 서비스를 사용**하고자 할 때 사용되는 **파일**
-
-- 디바이스에서 앱을 실행하기 위해서는 내 디바이스가 **개발자를 신뢰**할 수 있는지를 알아야 **앱 설치**를 허락할지 말지를 결정할 수 있는데, 이 역할을 해주는 것이 Provisioning Profile
-
-- 프로비저닝 프로파일은 **iOS 디바이스들을 Apple 인증서와 연결하는 역할**을 담당. 
-
-- 이 결과로 만들어진 `*.mobileprovision` 파일은 iOS 앱을 **컴파일하는 과정에서 사용되며** 앱을 테스트하려고 하는 **디바이스에 설치**가 되어야 함.
-
-- [Xcode](https://developer.apple.com/xcode/)에서 자동 생성하거나 [Apple Developer Program](https://developer.apple.com/)에서 생성 가능
-
-  ![img](https://t1.daumcdn.net/cfile/tistory/24192D50585BDE0406)
-
-### 프로비저닝 프로파일의 내용
-
-- **인증서**와 **기기 목록**, **`Entitlements` 항목**, **유효기간** 등이 명시되어 있음. 만약 실행 환경이 프로비저닝 프로파일에 명시된 자격 조건과 맞지 않는다면 앱 실행 불가.
-- 프로비저닝 프로파일은 빌드된 앱(`.ipa` 파일) 내부에서 확인 가능
--  `.ipa` 파일의 압축을 풀면 `Payload` 디렉터리 안에 `embedded.mobileprovision`란 이름의 파일(예: `Payload/sample.app/embedded.mobileprovision`)이 프로비저닝 프로파일.
 
 #### 인증서
 
