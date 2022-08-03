@@ -55,18 +55,28 @@ C, C++, Objective-C 용 **컴파일러**. LLVM 프로젝트의 메인 **프론�
 - **Swift AST**(Abstract Syntax Tree) 
 
   - 스위프트의 **문법 분석**(예약어 검사, 구현 등을 제외한 순수한 구문 분석)을 수행.
+  -  `lib/AST` directory 에 정의됨
+  - 소스 파일에 있는 내용과 가장 가까운 representation 
+  -  Swift 소스 코드, Swift 모듈 및 Clang 모듈로부터 생성됨(각각 `lib/Parse`, `lib/Serialization`, `lib/ClangImporter` 에서 생성)
+  - 컴파일 초기에 resolution, typechecking, high-level semantics functions (in `lib/Sema`) 으로 해석 됨
 
 - **Swift SIL** (Swift Intermedate Language)
-
+  
   - Swift 코드와 LLVM IR과의 중간에 위치 (`AST` - `SIL` - `LLVM IR`)
+    - AST 표현보다는 낮은 수준으로, 더 explicit 함 (명확?으로 해석하는게 맞나?)
+    - LLVM과 같은 기계 지향 표현보다는 높은 수준으로, 더  Swift-specific 한 representation
   - Swift 소스 코드와 **LLVM IR과의 표현의 차이를 메꾸**기 위함
   - `Raw Swift IL`과 `Canonical Swift IL` 두 형태 존재. 
   - LLVM IR이 다루기 힘든 **Swift 소스 코드 레벨**에서의 **정적 분석**도 범위에 들어감. (코드 하이라이팅이나, auto completion 등의 기능도 포함)
-
+  - `lib/SIL`에 정의되며 `lib/SILGen`의 코드에 의해 생성되며 선택적으로 `lib/SILoptimizer`의 코드에 의해 최적화됨
   - 여기에서 스위프트, AST에서 나타나는 규칙적인 패턴과 각 문법의 구분이 흐려지고, 함수, 클로져, 변수등은 모두 동등한 구성으로 재배치 됨. 여기까지가 **LLVM**에서의 **Frontend**
 
-- **LLVM IR** (Intermedate Representation)
+- **LLVM IR** (Low Level Virtual Machine Intermediate Representation)
 
+  - 컴파일되는 기계어를 추상적으로 표현한 representation
+  - Swift-specific knowledge 은 포함되어 있지 않음 
+  - Swift 컴파일러가 SIL (in `lib/IRGen`)에서 생성한 다음 LLVM 백엔드에 입력으로 전달
+  - LLVM에는 기계 코드로 낮추기 전에 LLVM IR에 적용되는 자체 선택적 최적화가 있음
   - LLVM IR은 아래와 같이 분류 됨
 
     1. LLVM 어셈블리 언어(LLVM assembly language) -> `.ll` 확장자인 텍스트 파일로 저장. 사람이 읽을 수 있는 문자열로 표현됨.
@@ -119,4 +129,5 @@ C, C++, Objective-C 용 **컴파일러**. LLVM 프로젝트의 메인 **프론�
 - [오크(ORK) – 난독화 컴파일러 도구 1편](https://engineering.linecorp.com/ko/blog/code-obfuscation-compiler-tool-ork-1/)
 - [#1-1. LLVM은 무엇이며 스위프트 코드는 어떻게 실행하는 것인가 [Swift]](https://velog.io/@msi753/LLVM-%EC%8A%A4%EC%9C%84%ED%94%84%ED%8A%B8-%EC%BB%B4%ED%8C%8C%EC%9D%BC)
 - [[iOS] XCode Build System 이해하기](https://eunjin3786.tistory.com/323)
+- [Swift Compiler Performance](https://github.com/apple/swift/blob/main/docs/CompilerPerformance.md#amount-of-optimization)
 
