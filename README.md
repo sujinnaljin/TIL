@@ -70,6 +70,7 @@
 - [git submodule 주소가 중간에 변경되었을때](https://github.com/sujinnaljin/TIL/blob/master/git%20submodule%20%EC%A3%BC%EC%86%8C%EA%B0%80%20%EC%A4%91%EA%B0%84%EC%97%90%20%EB%B3%80%EA%B2%BD%EB%90%98%EC%97%88%EC%9D%84%EB%95%8C.md)
 - [Stack 과 Heap 의 차이](https://github.com/sujinnaljin/TIL/blob/master/Stack%20%EA%B3%BC%20Heap%20%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)
 - [SSL 인증서와 iOS 13 이상에서 인증서에 대한 요구 사항](https://github.com/sujinnaljin/TIL/blob/master/SSL%20%EC%9D%B8%EC%A6%9D%EC%84%9C%EC%99%80%20iOS%2013%20%EC%9D%B4%EC%83%81%EC%97%90%EC%84%9C%20%EC%9D%B8%EC%A6%9D%EC%84%9C%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%9A%94%EA%B5%AC%20%EC%82%AC%ED%95%AD.md)
+- [이미지(Image)](https://github.com/sujinnaljin/TIL/blob/master/Image.md)
 
 ## Swift
 
