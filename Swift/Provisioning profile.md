@@ -149,13 +149,21 @@
 - 개별 개발자에게 할당되며 이들을 식별하는 데 사용 됨
 - 개발 및 디버그 빌드 시에 사용
 - 개발 프로비저닝 프로파일은 Development Signing Certificates로만 생성 가능
+- 자세한 내용은 애플의 [distribution provisioning profile](https://help.apple.com/xcode/mac/current/#/deveca502cb1)  문서 참고
 
 ### 2. Ad-Hoc
 
 - Development provisioning profile과 유사하지만 QA 테스터에게 배포하는 데 사용
+
 - 특정 iOS 테스트 장치의 소규모 그룹에서 응용 프로그램을 테스트하는 실용적인 방법
+
 - 푸시 알림과 같은 다양한 권한 부여 서비스를 테스트하려는 경우에는 개발 프로파일로는 테스트 불가
+
 - Ad-Hoc provisioning profile은 Production (Ad-Hoc) Certificates로만 생성 가능
+
+- 자세한 내용은 애플의 [ad hoc provisioning profile](https://help.apple.com/xcode/mac/current/#/dev4335bfd3d) 문서 참고
+
+  ![img](https://help.apple.com/xcode/mac/current/en.lproj/Art/ad_hoc_provisioning_launch_2x.png)
 
 ### 3. Enterprise
 
@@ -171,6 +179,12 @@
 - 빌드된 앱이 어떤 디바이스에서도 실행이 되지 않도록 함. 즉, 앱스토어 제출 용도 말고는 어디에서도 쓸 수가 없음
 - Apple은 앱이 App Store 프로비저닝 프로파일로 빌드되지 않은 경우 앱 제출을 허용하지 않음
 - Apple이 앱을 App Store에 배포하도록 승인하면 자체 서명 인증서 및 프로필을 사용하여 애플리케이션에 다시 서명 함. 따라서 모든 iOS 디바이스에서 실행될 수 있도록 해줌
+- 자세한 내용은 애플의 [distribution provisioning profile](https://help.apple.com/xcode/mac/current/#/deveca502cb1) 문서 참고
+
+### 5. 기타 
+
+- Copy App, Developer ID 메소드도 있긴 한데 이건 macOS 에 해당. 자세한건 [Distribution methods](https://help.apple.com/xcode/mac/current/#/dev31de635e5) 을 참고.
+
 
 ## 프로비저닝 프로파일의 한계
 
@@ -190,3 +204,4 @@
 - [iOS Code Signing breakdown](https://bruno-lorenzop.medium.com/ios-code-signing-breakdown-766d95c89f20)
 - [iOS 코드 서명에 대해서](https://engineering.linecorp.com/ko/blog/ios-code-signing/#Entitlements)
 - [[iOS\] 코드 사이닝 (프로비저닝 프로파일, 인증서)](https://beankhan.tistory.com/115)
+- [Distribution methods](https://help.apple.com/xcode/mac/current/#/dev31de635e5)
