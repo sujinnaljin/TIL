@@ -87,7 +87,8 @@
 
 - 구글에 hello 검색 쳤을때 협상 관련 요청 헤더
 
-  ![image-20220822002559606](/Users/kangsujin/Library/Application Support/typora-user-images/image-20220822002559606.png)
+  ![image](https://user-images.githubusercontent.com/20410193/186596388-0b9fedcb-dcd8-4a4c-b3f4-bd5ef87202ce.png)
+
 
 ### 종류
 
