@@ -19,7 +19,15 @@
 
     앱 Distribution 에는 **Ad-hoc** , **Enterprise** 및 **App Store** 의 세 가지 배포 유형을 구분할 수 있음. 이때 **세 가지 모두에 대해 배포 인증서를 사용**해야 함. 하지만 각각의 [프로비저닝 프로파일](https://github.com/sujinnaljin/TIL/blob/master/Swift/Provisioning%20profile.md) 유형이 다름. (Ad-hoc, Enterprise, App Store)
 
-   
+    즉, 앱을 **배포하는 방식**(development, Ad Hoc, Enterprise, App Store)에 따라 **그에 맞는 프로비저닝 프로파일**이 **앱 번들에 포함**되고, iOS **App (IPA) 파일**이 distribution (or development) **인증서로 서명**됨. 
+
+    디바이스에서 앱을 실행할 때, 앱 서**명에 사용한 인증서**와 **provisioning profile 에 있는 인증서**가 **동일**한지 체크.
+
+    앱의 번들 아이디가 프로비저닝 프로파일에 명시된 앱 아이디와 같은지, 디바이스가 프로파일에 명시된 디바이스 목록에 포함되어 있는지 등도 체크.
+    
+    ![image](https://user-images.githubusercontent.com/20410193/186571997-9b52fddc-07c1-4a7f-88a9-09b479a9fa17.png)
+
+    
 
 ## certificate 생성 방법
 
@@ -80,5 +88,4 @@
 - [[ iOS \] APNS 인증서 생성 및 발급 PEM, P12 파일 만들기 1](https://tttap.tistory.com/212)
 - [iOS Code Signing breakdown](https://bruno-lorenzop.medium.com/ios-code-signing-breakdown-766d95c89f20)
 - [What is app signing?](https://help.apple.com/xcode/mac/current/#/dev3a05256b8)
-
-
+- [Distribution methods](https://help.apple.com/xcode/mac/current/#/dev31de635e5)
