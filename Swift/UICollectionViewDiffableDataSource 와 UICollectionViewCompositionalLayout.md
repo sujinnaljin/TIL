@@ -185,6 +185,7 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 
 - iOS 14 +
 - 뷰에서 아이템 순서를 변경한 후의 변경 사항을 설명하는 트랜잭션
+- 접근할 수 있는 프로퍼티로는 ` sectionTransections`, 트렌젝션이 발생하기 전의 `initialSnapshot` , 트랜젝션 발생 후의 `finalSnapshot` , initial 과 final 사이의 삽입 / 삭제의 변화를 나타내는 `difference` 가 있음
 
 ### Supporting expanding and collapsing
 
@@ -216,6 +217,12 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
   dataSource.apply(snapshot, animatingDifferences: true)
   ```
 
+### Creating a snapshot
+
+#### appendItems(withIdentifiers:)
+
+- snapshot 의 **마지막 section** 에 특정 identifier 로 아이템을 추가함
+
 ### Reloading data
 
 #### reconfigureItems(_:)
@@ -239,6 +246,7 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 - iOS 14 +
 - **특정 시점**의 컬렉션 뷰 또는 테이블 뷰의 **단일 section** 에 대한 **데이터 상태**를 나타냄. 
 - 섹션 스냅샷은 전체 뷰에 있는 데이터를 나타내는 NSDiffableDataSourceSnapshot 과 함께 또는 대신 사용할 수 있음. 
+- section snapshot 에서 append(_:to:) 를 통해 특정 아이템의 child 로 아이템들을 지정할 수 있음. 
 - expand, collpase 등 가능
 
 # Cells
@@ -333,6 +341,18 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 
 - iOS 14.0+
 - plain, grouped, insetGrouped, sidebar, sidebarPlain 등 list 의 모양을 설명하는 상수
+
+#### UICollectionLayoutListConfiguration.HeaderMode
+
+- iOS 14.0+
+- list 에 사용할 헤더의 타입. 
+- 디폴트 값은 none 이고, firstItemInSection, supplementray 가 있음.
+
+#### UICollectionLayoutListConfiguration.FooterMode
+
+- iOS 14.0+
+- list 에 사용할 헤더의 타입. 
+- 디폴트 값은 none 이고, supplementray 가 있음.
 
 #### UIListSeparatorConfiguration
 
@@ -470,7 +490,7 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
   ```
 
   - .absolute: 고정된 크기일 때 사용.
-  - .estimated: 크기가 변동될 수 있는 경우에 사용. (데이터가 로드되거나 시스템 폰트가 변경되었을때 등)
+  - .estimated: 크기가 변동될 수 있는 경우에 사용. (데이터가 로드되거나 시스템 폰트가 변경되었을때 등). 최종 크기는 컨텐츠가 렌더링되었을때 결정
   - fractionalWidth, .fractionalHeight: 부모 컴포넌트 크기에 비례하여 크기를 설정할 때 사용.
 
 - isAbsolute, isEstimated 등의 인스턴스 프로퍼티를 통해 dimension type 을 알 수 있음
@@ -516,6 +536,7 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 - iOS 13.0+
 - 레이아웃 컨테이너의 size와 content insets에 대한 정보를 제공하는 데 사용되는 프로토콜
 - section provider 에서 layout environment (NSCollectionLayoutEnvironment) 의 container 프로퍼티를 통해 container 의 size 나 content insets 과 같은 layout 정보를 가져올 수 있음.
+- 그중 effectiveContentSize 프로퍼티는 content insets 이 적용된 이후의 container size
 
 ## Configuration
 
@@ -524,6 +545,8 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 - iOS 13.0+
 
 - 스크롤 방향, 섹션 간격 및 레이아웃의 헤더 또는 푸터를 정의할 수 있음
+
+- 여기서 정의하는 헤더 / 푸터는 (`config.boundarySupplementaryItems`) global 헤더 푸터와 같이 전체 레이아웃과 관련된거임. NSCollectionLayoutSection 에서 정의하는 헤더 / 푸터는 (`section.boundarySupplementaryItems`) 그 섹션에만 해당하는거
 
 - UICollectionViewCompositionalLayout 을 생성할 때 이 configuration을 전달하거나 기존 레이아웃에 configuration 프로퍼티를 설정할 수 있음. 기존 레이아웃에서 configuration 을 수정하면 시스템은 새 configuration 으로 업데이트되도록 레이아웃을 무효화함
 
@@ -568,9 +591,14 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 ### UICollectionLayoutSectionOrthogonalScrollingBehavior
 
 - iOS 13.0+
+
 - 레이아웃 섹션의 스크롤 동작
+
 - 기본적으로 각 섹션은 레이아웃 configuration 의 scrollDirection 속성으로 정의된 레이아웃의 주 축을 따라 내용을 레이아웃함. 다만 섹션의 orthogonalScrollingBehavior 를 .none 으로 설정함으로써 특정 섹션에 대해 이 동작을 변경할 수 있음.
+
 - 이 프로퍼티를 none, continuos, continuousGroupLeadingBoundary, paging, groupPaging, groupPagingCentered 등 다른 값으로 변경 가능
+
+  그 중 continuousGroupLeadingBoundary 는 visible 한 group 의 leading 에서 자연스럽게 스크롤이 멈추게함
 
 ## Appearance
 
@@ -683,13 +711,37 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 
 - list 기반 content view 대한 Content Configuration
 
+- struct 임
+
 - cell, 헤더, 푸터와 같은 list 에 나타날 수 있는 개별 요소의 스타일 및 내용을 설명
 
 - valueCell(), subtitleCell(), plainHeader(), plainFooter() 등의 타입 메서드를 통해 다양한 view state 에한 시스템 기본 스타일을 얻을 수 있음. 
 
 - configuration 을 content 로 채운 다음, UICollectionView 및 UITableView 의 셀, 헤더 및 푸터 또는 custom list content view (UIlistContentView)에 직접 할당함
 
-  updated(for: state)
+- updated(for: state)
+
+- UITableViewCell 인스턴스에서 `cell.defaultContentConfiguration()` 처럼 셀의 스타일을 위해 사용할 수 있음.
+
+  원하는 요소만 바꿔둔 다음에 다시 cell 에 할당 가능
+
+  ```
+  var content = cell.defaultContentConfiguration()
+  
+  // Configure content.
+  content.image = UIImage(systemName: "star")
+  content.text = "Favorites"
+  
+  // Customize appearance.
+  content.imageProperties.tintColor = .purple
+  
+  cell.contentConfiguration = content
+  ```
+
+## UIConfigurationState
+
+- iOS 14.0+
+- protocol 임. 뷰의 상태를 캡슐화하는 개체에 대한 요구 사항
 
 ## UIContentConfiguration
 
@@ -715,4 +767,5 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 - 이 값은 dimension 이 estimated 로 적용된 경우 무시됨
 
   ![Two diagrams that show the result of content insets applied to a group of items. The first diagram shows a group of three square items in a row, each item measuring 20 by 20 points. The second diagram shows content insets of 2 applied to each edge of each item, resulting in each item becoming 16 by 16 points. The group remains the same size.](https://docs-assets.developer.apple.com/published/e3bdac910b/NSCollectionLayoutItem-contentInsets@2x.png)
+
 
