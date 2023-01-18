@@ -6,7 +6,6 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 - [Updating Collection Views Using Diffable Data Sources](https://developer.apple.com/documentation/uikit/views_and_controls/collection_views/updating_collection_views_using_diffable_data_sources) - iOS 15.0+
 - [Building High-Performance Lists and Collection Views](https://developer.apple.com/documentation/uikit/uiimage/building_high-performance_lists_and_collection_views) - iOS 15.0+
 
-
 # View
 
 ## UICollectionView
@@ -159,6 +158,9 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 
 - iOS 13 + 
 - 선택적으로 UI 변경 내용을 애니메이션화하고,  completion 핸들러를 실행하여 스냅샷의 데이터 상태를 반영하도록 UI를 업데이트
+- [[iOS\] UITableViewDiffableDataSource의 4가지 apply 메서드](https://eunjin3786.tistory.com/547) 를 참고하면 아래처럼 동작한다고 함
+  - animatingDifferences가 true 일때 : diff만 업데이트
+  - animatingDifferences가 false 일때 : reloadData로 동작. 
 
 #### apply(_:animatingDifferences:)
 
@@ -169,6 +171,7 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 
 - iOS 15 +
 - diff 를 계산하거나 변경 내용을 애니메이션화하지 않고 스냅샷의 데이터 상태를 반영하도록 UI를 재설정
+- `apply(_:animatingDifferences:)` 가 diff 만 업데이트하도록 바뀌었기때문에 reload 를 하고 싶을때를 위한 메서드를 제공하는 것. (참고 - [[iOS\] UITableViewDiffableDataSource의 4가지 apply 메서드](https://eunjin3786.tistory.com/547) )
 - 시스템은 진행 중인 아이템 애니메이션을 중단하고 컬렉션 뷰의 콘텐츠를 즉시 다시 로드 함.
 - 인자로 받는 snapshot 은 콜렉션 뷰에서 데이터의 새 상태를 반영하는 스냅샷
 - 백그라운드 큐에서 이 메서드를 안전하게 호출할 수 있지만, 앱에서 일관되게 호출해야 함. 항상 메인 큐 또는 백그라운드 큐에서만 이 메서드를 호출해야함
@@ -230,10 +233,30 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 - iOS 15 +
 
 - 스냅샷에 지정한 아이템들의 데이터를 업데이트하고, **아이템들의 기존 셀을 유지**함
+
 - 새로운 셀로 바꾸지 않고 기존(사전 추출 포함) 셀의 내용을 업데이트하려면 `reloadItems(_:)` 대신 이 메소드를 사용함. 최적의 성능을 위해 기존 셀을 새 셀로 대체해야 하는 명시적인 필요가 없는 경우 항목을 다시 로드하는 대신 항목을 재구성하도록 선택.
+
 - cell provider 는 제공된 indexPath에 대해 동일한 타입의 셀을 dequeue 하고, 동일한 기존 셀을 반환해야 함. 이 메서드는 기존 셀을 재구성하므로, 컬렉션 뷰 또는 테이블 뷰 는 대기열에 있는 각 셀에 대해 prepareForReuse 를 호출하지 않음
+
 - indexPath에 대해 다른 타입의 셀을 반환해야 하는 경우에는 `reloadItems(_:)` 를 사용
+
 - 만약 UICollectionViewDataSource 나 UITableViewDataSource 에 대한 custom implementation 을 사용한다면,  `reconfigureItems(at:)` 나 `reconfigureRows(at:)` 를 사용
+
+- 적용을 위해서는
+
+  1. diffable data source 에서 현재 snapshot 을 얻어오고, 
+  2. 스냅샷에 대해 reconfigureItems 나 reloadItems 를 호출함. 
+  3. 스냅샷을 diffable datasource 에 적용해서 특정 아이템의 display 를 업데이트
+  4. 그러면 datasource 는 최신 레시피 데이터를 반영하도록 cell provider closure 를 실행함. 
+
+  ```
+      // diffable data source 의 현재 스냅샷을 얻음
+      var snapshot = recipeListDataSource.snapshot()
+      // collectionView 의 recipe 데이터를 업데이트
+      snapshot.reconfigureItems([recipeId])
+      // 스냅샷 적용
+      recipeListDataSource.apply(snapshot, animatingDifferences: true)
+  ```
 
 #### reloadItems(_:)
 
@@ -767,5 +790,4 @@ Sample Code 사이트를 보면서 필요했던 개념들 정리
 - 이 값은 dimension 이 estimated 로 적용된 경우 무시됨
 
   ![Two diagrams that show the result of content insets applied to a group of items. The first diagram shows a group of three square items in a row, each item measuring 20 by 20 points. The second diagram shows content insets of 2 applied to each edge of each item, resulting in each item becoming 16 by 16 points. The group remains the same size.](https://docs-assets.developer.apple.com/published/e3bdac910b/NSCollectionLayoutItem-contentInsets@2x.png)
-
 
