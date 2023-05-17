@@ -165,6 +165,7 @@
 # 출처
 
 - [Firebase 동적 링크](https://firebase.google.com/docs/dynamic-links?hl=ko)
+- https://firebase.google.com/docs/dynamic-links/ios/receive
 - [운영체제 통합](https://firebase.google.com/docs/dynamic-links/operating-system-integrations?hl=ko)
 - [Getting started with Dynamic Links on iOS - Pt.2 (Firecasts)](https://www.youtube.com/watch?v=iSC5ed6OowA)
 
