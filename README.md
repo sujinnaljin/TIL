@@ -75,6 +75,7 @@
 - [DCM (Digital Certificate Manager)](https://github.com/sujinnaljin/TIL/blob/master/DCM%20(Digital%20Certificate%20Manager).md)
 - [telnet](https://github.com/sujinnaljin/TIL/blob/master/telnet.md)
 - [HTTP header](https://github.com/sujinnaljin/TIL/blob/master/HTTP%20header.md)
+- [localStorage 와 sessionStorage (feat. cookie)](https://github.com/sujinnaljin/TIL/blob/master/localStorage%20%EC%99%80%20sessionStorage%20(feat.%20cookie).md)
 
 ## Swift
 
