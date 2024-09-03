@@ -249,6 +249,7 @@
 - [[SwiftUI] List 내 HStack 에서 separator 가 일부 사라질때 (feat. alignmentGuide, listRowSeparatorLeading)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%5BSwiftUI%5D%20List%20%EB%82%B4%20HStack%20%EC%97%90%EC%84%9C%20separator%20%EA%B0%80%20%EC%9D%BC%EB%B6%80%20%EC%82%AC%EB%9D%BC%EC%A7%88%EB%95%8C%20(feat.%20alignmentGuide%2C%20listRowSeparatorLeading).md)
 - [macOS version](https://github.com/sujinnaljin/TIL/blob/master/Swift/macOS%20version.md)
 - [컴파일러와 언어 모드 (language mode)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC%EC%99%80%20%EC%96%B8%EC%96%B4%20%EB%AA%A8%EB%93%9C%20(language%20mode).md)
+- [String.count vs NSString.length](https://github.com/sujinnaljin/TIL/blob/master/Swift/String.count%20vs%20NSString.length.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
