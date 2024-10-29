@@ -250,6 +250,7 @@
 - [macOS version](https://github.com/sujinnaljin/TIL/blob/master/Swift/macOS%20version.md)
 - [컴파일러와 언어 모드 (language mode)](https://github.com/sujinnaljin/TIL/blob/master/Swift/%EC%BB%B4%ED%8C%8C%EC%9D%BC%EB%9F%AC%EC%99%80%20%EC%96%B8%EC%96%B4%20%EB%AA%A8%EB%93%9C%20(language%20mode).md)
 - [String.count vs NSString.length](https://github.com/sujinnaljin/TIL/blob/master/Swift/String.count%20vs%20NSString.length.md)
+- [Pod 과 Container](https://github.com/sujinnaljin/TIL/blob/master/Pod%20%EA%B3%BC%20Container.md)
 
 ## Linux 
 - [Linux 디렉토리 구조](https://github.com/sujinnaljin/TIL/blob/master/LinuxDirectory.md)
